@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="calTitle calDesc">
+  <title id="calTitle">概率校准示意</title>
+  <desc id="calDesc">横轴为口头把握，纵轴为实际成真比例；完美校准落在对角线上，过置信偏在对角线下方。</desc>
+  <rect width="640" height="360" rx="24" fill="#fffdf8"/>
+  <rect x="1" y="1" width="638" height="358" rx="23" fill="none" stroke="#1c1917" stroke-opacity="0.08"/>
+  <!-- plot area -->
+  <g transform="translate(72,36)">
+    <rect width="480" height="260" rx="8" fill="#f7f3eb"/>
+    <!-- grid -->
+    <g stroke="#1c1917" stroke-opacity="0.06">
+      <line x1="0" y1="65" x2="480" y2="65"/>
+      <line x1="0" y1="130" x2="480" y2="130"/>
+      <line x1="0" y1="195" x2="480" y2="195"/>
+      <line x1="120" y1="0" x2="120" y2="260"/>
+      <line x1="240" y1="0" x2="240" y2="260"/>
+      <line x1="360" y1="0" x2="360" y2="260"/>
+    </g>
+    <!-- perfect calibration diagonal -->
+    <line x1="20" y1="240" x2="460" y2="20" stroke="#3f6212" stroke-width="2.5" stroke-dasharray="6 5" stroke-opacity="0.85"/>
+    <!-- overconfident curve (below diagonal) -->
+    <path d="M40 220 C 140 200, 220 170, 300 150 S 420 110, 450 95" fill="none" stroke="#9a3412" stroke-width="3" stroke-linecap="round"/>
+    <!-- points on overconfident -->
+    <g fill="#9a3412">
+      <circle cx="90" cy="208" r="5"/>
+      <circle cx="180" cy="178" r="5"/>
+      <circle cx="270" cy="155" r="5"/>
+      <circle cx="360" cy="128" r="5"/>
+      <circle cx="430" cy="102" r="5"/>
+    </g>
+    <!-- axes -->
+    <line x1="0" y1="260" x2="480" y2="260" stroke="#1c1917" stroke-width="1.5" stroke-opacity="0.35"/>
+    <line x1="0" y1="0" x2="0" y2="260" stroke="#1c1917" stroke-width="1.5" stroke-opacity="0.35"/>
+  </g>
+  <!-- labels -->
+  <text x="312" y="338" text-anchor="middle" fill="#57534e" font-size="13" font-family="system-ui,sans-serif">口头把握（预测概率）→</text>
+  <text x="28" y="180" text-anchor="middle" fill="#57534e" font-size="13" font-family="system-ui,sans-serif" transform="rotate(-90 28 180)">实际成真比例 →</text>
+  <!-- legend -->
+  <g font-family="system-ui,sans-serif" font-size="12">
+    <line x1="420" y1="28" x2="448" y2="28" stroke="#3f6212" stroke-width="2.5" stroke-dasharray="5 4"/>
+    <text x="456" y="32" fill="#3f6212">完美校准</text>
+    <line x1="420" y1="48" x2="448" y2="48" stroke="#9a3412" stroke-width="3"/>
+    <text x="456" y="52" fill="#9a3412">过置信（常见）</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="retTitle retDesc">
+  <title id="retTitle">检索练习示意</title>
+  <desc id="retDesc">左侧再读一遍熟悉感上升；右侧合上材料主动回想，延后记得更牢。</desc>
+  <rect width="640" height="360" rx="24" fill="#fffdf8"/>
+  <rect x="1" y="1" width="638" height="358" rx="23" fill="none" stroke="#1c1917" stroke-opacity="0.08"/>
+
+  <!-- left panel: reread -->
+  <g transform="translate(40,48)">
+    <rect width="260" height="260" rx="16" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="130" y="36" text-anchor="middle" fill="#57534e" font-size="14" font-family="system-ui,sans-serif" font-weight="600">再读一遍</text>
+    <!-- open book -->
+    <g transform="translate(55,70)">
+      <path d="M0 20 L70 8 L70 140 L0 148 Z" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35" stroke-width="1.5"/>
+      <path d="M150 20 L80 8 L80 140 L150 148 Z" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35" stroke-width="1.5"/>
+      <line x1="75" y1="8" x2="75" y2="148" stroke="#9a3412" stroke-width="2" stroke-opacity="0.5"/>
+      <g stroke="#1c1917" stroke-opacity="0.2" stroke-width="1.5">
+        <line x1="14" y1="40" x2="58" y2="34"/>
+        <line x1="14" y1="58" x2="58" y2="52"/>
+        <line x1="14" y1="76" x2="50" y2="72"/>
+        <line x1="92" y1="34" x2="136" y2="40"/>
+        <line x1="92" y1="52" x2="136" y2="58"/>
+        <line x1="100" y1="72" x2="136" y2="76"/>
+      </g>
+    </g>
+    <text x="130" y="240" text-anchor="middle" fill="#9a3412" font-size="12" font-family="system-ui,sans-serif">短期更熟 · 延后易淡</text>
+  </g>
+
+  <!-- right panel: retrieval -->
+  <g transform="translate(340,48)">
+    <rect width="260" height="260" rx="16" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="130" y="36" text-anchor="middle" fill="#57534e" font-size="14" font-family="system-ui,sans-serif" font-weight="600">合上再想</text>
+    <!-- closed book -->
+    <g transform="translate(85,78)">
+      <rect x="0" y="10" width="90" height="120" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.4" stroke-width="1.5"/>
+      <rect x="-6" y="10" width="8" height="120" rx="2" fill="#9a3412" fill-opacity="0.75"/>
+      <line x1="18" y1="40" x2="72" y2="40" stroke="#1c1917" stroke-opacity="0.15" stroke-width="2"/>
+      <line x1="18" y1="58" x2="64" y2="58" stroke="#1c1917" stroke-opacity="0.15" stroke-width="2"/>
+      <!-- thought spark -->
+      <circle cx="118" cy="30" r="22" fill="#3f6212" fill-opacity="0.12" stroke="#3f6212" stroke-opacity="0.45"/>
+      <path d="M110 30 h16 M118 22 v16" stroke="#3f6212" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M95 48 Q100 55 105 48" fill="none" stroke="#3f6212" stroke-opacity="0.4" stroke-width="1.5"/>
+    </g>
+    <text x="130" y="240" text-anchor="middle" fill="#3f6212" font-size="12" font-family="system-ui,sans-serif">一时更难 · 几天后更牢</text>
+  </g>
+</svg>

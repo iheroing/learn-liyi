@@ -7,7 +7,7 @@ slug: retrieval-practice
 series: 每日高收益知识课
 issue: 2
 lang: zh-Hans
-summary: 合上材料自己回想，比再看一遍更能扛住拖延后的遗忘；怎么练、何时别硬测。
+summary: 合上材料自己回想，比再看一遍更能扛住几天后的遗忘；怎么练、什么时候别硬测。
 canvas: https://cursor.com/canvas/store-c86f6961-9107-4551-828e-60a42a4fba54/2a5da1e5-db17-4e80-8d85-bae922d32140
 sources:
   - https://doi.org/10.1111/j.1467-9280.2006.01693.x

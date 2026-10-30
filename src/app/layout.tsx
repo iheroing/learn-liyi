@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     template: "%s · 每日高收益知识课",
   },
   description:
-    "低成本、可迁移、长期高收益的每日小课。概率决策、学习方法、科学素养。",
+    "每天约一千字：概率与决策、学习方法、科学素养。带自测与来源。",
   metadataBase: new URL("https://learn.liyi.online"),
   openGraph: {
     title: "每日高收益知识课",
-    description: "每天一课，挂在 learn.liyi.online",
+    description: "每日专栏 · learn.liyi.online",
     locale: "zh_CN",
     type: "website",
   },

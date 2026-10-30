@@ -7,7 +7,7 @@ slug: probability-calibration
 series: 每日高收益知识课
 issue: 1
 lang: zh-Hans
-summary: 你口头说的「七成把握」，长期有没有七成成真？怎么写成数字、事后对账。
+summary: 口头说「七成把握」，长期有没有七成成真？写成数字，事后按置信度分桶对账。
 canvas: https://cursor.com/canvas/store-c86f6961-9107-4551-828e-60a42a4fba54/2d4166f9-3560-4f5f-a45f-8dc09e1f9856
 sources:
   - https://doi.org/10.1016/0030-5073(80)90052-5

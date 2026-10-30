@@ -1,65 +1,137 @@
+import Link from "next/link";
 import { getAllLessonMetas } from "@/lib/lessons";
 import { LessonCard } from "@/components/LessonCard";
 
 export default function HomePage() {
   const lessons = getAllLessonMetas();
+  const latest = lessons[0] ?? null;
 
   return (
-    <div className="mx-auto max-w-shell px-5 sm:px-8 py-10 sm:py-14">
-      <section className="mb-10 sm:mb-14 relative overflow-hidden rounded-3xl border border-ink/10 bg-paper-elevated shadow-card">
-        <div
-          className="absolute inset-0 pointer-events-none"
-          aria-hidden
-          style={{
-            background:
-              "radial-gradient(ellipse 70% 80% at 0% 0%, rgba(154,52,18,0.1), transparent 55%), radial-gradient(ellipse 50% 60% at 100% 20%, rgba(63,98,18,0.06), transparent 50%)",
-          }}
-        />
-        <div className="relative px-5 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-12 max-w-3xl">
-          <p className="text-sm text-accent font-medium mb-3 tracking-wide">
-            系列专栏
-          </p>
-          <h1 className="font-serif text-3xl sm:text-4xl lg:text-[2.6rem] text-ink leading-tight mb-4">
-            每日高收益知识课
-          </h1>
-          <p className="text-ink-muted leading-relaxed text-[1.05rem] sm:text-[1.08rem]">
-            每天一课，约一千字。挑低成本、可迁移、长期收益高的知识：概率与决策、学习方法、科学素养等。
-            先读懂，再带走一句能用的话，最后用两道自测核对。
-          </p>
-          <dl className="mt-7 grid grid-cols-3 gap-3 sm:gap-4 max-w-md">
-            <div className="rounded-xl border border-ink/8 bg-paper/70 px-3 py-3 text-center">
-              <dt className="text-[0.65rem] uppercase tracking-wider text-ink-faint mb-1">
-                已更
+    <div className="mx-auto max-w-shell px-5 sm:px-8 py-8 sm:py-12">
+      {/* Masthead — editorial, not brochure */}
+      <section className="mb-10 sm:mb-12 grid lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] gap-6 lg:gap-8 items-stretch">
+        <div className="relative overflow-hidden rounded-3xl border border-ink/10 bg-paper-elevated shadow-card flex flex-col justify-between">
+          <div className="px-5 py-7 sm:px-8 sm:py-9 lg:px-9">
+            <p className="text-xs font-medium tracking-wide text-accent mb-3">
+              李老师 · 每日专栏
+            </p>
+            <h1 className="font-serif text-[1.85rem] sm:text-[2.35rem] lg:text-[2.5rem] text-ink leading-[1.25] mb-4">
+              每天一千字，
+              <br className="hidden sm:block" />
+              挑能用进决策与学习的方法
+            </h1>
+            <p className="text-ink-muted leading-relaxed text-[1.02rem] max-w-xl">
+              概率与决策、学习方法、科学素养。每课带场景、可执行步骤、两道自测；
+              能标 DOI 的放文末。不堆口号，写完能照着做。
+            </p>
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              {latest ? (
+                <Link
+                  href={`/lessons/${latest.slug}`}
+                  className="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm text-paper hover:bg-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-paper-elevated"
+                >
+                  读最新一期
+                  <span className="text-paper/70 hidden sm:inline truncate max-w-[12rem]">
+                    · 第 {latest.issue} 期
+                  </span>
+                </Link>
+              ) : null}
+              <a
+                href="#catalog"
+                className="inline-flex items-center rounded-full border border-ink/15 px-4 py-2.5 text-sm text-ink-muted hover:border-accent/40 hover:text-accent transition-colors"
+              >
+                看全部目录
+              </a>
+            </div>
+          </div>
+          <dl className="grid grid-cols-3 border-t border-ink/8 text-center">
+            <div className="px-2 py-3.5 sm:py-4">
+              <dt className="text-[0.65rem] tracking-wider text-ink-faint mb-0.5">
+                已更新
               </dt>
-              <dd className="font-serif text-xl text-ink tabular-nums">
-                {lessons.length}
+              <dd className="font-serif text-lg text-ink tabular-nums">
+                {lessons.length} 期
               </dd>
             </div>
-            <div className="rounded-xl border border-ink/8 bg-paper/70 px-3 py-3 text-center">
-              <dt className="text-[0.65rem] uppercase tracking-wider text-ink-faint mb-1">
-                节奏
+            <div className="px-2 py-3.5 sm:py-4 border-x border-ink/8">
+              <dt className="text-[0.65rem] tracking-wider text-ink-faint mb-0.5">
+                篇幅
               </dt>
-              <dd className="font-serif text-xl text-ink">日更</dd>
+              <dd className="font-serif text-lg text-ink">约千字</dd>
             </div>
-            <div className="rounded-xl border border-ink/8 bg-paper/70 px-3 py-3 text-center">
-              <dt className="text-[0.65rem] uppercase tracking-wider text-ink-faint mb-1">
-                自测
+            <div className="px-2 py-3.5 sm:py-4">
+              <dt className="text-[0.65rem] tracking-wider text-ink-faint mb-0.5">
+                答案
               </dt>
-              <dd className="font-serif text-xl text-ink">隐藏</dd>
+              <dd className="font-serif text-lg text-ink">先藏着</dd>
             </div>
           </dl>
         </div>
+
+        <div className="relative overflow-hidden rounded-3xl border border-ink/10 bg-paper-soft shadow-card min-h-[220px] lg:min-h-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/illustrations/home-masthead.jpg"
+            alt="笔记本、校准草图与合上的书：记录、对账、回想"
+            className="absolute inset-0 w-full h-full object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink/25 via-transparent to-transparent" />
+          <p className="absolute bottom-4 left-4 right-4 text-xs sm:text-sm text-paper/95 drop-shadow-sm leading-relaxed">
+            记下来、对过账、合上书再想一遍——本专栏常练的三件事。
+          </p>
+        </div>
       </section>
 
-      <section>
-        <div className="flex items-baseline justify-between mb-5 sm:mb-6">
+      {/* 怎么读 */}
+      <section className="mb-10 sm:mb-12" aria-labelledby="how-to-read">
+        <div className="flex items-baseline justify-between mb-4">
+          <h2 id="how-to-read" className="font-serif text-xl text-ink">
+            怎么读
+          </h2>
+          <span className="text-xs text-ink-faint">大约 10 分钟一课</span>
+        </div>
+        <ol className="grid gap-3 sm:grid-cols-3">
+          {[
+            {
+              n: "01",
+              t: "先看场景与概念",
+              d: "弄清在解决什么问题、别和相近概念搅在一起。",
+            },
+            {
+              n: "02",
+              t: "记下「带走一句」",
+              d: "每课收束成一句能对外说、能对照执行的话。",
+            },
+            {
+              n: "03",
+              t: "自测后再点核对",
+              d: "答案默认隐藏。先自己选，再看解释。",
+            },
+          ].map((step) => (
+            <li
+              key={step.n}
+              className="rounded-2xl border border-ink/10 bg-paper-elevated p-4 sm:p-5 shadow-soft"
+            >
+              <span className="text-[0.7rem] font-semibold tabular-nums tracking-wider text-accent">
+                {step.n}
+              </span>
+              <p className="mt-1.5 font-medium text-ink text-[0.98rem]">{step.t}</p>
+              <p className="mt-1.5 text-sm text-ink-muted leading-relaxed">{step.d}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      {/* Catalog */}
+      <section id="catalog" className="scroll-mt-24">
+        <div className="flex items-baseline justify-between mb-5">
           <h2 className="font-serif text-xl sm:text-2xl text-ink">课程目录</h2>
           <span className="text-sm text-ink-muted">共 {lessons.length} 期</span>
         </div>
         {lessons.length === 0 ? (
           <p className="text-ink-muted">暂无课程，稍后再来。</p>
         ) : (
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-5 sm:grid-cols-2">
             {lessons.map((lesson) => (
               <LessonCard key={lesson.slug} lesson={lesson} />
             ))}

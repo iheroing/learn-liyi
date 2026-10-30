@@ -13,7 +13,7 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
       <div className="flex items-end justify-between gap-4 mb-6">
         <div>
           <p className="text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent mb-2">
-            Practice
+            核对前先想
           </p>
           <h2 className="font-serif text-2xl sm:text-[1.7rem] text-ink">自测</h2>
         </div>

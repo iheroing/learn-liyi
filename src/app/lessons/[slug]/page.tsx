@@ -8,6 +8,8 @@ import {
 } from "@/lib/lessons";
 import { Toc } from "@/components/Toc";
 import { Quiz } from "@/components/Quiz";
+import { LessonFigure } from "@/components/LessonFigure";
+import { getLessonArt } from "@/lib/lesson-art";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -23,6 +25,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: lesson.title,
     description: lesson.summary,
   };
+}
+
+
+function splitAfterFirstSection(html: string): { before: string; after: string } {
+  const match = html.match(/^(<[\s\S]*?<\/h2>[\s\S]*?)(<h2[\s\S]*)$/i);
+  if (!match) return { before: html, after: "" };
+  return { before: match[1], after: match[2] };
 }
 
 function formatDate(date: string) {
@@ -41,6 +50,10 @@ export default async function LessonPage({ params }: Props) {
   // all is newest-first; previous chronologically = next in array
   const newer = idx > 0 ? all[idx - 1] : null;
   const older = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
+  const art = getLessonArt(slug);
+  const { before: bodyBefore, after: bodyAfter } = splitAfterFirstSection(
+    lesson.bodyHtml
+  );
 
   return (
     <article className="mx-auto max-w-shell px-5 sm:px-8 py-8 sm:py-12">
@@ -80,8 +93,8 @@ export default async function LessonPage({ params }: Props) {
             {lesson.title}
           </h1>
           <div className="max-w-prose rounded-2xl border border-accent/15 bg-accent/[0.05] px-4 py-3.5 sm:px-5 sm:py-4">
-            <p className="text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-accent mb-1.5">
-              本课要点
+            <p className="text-[0.7rem] font-semibold tracking-wide text-accent mb-1.5">
+              这一课在解决什么
             </p>
             <p className="text-ink-muted leading-relaxed text-[1.02rem] sm:text-[1.05rem]">
               {lesson.summary}
@@ -98,10 +111,17 @@ export default async function LessonPage({ params }: Props) {
       {/* Body + sticky rail */}
       <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-12 xl:grid-cols-[minmax(0,1fr)_16rem] xl:gap-14">
         <div className="min-w-0 max-w-prose lg:max-w-none">
-          <div
-            className="prose-lesson max-w-prose"
-            dangerouslySetInnerHTML={{ __html: lesson.bodyHtml }}
-          />
+          <div className="prose-lesson max-w-prose">
+            <div dangerouslySetInnerHTML={{ __html: bodyBefore }} />
+            {art.diagram ? (
+              <LessonFigure
+                src={art.diagram}
+                alt={art.diagramAlt}
+                caption={art.diagramCaption}
+              />
+            ) : null}
+            <div dangerouslySetInnerHTML={{ __html: bodyAfter }} />
+          </div>
 
           {lesson.quiz.length > 0 && (
             <div className="mt-14 pt-10 border-t border-ink/10 max-w-prose">
@@ -114,8 +134,8 @@ export default async function LessonPage({ params }: Props) {
               id="来源"
               className="mt-14 pt-10 border-t border-ink/10 scroll-mt-28 max-w-prose"
             >
-              <p className="text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent mb-2">
-                References
+              <p className="text-[0.7rem] font-semibold tracking-wide text-accent mb-2">
+                文献
               </p>
               <h2 className="font-serif text-2xl text-ink mb-5">来源</h2>
               <ol className="space-y-3 text-sm text-ink-muted list-decimal pl-5">
