@@ -1,44 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="calTitle calDesc">
-  <title id="calTitle">概率校准示意</title>
-  <desc id="calDesc">横轴为口头把握，纵轴为实际成真比例；完美校准落在对角线上，过置信偏在对角线下方。</desc>
-  <rect width="640" height="360" rx="24" fill="#fffdf8"/>
-  <rect x="1" y="1" width="638" height="358" rx="23" fill="none" stroke="#1c1917" stroke-opacity="0.08"/>
-  <!-- plot area -->
-  <g transform="translate(72,36)">
-    <rect width="480" height="260" rx="8" fill="#f7f3eb"/>
-    <!-- grid -->
-    <g stroke="#1c1917" stroke-opacity="0.06">
-      <line x1="0" y1="65" x2="480" y2="65"/>
-      <line x1="0" y1="130" x2="480" y2="130"/>
-      <line x1="0" y1="195" x2="480" y2="195"/>
-      <line x1="120" y1="0" x2="120" y2="260"/>
-      <line x1="240" y1="0" x2="240" y2="260"/>
-      <line x1="360" y1="0" x2="360" y2="260"/>
-    </g>
-    <!-- perfect calibration diagonal -->
-    <line x1="20" y1="240" x2="460" y2="20" stroke="#3f6212" stroke-width="2.5" stroke-dasharray="6 5" stroke-opacity="0.85"/>
-    <!-- overconfident curve (below diagonal) -->
-    <path d="M40 220 C 140 200, 220 170, 300 150 S 420 110, 450 95" fill="none" stroke="#9a3412" stroke-width="3" stroke-linecap="round"/>
-    <!-- points on overconfident -->
-    <g fill="#9a3412">
-      <circle cx="90" cy="208" r="5"/>
-      <circle cx="180" cy="178" r="5"/>
-      <circle cx="270" cy="155" r="5"/>
-      <circle cx="360" cy="128" r="5"/>
-      <circle cx="430" cy="102" r="5"/>
-    </g>
-    <!-- axes -->
-    <line x1="0" y1="260" x2="480" y2="260" stroke="#1c1917" stroke-width="1.5" stroke-opacity="0.35"/>
-    <line x1="0" y1="0" x2="0" y2="260" stroke="#1c1917" stroke-width="1.5" stroke-opacity="0.35"/>
-  </g>
-  <!-- labels -->
-  <text x="312" y="338" text-anchor="middle" fill="#57534e" font-size="13" font-family="system-ui,sans-serif">口头把握（预测概率）→</text>
-  <text x="28" y="180" text-anchor="middle" fill="#57534e" font-size="13" font-family="system-ui,sans-serif" transform="rotate(-90 28 180)">实际成真比例 →</text>
-  <!-- legend -->
-  <g font-family="system-ui,sans-serif" font-size="12">
-    <line x1="420" y1="28" x2="448" y2="28" stroke="#3f6212" stroke-width="2.5" stroke-dasharray="5 4"/>
-    <text x="456" y="32" fill="#3f6212">完美校准</text>
-    <line x1="420" y1="48" x2="448" y2="48" stroke="#9a3412" stroke-width="3"/>
-    <text x="456" y="52" fill="#9a3412">过置信（常见）</text>
-  </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="calibration-title calibration-desc" id="calibration-root">
+        <title id="calibration-title">概率校准：口头把握与实际成真比例</title>
+        <desc id="calibration-desc">横轴为口头把握，纵轴为实际成真比例。虚线为完美校准对角线；实心折线为过置信示意，落在对角线下方。</desc>
+        <defs>
+      <style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;family=Noto+Serif:ital@0;1&amp;family=Noto+Sans+KR:wght@400;500;600&amp;family=Noto+Serif+KR:wght@400&amp;family=Noto+Sans+TC:wght@400;500;600&amp;family=Noto+Serif+TC:wght@400&amp;display=swap');
+      #calibration-root { --color-paper: #f7f3eb;
+      --color-ink: #1c1917;
+      --color-muted: #57534e;
+      --color-accent: #9a3412;
+      --font-sans: 'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+      --font-serif: 'Instrument Serif', 'Noto Serif SC', 'Songti SC', serif;
+      --font-mono: 'Geist Mono', ui-monospace, monospace; }
+      #calibration-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #calibration-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#calibration-root .diagram-container { overflow-x: visible; }
+}</style>
+          <pattern id="calibration-calibration-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+          </pattern>
+        </defs>
+
+        <rect width="960" height="540" fill="#f7f3eb"/>
+        <rect width="960" height="540" fill="url(#calibration-calibration-dots)" opacity="0.5"/>
+
+        <!-- Plot: x 120→880 (0→1), y 400→56 (0→1) -->
+        <!-- Grid -->
+        <g stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.08">
+          <line x1="120" y1="331" x2="880" y2="331"/>
+          <line x1="120" y1="262" x2="880" y2="262"/>
+          <line x1="120" y1="194" x2="880" y2="194"/>
+          <line x1="120" y1="125" x2="880" y2="125"/>
+          <line x1="120" y1="56"  x2="880" y2="56"/>
+          <line x1="272" y1="56" x2="272" y2="400"/>
+          <line x1="424" y1="56" x2="424" y2="400"/>
+          <line x1="576" y1="56" x2="576" y2="400"/>
+          <line x1="728" y1="56" x2="728" y2="400"/>
+        </g>
+
+        <!-- Axes -->
+        <line x1="120" y1="56" x2="120" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+        <line x1="120" y1="400" x2="880" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+
+        <!-- Y ticks 0 .2 .4 .6 .8 1.0 -->
+        <g fill="#57534e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">
+          <text x="112" y="404">0</text>
+          <text x="112" y="335">0.2</text>
+          <text x="112" y="266">0.4</text>
+          <text x="112" y="198">0.6</text>
+          <text x="112" y="129">0.8</text>
+          <text x="112" y="60">1.0</text>
+        </g>
+
+        <!-- X ticks -->
+        <g fill="#57534e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">
+          <text x="120" y="420">0</text>
+          <text x="272" y="420">0.2</text>
+          <text x="424" y="420">0.4</text>
+          <text x="576" y="420">0.6</text>
+          <text x="728" y="420">0.8</text>
+          <text x="880" y="420">1.0</text>
+        </g>
+
+        <!-- Axis titles — Chinese register 12px sans -->
+        <text x="500" y="448" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">口头把握（预测概率）</text>
+        <text transform="rotate(-90 28 228)" x="28" y="228" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">实际成真比例</text>
+
+        <!-- Perfect calibration diagonal (series-1 sage) — dashed reference, not focal -->
+        <line x1="120" y1="400" x2="880" y2="56" stroke="#3f6212" stroke-width="1.6" stroke-dasharray="6 5" stroke-linecap="round"/>
+
+        <!-- Overconfidence FOCAL: predicted [0.5,0.6,0.7,0.8,0.9] → actual [0.45,0.50,0.55,0.58,0.62]
+             x = 120 + p*760; y = 400 - a*344 -->
+        <!-- 0.5→0.45: (500, 245.2) wait:
+             x(0.5)=120+380=500; y(0.45)=400-154.8=245.2
+             x(0.6)=576; y(0.50)=400-172=228
+             x(0.7)=652; y(0.55)=400-189.2=210.8
+             x(0.8)=728; y(0.58)=400-199.52=200.48
+             x(0.9)=804; y(0.62)=400-213.28=186.72
+        -->
+        <polyline
+          points="500,245 576,228 652,211 728,200 804,187"
+          fill="none" stroke="#9a3412" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+        <circle cx="500" cy="245" r="4.5" fill="#9a3412"/>
+        <circle cx="576" cy="228" r="4.5" fill="#9a3412"/>
+        <circle cx="652" cy="211" r="4.5" fill="#9a3412"/>
+        <circle cx="728" cy="200" r="4.5" fill="#9a3412"/>
+        <circle cx="804" cy="187" r="4.5" fill="#9a3412"/>
+
+        <!-- Callout near focal: 示意过置信 -->
+        <rect x="668" y="128" width="160" height="28" rx="4" fill="#f7f3eb"/>
+        <text x="748" y="147" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">自信系统性偏高</text>
+
+        <!-- Legend -->
+        <line x1="40" y1="472" x2="920" y2="472" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+        <text x="40" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+
+        <line x1="96" y1="492" x2="128" y2="492" stroke="#3f6212" stroke-width="1.6" stroke-dasharray="5 4"/>
+        <text x="140" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">完美校准</text>
+
+        <line x1="248" y1="492" x2="280" y2="492" stroke="#9a3412" stroke-width="2"/>
+        <circle cx="264" cy="492" r="4" fill="#9a3412"/>
+        <text x="292" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">过置信（示意）</text>
+
+        <text x="920" y="496" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">示意方向，非某次实验精确点</text>
+      </svg>

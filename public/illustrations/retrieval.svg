@@ -1,45 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="retTitle retDesc">
-  <title id="retTitle">检索练习示意</title>
-  <desc id="retDesc">左侧再读一遍熟悉感上升；右侧合上材料主动回想，延后记得更牢。</desc>
-  <rect width="640" height="360" rx="24" fill="#fffdf8"/>
-  <rect x="1" y="1" width="638" height="358" rx="23" fill="none" stroke="#1c1917" stroke-opacity="0.08"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="retrieval-title retrieval-desc" id="retrieval-root">
+        <title id="retrieval-title">检索练习：再读与合上再想在即时与延后的对比</title>
+        <desc id="retrieval-desc">斜率图对比两种学法：再读在即时更高、一周后更低；合上材料再想在即时较低、一周后更高。合上再想为焦点。</desc>
+        <defs>
+      <style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;family=Noto+Serif:ital@0;1&amp;family=Noto+Sans+KR:wght@400;500;600&amp;family=Noto+Serif+KR:wght@400&amp;family=Noto+Sans+TC:wght@400;500;600&amp;family=Noto+Serif+TC:wght@400&amp;display=swap');
+      #retrieval-root { --color-paper: #f7f3eb;
+      --color-ink: #1c1917;
+      --color-muted: #57534e;
+      --color-accent: #9a3412;
+      --font-sans: 'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+      --font-serif: 'Instrument Serif', 'Noto Serif SC', 'Songti SC', serif;
+      --font-mono: 'Geist Mono', ui-monospace, monospace; }
+      #retrieval-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #retrieval-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#retrieval-root .diagram-container { overflow-x: visible; }
+}</style>
+          <pattern id="retrieval-retrieval-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+          </pattern>
+        </defs>
 
-  <!-- left panel: reread -->
-  <g transform="translate(40,48)">
-    <rect width="260" height="260" rx="16" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.08"/>
-    <text x="130" y="36" text-anchor="middle" fill="#57534e" font-size="14" font-family="system-ui,sans-serif" font-weight="600">再读一遍</text>
-    <!-- open book -->
-    <g transform="translate(55,70)">
-      <path d="M0 20 L70 8 L70 140 L0 148 Z" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35" stroke-width="1.5"/>
-      <path d="M150 20 L80 8 L80 140 L150 148 Z" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35" stroke-width="1.5"/>
-      <line x1="75" y1="8" x2="75" y2="148" stroke="#9a3412" stroke-width="2" stroke-opacity="0.5"/>
-      <g stroke="#1c1917" stroke-opacity="0.2" stroke-width="1.5">
-        <line x1="14" y1="40" x2="58" y2="34"/>
-        <line x1="14" y1="58" x2="58" y2="52"/>
-        <line x1="14" y1="76" x2="50" y2="72"/>
-        <line x1="92" y1="34" x2="136" y2="40"/>
-        <line x1="92" y1="52" x2="136" y2="58"/>
-        <line x1="100" y1="72" x2="136" y2="76"/>
-      </g>
-    </g>
-    <text x="130" y="240" text-anchor="middle" fill="#9a3412" font-size="12" font-family="system-ui,sans-serif">短期更熟 · 延后易淡</text>
-  </g>
+        <rect width="960" height="540" fill="#f7f3eb"/>
+        <rect width="960" height="540" fill="url(#retrieval-retrieval-dots)" opacity="0.5"/>
 
-  <!-- right panel: retrieval -->
-  <g transform="translate(340,48)">
-    <rect width="260" height="260" rx="16" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.08"/>
-    <text x="130" y="36" text-anchor="middle" fill="#57534e" font-size="14" font-family="system-ui,sans-serif" font-weight="600">合上再想</text>
-    <!-- closed book -->
-    <g transform="translate(85,78)">
-      <rect x="0" y="10" width="90" height="120" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.4" stroke-width="1.5"/>
-      <rect x="-6" y="10" width="8" height="120" rx="2" fill="#9a3412" fill-opacity="0.75"/>
-      <line x1="18" y1="40" x2="72" y2="40" stroke="#1c1917" stroke-opacity="0.15" stroke-width="2"/>
-      <line x1="18" y1="58" x2="64" y2="58" stroke="#1c1917" stroke-opacity="0.15" stroke-width="2"/>
-      <!-- thought spark -->
-      <circle cx="118" cy="30" r="22" fill="#3f6212" fill-opacity="0.12" stroke="#3f6212" stroke-opacity="0.45"/>
-      <path d="M110 30 h16 M118 22 v16" stroke="#3f6212" stroke-width="2.5" stroke-linecap="round"/>
-      <path d="M95 48 Q100 55 105 48" fill="none" stroke="#3f6212" stroke-opacity="0.4" stroke-width="1.5"/>
-    </g>
-    <text x="130" y="240" text-anchor="middle" fill="#3f6212" font-size="12" font-family="system-ui,sans-serif">一时更难 · 几天后更牢</text>
-  </g>
-</svg>
+        <!-- Axis rules -->
+        <line x1="320" y1="56" x2="320" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+        <line x1="680" y1="56" x2="680" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+
+        <!-- State captions -->
+        <text data-axis="from" data-state="即时" x="320" y="428" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">即时（约五分钟）</text>
+        <text data-axis="to" data-state="一周后" x="680" y="428" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一周后</text>
+
+        <!-- Y caption -->
+        <text transform="rotate(-90 28 228)" x="28" y="228" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">相对回忆（示意）</text>
+
+        <!-- Non-focal: 再读 88→42, ink @ 0.70 -->
+        <line data-series="reread" data-from="88" data-to="42"
+              x1="320" y1="115" x2="680" y2="341"
+              stroke="#1c1917" stroke-width="1.2" stroke-opacity="0.70"/>
+        <circle cx="320" cy="115" r="3.5" fill="#1c1917" fill-opacity="0.70"/>
+        <circle cx="680" cy="341" r="3.5" fill="#1c1917" fill-opacity="0.70"/>
+        <!-- Left labels -->
+        <text data-series="reread" data-end="from" data-role="name" x="272" y="119" fill="#1c1917" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">再读一遍</text>
+        <text data-series="reread" data-end="from" data-role="value" x="304" y="119" fill="#57534e" font-size="12" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">88</text>
+        <!-- Right labels -->
+        <text data-series="reread" data-end="to" data-role="value" x="696" y="345" fill="#57534e" font-size="12" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="start">42</text>
+        <text data-series="reread" data-end="to" data-role="name" x="728" y="345" fill="#1c1917" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="start">再读一遍</text>
+
+        <!-- Focal: 合上再想 62→74, accent stroke 2.4 -->
+        <line data-series="retrieval" data-from="62" data-to="74"
+              x1="320" y1="243" x2="680" y2="184"
+              stroke="#9a3412" stroke-width="2.4"/>
+        <circle cx="320" cy="243" r="4.5" fill="#9a3412"/>
+        <circle cx="680" cy="184" r="4.5" fill="#9a3412"/>
+        <text data-series="retrieval" data-end="from" data-role="name" x="272" y="247" fill="#1c1917" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">合上再想</text>
+        <text data-series="retrieval" data-end="from" data-role="value" x="304" y="247" fill="#57534e" font-size="12" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">62</text>
+        <text data-series="retrieval" data-end="to" data-role="value" x="696" y="188" fill="#57534e" font-size="12" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="start">74</text>
+        <text data-series="retrieval" data-end="to" data-role="name" x="728" y="188" fill="#1c1917" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="start">合上再想</text>
+
+        <!-- Annotation -->
+        <rect x="400" y="248" width="168" height="28" rx="4" fill="#f7f3eb"/>
+        <text x="484" y="267" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">延后更划算的一边</text>
+
+        <!-- Legend -->
+        <line x1="40" y1="472" x2="920" y2="472" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+        <text x="40" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+
+        <line x1="96" y1="492" x2="128" y2="492" stroke="#9a3412" stroke-width="2.4"/>
+        <circle cx="112" cy="492" r="4" fill="#9a3412"/>
+        <text x="140" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">合上再想 · 焦点</text>
+
+        <line x1="300" y1="492" x2="332" y2="492" stroke="#1c1917" stroke-width="1.2" stroke-opacity="0.70"/>
+        <circle cx="316" cy="492" r="3.5" fill="#1c1917" fill-opacity="0.70"/>
+        <text x="344" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">再读一遍</text>
+
+        <text x="920" y="496" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">示意方向 · 域 30–100</text>
+      </svg>
