@@ -120,17 +120,6 @@ function extractSourceLinks(
 ): { href: string; label: string }[] {
   const links: { href: string; label: string }[] = [];
   const seen = new Set<string>();
-  const mdLinks = [
-    ...markdown.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g),
-  ];
-  for (const m of mdLinks) {
-    const href = m[2];
-    if (!href.includes("doi.org") && !frontSources.includes(href)) {
-      // keep DOI and frontmatter sources preferred; still collect labeled ones from 来源
-    }
-    if (seen.has(href)) continue;
-    // Only collect from 来源-looking lines or frontmatter later
-  }
 
   const sourceSection = markdown.match(/##\s*来源\s*([\s\S]*?)(?=\n##\s|$)/);
   const section = sourceSection?.[1] ?? "";
@@ -155,9 +144,38 @@ function extractSourceLinks(
   return links;
 }
 
+function enhanceHtml(html: string): string {
+  // Safety: strip any leftover leading H1 (title lives in page chrome)
+  let out = html.replace(/^\s*<h1[^>]*>[\s\S]*?<\/h1>\s*/i, "");
+
+  // Wrap tables for horizontal scroll + card chrome
+  out = out.replace(
+    /<table([\s\S]*?)<\/table>/g,
+    '<div class="table-wrap"><table$1</table></div>'
+  );
+
+  // Turn known mnemonic blockquotes into labeled callout cards
+  out = out.replace(/<blockquote>([\s\S]*?)<\/blockquote>/g, (_m, inner: string) => {
+    const takeaway = /<strong>\s*带走一句\s*<\/strong>/i.test(inner);
+    const pitfall = /<strong>\s*常见卡点\s*<\/strong>/i.test(inner);
+    const kind = takeaway ? "takeaway" : pitfall ? "pitfall" : "note";
+    const label = takeaway ? "带走一句" : pitfall ? "常见卡点" : "";
+    const cleaned = inner.replace(
+      /<p>\s*<strong>\s*(带走一句|常见卡点)\s*<\/strong>\s*(?:<br\s*\/?>)?\s*/i,
+      "<p>"
+    );
+    const labelHtml = label
+      ? `<span class="callout-label">${label}</span>`
+      : "";
+    return `<aside class="callout callout-${kind}" role="note">${labelHtml}${cleaned}</aside>`;
+  });
+
+  return out;
+}
+
 async function markdownToHtml(markdown: string): Promise<string> {
-  // Drop leading H1 (title shown in page chrome)
-  const withoutH1 = markdown.replace(/^#\s+.+\n+/, "");
+  // Drop leading H1 (title shown in page chrome). gray-matter often leaves a leading \n.
+  const withoutH1 = markdown.replace(/^\s*#\s+.+\n+/, "");
   // Remove 来源 section — rendered separately with clean links
   const withoutSources = withoutH1.replace(
     /\n##\s*来源\s*[\s\S]*$/m,
@@ -169,7 +187,7 @@ async function markdownToHtml(markdown: string): Promise<string> {
     .use(rehypeSlug)
     .use(rehypeStringify, { allowDangerousHtml: true })
     .process(withoutSources);
-  return String(file);
+  return enhanceHtml(String(file));
 }
 
 function coerceDate(value: unknown): string {

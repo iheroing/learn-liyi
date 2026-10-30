@@ -13,13 +13,26 @@ html {
 body {
   @apply bg-paper text-ink antialiased;
   background-image:
-    radial-gradient(ellipse at top, rgba(154, 52, 18, 0.04), transparent 55%),
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(154, 52, 18, 0.06), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(63, 98, 18, 0.04), transparent 50%),
     linear-gradient(180deg, #f7f3eb 0%, #f3eee4 100%);
   min-height: 100vh;
 }
 
+::selection {
+  background: rgba(154, 52, 18, 0.18);
+}
+
+:focus-visible {
+  outline: 2px solid #9a3412;
+  outline-offset: 2px;
+}
+
+/* ——— Lesson prose ——— */
+
 .prose-lesson {
-  @apply text-[1.05rem] leading-[1.8] text-ink;
+  @apply text-[1.05rem] leading-[1.85] text-ink;
+  counter-reset: section;
 }
 
 .prose-lesson > *:first-child {
@@ -27,11 +40,26 @@ body {
 }
 
 .prose-lesson h2 {
-  @apply font-serif text-2xl text-ink mt-12 mb-4 scroll-mt-24;
+  @apply font-serif text-[1.55rem] sm:text-[1.7rem] text-ink mt-14 mb-5 scroll-mt-28;
+  counter-increment: section;
+  position: relative;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid rgba(28, 25, 23, 0.08);
+}
+
+.prose-lesson h2::before {
+  content: counter(section, decimal-leading-zero);
+  display: block;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #9a3412;
+  margin-bottom: 0.35rem;
 }
 
 .prose-lesson h3 {
-  @apply font-serif text-xl text-ink mt-8 mb-3 scroll-mt-24;
+  @apply font-serif text-xl text-ink mt-9 mb-3 scroll-mt-28;
 }
 
 .prose-lesson p {
@@ -40,54 +68,167 @@ body {
 
 .prose-lesson ul,
 .prose-lesson ol {
-  @apply my-4 pl-5 space-y-2;
+  @apply my-5 pl-1 space-y-2.5;
 }
 
 .prose-lesson ul {
-  list-style: disc;
+  list-style: none;
+}
+
+.prose-lesson ul > li {
+  position: relative;
+  padding-left: 1.35rem;
+}
+
+.prose-lesson ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.7em;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 9999px;
+  background: #9a3412;
+  opacity: 0.55;
 }
 
 .prose-lesson ol {
-  list-style: decimal;
+  list-style: none;
+  counter-reset: prose-ol;
+}
+
+.prose-lesson ol > li {
+  position: relative;
+  padding-left: 1.85rem;
+  counter-increment: prose-ol;
+}
+
+.prose-lesson ol > li::before {
+  content: counter(prose-ol);
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 9999px;
+  background: rgba(154, 52, 18, 0.1);
+  color: #9a3412;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
 }
 
 .prose-lesson li {
   @apply leading-relaxed;
 }
 
+.prose-lesson li > strong:first-child {
+  color: #1c1917;
+}
+
 .prose-lesson strong {
   @apply font-semibold text-ink;
-}
-
-.prose-lesson blockquote {
-  @apply my-6 border-l-2 border-accent/40 bg-paper-elevated/80 px-4 py-3 rounded-r-lg text-[0.98rem] text-ink-muted;
-}
-
-.prose-lesson blockquote p {
-  @apply my-1;
 }
 
 .prose-lesson a {
   @apply text-accent underline underline-offset-2 decoration-accent/30 hover:decoration-accent;
 }
 
-.prose-lesson table {
-  @apply my-6 w-full text-sm border-collapse overflow-hidden rounded-lg;
-}
-
-.prose-lesson thead {
-  @apply bg-ink/5;
-}
-
-.prose-lesson th,
-.prose-lesson td {
-  @apply border border-ink/10 px-3 py-2 text-left align-top;
-}
-
 .prose-lesson hr {
-  @apply my-10 border-ink/10;
+  @apply my-12 border-0 h-px bg-gradient-to-r from-transparent via-ink/15 to-transparent;
 }
 
 .prose-lesson code {
-  @apply rounded bg-ink/5 px-1.5 py-0.5 text-[0.9em];
+  @apply rounded bg-ink/5 px-1.5 py-0.5 text-[0.9em] font-sans;
+}
+
+/* Tables */
+
+.prose-lesson .table-wrap {
+  @apply my-7 overflow-x-auto rounded-xl border border-ink/10 bg-paper-elevated shadow-soft;
+}
+
+.prose-lesson table {
+  @apply w-full text-sm border-collapse min-w-[18rem];
+}
+
+.prose-lesson thead {
+  @apply bg-ink/[0.04];
+}
+
+.prose-lesson th {
+  @apply px-4 py-3 text-left align-top font-semibold text-ink border-b border-ink/10;
+}
+
+.prose-lesson td {
+  @apply px-4 py-3 text-left align-top text-ink-muted border-b border-ink/[0.06];
+}
+
+.prose-lesson tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.prose-lesson tbody tr:hover td {
+  background: rgba(154, 52, 18, 0.03);
+}
+
+/* Callouts (from blockquotes) */
+
+.prose-lesson .callout,
+.prose-lesson blockquote {
+  @apply my-8 rounded-2xl border px-5 py-4 sm:px-6 sm:py-5 not-italic;
+  border-color: rgba(28, 25, 23, 0.1);
+  background: #fffdf8;
+  box-shadow: 0 1px 2px rgba(28, 25, 23, 0.04), 0 8px 24px rgba(28, 25, 23, 0.04);
+}
+
+.prose-lesson .callout p,
+.prose-lesson blockquote p {
+  @apply my-1.5;
+}
+
+.prose-lesson .callout-label {
+  @apply block text-xs font-semibold tracking-wide uppercase mb-2;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: 0.06em;
+}
+
+.prose-lesson .callout-takeaway {
+  border-color: rgba(154, 52, 18, 0.22);
+  background: linear-gradient(135deg, rgba(154, 52, 18, 0.07), #fffdf8 55%);
+}
+
+.prose-lesson .callout-takeaway .callout-label {
+  color: #9a3412;
+}
+
+.prose-lesson .callout-pitfall {
+  border-color: rgba(63, 98, 18, 0.22);
+  background: linear-gradient(135deg, rgba(63, 98, 18, 0.07), #fffdf8 55%);
+}
+
+.prose-lesson .callout-pitfall .callout-label {
+  color: #3f6212;
+}
+
+.prose-lesson .callout-note {
+  border-left-width: 3px;
+  border-left-color: rgba(154, 52, 18, 0.45);
+}
+
+/* ——— Shared UI bits ——— */
+
+.meta-pill {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  background: rgba(28, 25, 23, 0.06);
+  color: #57534e;
+}
+
+.meta-pill-accent {
+  background: rgba(154, 52, 18, 0.1);
+  color: #9a3412;
 }
