@@ -9,17 +9,17 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
   if (!questions.length) return null;
 
   return (
-    <section id="quiz" className="scroll-mt-28">
-      <div className="flex items-end justify-between gap-4 mb-4">
-        <div>
-          <p className="text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent mb-2">
-            核对前先想
+    <section id="quiz" className="scroll-mt-28 max-w-reading">
+      <div className="border-t-2 border-ink pt-5 mb-5">
+        <p className="kicker mb-1.5">核对前先想</p>
+        <div className="flex items-end justify-between gap-4">
+          <h2 className="font-serif text-[1.45rem] sm:text-[1.6rem] text-ink tracking-tight">
+            自测
+          </h2>
+          <p className="hidden sm:block text-[0.75rem] text-ink-muted max-w-[13rem] text-right leading-relaxed">
+            先自答，再点核对。答案默认隐藏。
           </p>
-          <h2 className="font-serif text-2xl sm:text-[1.7rem] text-ink">自测</h2>
         </div>
-        <p className="hidden sm:block text-xs text-ink-muted max-w-[14rem] text-right leading-relaxed">
-          先自答，再点核对。答案默认隐藏。
-        </p>
       </div>
       <div className="space-y-4">
         {questions.map((q, i) => {
@@ -27,23 +27,23 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
           return (
             <div
               key={q.id}
-              className="rounded-xl border border-ink/10 bg-paper-elevated p-4 sm:p-5 shadow-soft"
+              className="border border-ink/12 bg-paper-elevated px-4 py-4 sm:px-5"
             >
-              <div className="flex items-center gap-3 mb-3">
-                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent text-xs font-semibold tabular-nums">
+              <div className="flex items-center gap-2.5 mb-2.5">
+                <span className="inline-flex h-6 w-6 items-center justify-center border border-accent/30 bg-accent/8 text-accent text-[0.7rem] font-semibold tabular-nums">
                   {i + 1}
                 </span>
-                <span className="text-xs text-ink-faint font-medium tracking-wide">
+                <span className="text-[0.65rem] tracking-kicker uppercase text-ink-faint">
                   单选题
                 </span>
               </div>
-              <p className="text-ink leading-relaxed mb-4 text-[1.02rem]">{q.prompt}</p>
+              <p className="text-ink leading-relaxed mb-3.5 text-[1rem]">{q.prompt}</p>
               {q.options.length > 0 && (
-                <ul className="space-y-2 mb-5">
+                <ul className="space-y-1.5 mb-4">
                   {q.options.map((opt) => (
                     <li
                       key={opt}
-                      className="rounded-xl border border-ink/8 bg-paper px-3.5 py-2.5 text-sm text-ink-muted"
+                      className="border border-ink/8 bg-paper px-3 py-2 text-sm text-ink-muted"
                     >
                       {opt}
                     </li>
@@ -56,13 +56,13 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
                   onClick={() =>
                     setRevealed((prev) => ({ ...prev, [q.id]: true }))
                   }
-                  className="inline-flex items-center justify-center rounded-full bg-ink px-5 py-2.5 text-sm text-paper hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-paper-elevated transition-colors"
+                  className="inline-flex items-center justify-center border border-ink bg-ink px-4 py-2 text-[0.8125rem] text-paper hover:bg-accent hover:border-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-paper-elevated transition-colors"
                 >
                   核对答案
                 </button>
               ) : (
-                <div className="rounded-xl bg-accent/8 border border-accent/20 px-4 py-3.5">
-                  <p className="text-sm font-semibold text-accent mb-1.5">
+                <div className="border-l-[3px] border-accent bg-accent/[0.05] px-3.5 py-3">
+                  <p className="text-sm font-semibold text-accent mb-1">
                     答案：{q.answerLabel}
                   </p>
                   {q.answerExplain ? (

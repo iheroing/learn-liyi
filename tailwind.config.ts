@@ -9,30 +9,34 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        reading: "40rem",
-        shell: "64rem",
-        prose: "40rem",
-        lesson: "58rem",
+        reading: "38rem",
+        shell: "62rem",
+        prose: "38rem",
+        lesson: "56rem",
       },
       colors: {
         paper: {
-          DEFAULT: "#f7f3eb",
-          elevated: "#fffdf8",
-          soft: "#f1ebe0",
+          DEFAULT: "#f4f2ec",
+          elevated: "#faf9f5",
+          soft: "#ebe8e0",
         },
         ink: {
-          DEFAULT: "#1c1917",
-          muted: "#57534e",
-          faint: "#a8a29e",
+          DEFAULT: "#1a1d21",
+          muted: "#4a5058",
+          faint: "#8b919a",
         },
         accent: {
-          DEFAULT: "#9a3412",
-          soft: "#c2410c",
-          wash: "rgba(154, 52, 18, 0.08)",
+          DEFAULT: "#0f6e6b",
+          soft: "#148a86",
+          wash: "rgba(15, 110, 107, 0.08)",
+        },
+        slate: {
+          DEFAULT: "#3d4f66",
+          wash: "rgba(61, 79, 102, 0.08)",
         },
         sage: {
-          DEFAULT: "#3f6212",
-          wash: "rgba(63, 98, 18, 0.08)",
+          DEFAULT: "#3d4f66",
+          wash: "rgba(61, 79, 102, 0.08)",
         },
       },
       fontFamily: {
@@ -51,13 +55,18 @@ export default {
           "Noto Serif SC",
           "Source Han Serif SC",
           "Georgia",
+          "Cambria",
           "serif",
         ],
       },
       boxShadow: {
-        soft: "0 1px 2px rgba(28, 25, 23, 0.04), 0 6px 18px rgba(28, 25, 23, 0.045)",
-        card: "0 1px 2px rgba(28, 25, 23, 0.05), 0 8px 24px rgba(28, 25, 23, 0.055)",
-        lift: "0 4px 14px rgba(28, 25, 23, 0.08)",
+        soft: "0 1px 0 rgba(26, 29, 33, 0.04)",
+        card: "0 1px 0 rgba(26, 29, 33, 0.06), 0 4px 16px rgba(26, 29, 33, 0.04)",
+        lift: "0 2px 8px rgba(26, 29, 33, 0.06)",
+      },
+      letterSpacing: {
+        kicker: "0.14em",
+        caption: "0.08em",
       },
     },
   },

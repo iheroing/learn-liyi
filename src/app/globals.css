@@ -12,27 +12,46 @@ html {
 
 body {
   @apply bg-paper text-ink antialiased;
+  background-color: #f4f2ec;
   background-image:
-    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(154, 52, 18, 0.06), transparent 55%),
-    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(63, 98, 18, 0.04), transparent 50%),
-    linear-gradient(180deg, #f7f3eb 0%, #f3eee4 100%);
+    linear-gradient(180deg, #f6f4ef 0%, #f4f2ec 40%, #f2efe8 100%);
   min-height: 100vh;
 }
 
 ::selection {
-  background: rgba(154, 52, 18, 0.18);
+  background: rgba(15, 110, 107, 0.18);
 }
 
 :focus-visible {
-  outline: 2px solid #9a3412;
+  outline: 2px solid #0f6e6b;
   outline-offset: 2px;
 }
 
-/* ——— Lesson prose ——— */
+/* ——— Magazine kickers / labels ——— */
+
+.kicker {
+  @apply text-[0.68rem] font-semibold uppercase tracking-kicker text-accent;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.rule {
+  border: 0;
+  height: 1px;
+  background: rgba(26, 29, 33, 0.12);
+}
+
+.rule-thick {
+  border: 0;
+  height: 2px;
+  background: #1a1d21;
+}
+
+/* ——— Lesson prose (magazine article) ——— */
 
 .prose-lesson {
-  @apply text-[1.04rem] leading-[1.75] text-ink;
+  @apply text-[1.02rem] leading-[1.72] text-ink;
   counter-reset: section;
+  max-width: 38rem;
 }
 
 .prose-lesson > *:first-child {
@@ -40,26 +59,27 @@ body {
 }
 
 .prose-lesson h2 {
-  @apply font-serif text-[1.4rem] sm:text-[1.55rem] text-ink mt-10 mb-3.5 scroll-mt-24;
+  @apply font-serif text-[1.35rem] sm:text-[1.5rem] text-ink mt-9 mb-3 scroll-mt-24;
   counter-increment: section;
   position: relative;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgba(28, 25, 23, 0.08);
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(26, 29, 33, 0.1);
+  letter-spacing: -0.01em;
 }
 
 .prose-lesson h2::before {
   content: counter(section, decimal-leading-zero);
   display: block;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
-  color: #9a3412;
-  margin-bottom: 0.35rem;
+  letter-spacing: 0.12em;
+  color: #0f6e6b;
+  margin-bottom: 0.3rem;
 }
 
 .prose-lesson h3 {
-  @apply font-serif text-lg text-ink mt-7 mb-2.5 scroll-mt-24;
+  @apply font-serif text-[1.08rem] text-ink mt-6 mb-2 scroll-mt-24;
 }
 
 .prose-lesson p {
@@ -77,19 +97,19 @@ body {
 
 .prose-lesson ul > li {
   position: relative;
-  padding-left: 1.35rem;
+  padding-left: 1.25rem;
 }
 
 .prose-lesson ul > li::before {
   content: "";
   position: absolute;
-  left: 0.15rem;
-  top: 0.7em;
-  width: 0.4rem;
-  height: 0.4rem;
+  left: 0.1rem;
+  top: 0.72em;
+  width: 0.35rem;
+  height: 0.35rem;
   border-radius: 9999px;
-  background: #9a3412;
-  opacity: 0.55;
+  background: #0f6e6b;
+  opacity: 0.7;
 }
 
 .prose-lesson ol {
@@ -99,7 +119,7 @@ body {
 
 .prose-lesson ol > li {
   position: relative;
-  padding-left: 1.85rem;
+  padding-left: 1.75rem;
   counter-increment: prose-ol;
 }
 
@@ -107,13 +127,13 @@ body {
   content: counter(prose-ol);
   position: absolute;
   left: 0;
-  top: 0.15em;
-  width: 1.35rem;
-  height: 1.35rem;
+  top: 0.12em;
+  width: 1.3rem;
+  height: 1.3rem;
   border-radius: 9999px;
-  background: rgba(154, 52, 18, 0.1);
-  color: #9a3412;
-  font-size: 0.75rem;
+  background: rgba(15, 110, 107, 0.1);
+  color: #0f6e6b;
+  font-size: 0.72rem;
   font-weight: 600;
   font-family: ui-sans-serif, system-ui, sans-serif;
   display: inline-flex;
@@ -127,7 +147,7 @@ body {
 }
 
 .prose-lesson li > strong:first-child {
-  color: #1c1917;
+  color: #1a1d21;
 }
 
 .prose-lesson strong {
@@ -139,17 +159,18 @@ body {
 }
 
 .prose-lesson hr {
-  @apply my-8 border-0 h-px bg-gradient-to-r from-transparent via-ink/15 to-transparent;
+  @apply my-8 border-0 h-px;
+  background: rgba(26, 29, 33, 0.12);
 }
 
 .prose-lesson code {
-  @apply rounded bg-ink/5 px-1.5 py-0.5 text-[0.9em] font-sans;
+  @apply rounded bg-ink/5 px-1.5 py-0.5 text-[0.88em] font-sans;
 }
 
-/* Tables */
+/* Tables — journal style */
 
 .prose-lesson .table-wrap {
-  @apply my-5 overflow-x-auto rounded-xl border border-ink/10 bg-paper-elevated shadow-soft;
+  @apply my-6 overflow-x-auto border border-ink/10 bg-paper-elevated;
 }
 
 .prose-lesson table {
@@ -157,15 +178,19 @@ body {
 }
 
 .prose-lesson thead {
-  @apply bg-ink/[0.04];
+  @apply bg-ink/[0.035];
+  border-bottom: 2px solid rgba(26, 29, 33, 0.16);
 }
 
 .prose-lesson th {
-  @apply px-4 py-3 text-left align-top font-semibold text-ink border-b border-ink/10;
+  @apply px-3.5 py-2.5 text-left align-top font-semibold text-ink;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
 }
 
 .prose-lesson td {
-  @apply px-4 py-3 text-left align-top text-ink-muted border-b border-ink/[0.06];
+  @apply px-3.5 py-2.5 text-left align-top text-ink-muted border-b border-ink/[0.07];
 }
 
 .prose-lesson tbody tr:last-child td {
@@ -173,62 +198,88 @@ body {
 }
 
 .prose-lesson tbody tr:hover td {
-  background: rgba(154, 52, 18, 0.03);
+  background: rgba(15, 110, 107, 0.035);
 }
 
-/* Callouts (from blockquotes) */
+/* Pull-quotes / callouts — SA magazine style */
 
 .prose-lesson .callout,
 .prose-lesson blockquote {
-  @apply my-6 rounded-xl border px-4 py-3.5 sm:px-5 sm:py-4 not-italic;
-  border-color: rgba(28, 25, 23, 0.1);
-  background: #fffdf8;
-  box-shadow: 0 1px 2px rgba(28, 25, 23, 0.04), 0 8px 24px rgba(28, 25, 23, 0.04);
+  @apply my-7 not-italic;
+  border: 0;
+  border-top: 2px solid #1a1d21;
+  border-bottom: 1px solid rgba(26, 29, 33, 0.12);
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 1rem 0 1.1rem;
 }
 
 .prose-lesson .callout p,
 .prose-lesson blockquote p {
-  @apply my-1.5;
+  @apply my-1.5 font-serif text-[1.12rem] sm:text-[1.18rem] leading-snug text-ink;
 }
 
 .prose-lesson .callout-label {
-  @apply block text-xs font-semibold tracking-wide uppercase mb-2;
+  @apply block text-[0.65rem] font-semibold tracking-kicker uppercase mb-2;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  letter-spacing: 0.06em;
+  color: #0f6e6b;
 }
 
 .prose-lesson .callout-takeaway {
-  border-color: rgba(154, 52, 18, 0.22);
-  background: linear-gradient(135deg, rgba(154, 52, 18, 0.07), #fffdf8 55%);
+  border-top-color: #0f6e6b;
+  border-bottom-color: rgba(15, 110, 107, 0.2);
+  background: rgba(15, 110, 107, 0.04);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .prose-lesson .callout-takeaway .callout-label {
-  color: #9a3412;
+  color: #0f6e6b;
 }
 
 .prose-lesson .callout-pitfall {
-  border-color: rgba(63, 98, 18, 0.22);
-  background: linear-gradient(135deg, rgba(63, 98, 18, 0.07), #fffdf8 55%);
+  border-top-color: #3d4f66;
+  border-bottom-color: rgba(61, 79, 102, 0.2);
+  background: rgba(61, 79, 102, 0.04);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .prose-lesson .callout-pitfall .callout-label {
-  color: #3f6212;
+  color: #3d4f66;
 }
 
 .prose-lesson .callout-note {
-  border-left-width: 3px;
-  border-left-color: rgba(154, 52, 18, 0.45);
+  border-top-width: 1px;
+  border-top-color: rgba(26, 29, 33, 0.2);
+  border-left: 3px solid #0f6e6b;
+  padding-left: 1rem;
 }
 
 /* ——— Shared UI bits ——— */
 
 .meta-pill {
-  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
-  background: rgba(28, 25, 23, 0.06);
-  color: #57534e;
+  @apply inline-flex items-center px-0 py-0 text-xs font-medium;
+  background: transparent;
+  color: #4a5058;
+  border-radius: 0;
 }
 
 .meta-pill-accent {
-  background: rgba(154, 52, 18, 0.1);
-  color: #9a3412;
+  background: transparent;
+  color: #0f6e6b;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.meta-strip {
+  @apply flex flex-wrap items-center gap-x-0 gap-y-1 text-xs text-ink-muted;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.meta-strip > * + *::before {
+  content: "·";
+  margin: 0 0.55rem;
+  color: #8b919a;
 }

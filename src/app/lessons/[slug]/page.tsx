@@ -101,50 +101,39 @@ export default async function LessonPage({ params }: Props) {
     <article className="mx-auto max-w-lesson px-4 sm:px-6 py-6 sm:py-8">
       <Link
         href="/"
-        className="inline-flex items-center gap-1 text-[0.8125rem] text-ink-muted hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded"
+        className="inline-flex items-center gap-1 text-[0.78rem] text-ink-muted hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-sm"
       >
         <span aria-hidden>←</span> 返回目录
       </Link>
 
-      <header className="mt-4 mb-6 rounded-2xl border border-ink/10 bg-paper-elevated shadow-soft overflow-hidden">
-        <div
-          className="h-1 bg-gradient-to-r from-accent via-accent/50 to-sage/40"
-          aria-hidden
-        />
-        <div className="px-4 py-4 sm:px-5 sm:py-5">
-          <div className="flex flex-wrap items-center gap-1.5 text-xs text-ink-muted mb-3">
-            {lesson.issue != null && (
-              <span className="meta-pill-accent meta-pill rounded-full px-2 py-0.5 text-xs font-medium">
-                第 {lesson.issue} 期
-              </span>
-            )}
-            <time dateTime={lesson.date} className="meta-pill">
-              {formatDate(lesson.date)}
-            </time>
-            <span className="meta-pill">{lesson.domain}</span>
-            {lesson.difficulty ? (
-              <span className="meta-pill">{lesson.difficulty}</span>
-            ) : null}
-          </div>
-          <h1 className="font-serif text-[1.55rem] sm:text-[1.85rem] text-ink leading-snug mb-3">
-            {lesson.title}
-          </h1>
-          <div className="rounded-xl border border-accent/20 bg-accent/[0.06] px-3.5 py-3">
-            <p className="text-[0.68rem] font-semibold tracking-wide text-accent mb-1">
-              这一课在解决什么
-            </p>
-            <p className="text-ink-muted leading-relaxed text-[0.98rem]">
-              {lesson.summary}
-            </p>
-          </div>
+      {/* Article masthead — magazine byline */}
+      <header className="mt-4 mb-7 border-t-2 border-ink pt-4">
+        <div className="meta-strip mb-3">
+          {lesson.issue != null && (
+            <span className="meta-pill-accent">第 {lesson.issue} 期</span>
+          )}
+          <time dateTime={lesson.date}>{formatDate(lesson.date)}</time>
+          <span>{lesson.domain}</span>
+          {lesson.difficulty ? <span>{lesson.difficulty}</span> : null}
         </div>
+        <h1 className="font-serif text-[1.55rem] sm:text-[1.9rem] text-ink leading-[1.25] tracking-tight mb-4">
+          {lesson.title}
+        </h1>
+        {/* Deck / standfirst */}
+        <div className="border-l-[3px] border-accent pl-3.5 py-0.5 max-w-reading">
+          <p className="kicker mb-1">这一课在解决什么</p>
+          <p className="text-ink-muted leading-relaxed text-[1rem] font-serif">
+            {lesson.summary}
+          </p>
+        </div>
+        <div className="mt-5 h-px bg-ink/15" aria-hidden />
       </header>
 
       <div className="mb-5 lg:hidden">
         <Toc items={lesson.toc} variant="panel" />
       </div>
 
-      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_11.5rem] lg:gap-7 xl:grid-cols-[minmax(0,1fr)_12rem] xl:gap-8">
+      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_10.5rem] lg:gap-8 xl:grid-cols-[minmax(0,1fr)_11rem] xl:gap-9">
         <div className="min-w-0">
           <div className="prose-lesson">
             {bodyChunks.map((chunk, i) =>
@@ -165,7 +154,7 @@ export default async function LessonPage({ params }: Props) {
           </div>
 
           {lesson.quiz.length > 0 && (
-            <div className="mt-10 pt-8 border-t border-ink/10">
+            <div className="mt-10">
               <Quiz questions={lesson.quiz} />
             </div>
           )}
@@ -173,20 +162,20 @@ export default async function LessonPage({ params }: Props) {
           {lesson.sourceLinks.length > 0 && (
             <section
               id="来源"
-              className="mt-10 pt-8 border-t border-ink/10 scroll-mt-24"
+              className="mt-10 max-w-reading scroll-mt-24 border-t border-ink/15 pt-6"
             >
-              <p className="text-[0.68rem] font-semibold tracking-wide text-accent mb-1.5">
-                文献
-              </p>
-              <h2 className="font-serif text-xl text-ink mb-4">来源</h2>
-              <ol className="space-y-2.5 text-sm text-ink-muted list-decimal pl-5">
+              <p className="kicker mb-1.5">文献</p>
+              <h2 className="font-serif text-xl text-ink mb-3.5 tracking-tight">
+                来源
+              </h2>
+              <ol className="space-y-2 text-sm text-ink-muted list-decimal pl-5">
                 {lesson.sourceLinks.map((s) => (
                   <li key={s.href} className="pl-1">
                     <a
                       href={s.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-accent underline underline-offset-2 decoration-accent/30 hover:decoration-accent break-all"
+                      className="text-accent underline underline-offset-2 decoration-accent/35 hover:decoration-accent break-all"
                     >
                       {s.label}
                     </a>
@@ -196,16 +185,16 @@ export default async function LessonPage({ params }: Props) {
             </section>
           )}
 
-          <nav className="mt-10 pt-6 border-t border-ink/10 grid gap-3 sm:grid-cols-2">
+          <nav className="mt-10 pt-5 border-t-2 border-ink grid gap-0 sm:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-ink/12">
             {older ? (
               <Link
                 href={`/lessons/${older.slug}`}
-                className="group rounded-xl border border-ink/10 bg-paper-elevated p-3.5 shadow-soft hover:border-accent/30 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+                className="group py-3.5 pr-3 sm:pr-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
               >
-                <span className="block text-[0.65rem] tracking-wider text-ink-faint mb-1">
+                <span className="block text-[0.62rem] tracking-kicker uppercase text-ink-faint mb-1">
                   ← 上一期
                 </span>
-                <span className="text-sm text-ink group-hover:text-accent transition-colors leading-snug line-clamp-2">
+                <span className="font-serif text-sm text-ink group-hover:text-accent transition-colors leading-snug line-clamp-2">
                   {older.title}
                 </span>
               </Link>
@@ -215,12 +204,12 @@ export default async function LessonPage({ params }: Props) {
             {newer ? (
               <Link
                 href={`/lessons/${newer.slug}`}
-                className="group rounded-xl border border-ink/10 bg-paper-elevated p-3.5 shadow-soft hover:border-accent/30 transition-all sm:text-right focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+                className="group py-3.5 pl-0 sm:pl-4 sm:text-right focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
               >
-                <span className="block text-[0.65rem] tracking-wider text-ink-faint mb-1">
+                <span className="block text-[0.62rem] tracking-kicker uppercase text-ink-faint mb-1">
                   下一期 →
                 </span>
-                <span className="text-sm text-ink group-hover:text-accent transition-colors leading-snug line-clamp-2">
+                <span className="font-serif text-sm text-ink group-hover:text-accent transition-colors leading-snug line-clamp-2">
                   {newer.title}
                 </span>
               </Link>

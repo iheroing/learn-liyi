@@ -2,41 +2,38 @@ import Link from "next/link";
 
 export function SiteHeader() {
   return (
-    <header className="border-b border-ink/10 bg-paper/85 backdrop-blur-md sticky top-0 z-40">
-      <div className="mx-auto flex max-w-shell items-center justify-between gap-4 px-4 sm:px-6 py-2.5">
-        <Link
-          href="/"
-          className="group flex items-center gap-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-lg"
-        >
-          <span
-            className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent/10 text-accent font-serif text-sm font-semibold"
-            aria-hidden
-          >
-            日
-          </span>
-          <span className="leading-tight">
-            <span className="block text-sm font-medium text-ink group-hover:text-accent transition-colors">
-              日课
-            </span>
-            <span className="block text-[0.7rem] text-ink-faint">
-              learn.liyi.online
-            </span>
-          </span>
-        </Link>
-        <nav className="flex items-center gap-1 sm:gap-2 text-sm text-ink-muted">
+    <header className="border-b border-ink/12 bg-paper sticky top-0 z-40">
+      <div className="mx-auto max-w-shell px-4 sm:px-6">
+        {/* Masthead top rule */}
+        <div className="h-[3px] bg-ink" aria-hidden />
+        <div className="flex items-center justify-between gap-4 py-3">
           <Link
             href="/"
-            className="rounded-full px-3 py-1.5 hover:bg-ink/5 hover:text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+            className="group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-sm"
           >
-            目录
+            <span className="block font-serif text-[1.05rem] sm:text-lg text-ink tracking-tight leading-none group-hover:text-accent transition-colors">
+              每日高收益知识课
+            </span>
+            <span className="mt-1 block text-[0.65rem] tracking-kicker uppercase text-ink-faint">
+              learn.liyi.online · 李老师专栏
+            </span>
           </Link>
-          <Link
-            href="/about"
-            className="rounded-full px-3 py-1.5 hover:bg-ink/5 hover:text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
-          >
-            关于
-          </Link>
-        </nav>
+          <nav className="flex items-center gap-0 text-[0.8125rem] text-ink-muted">
+            <Link
+              href="/"
+              className="px-2.5 py-1 hover:text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-sm border-b-2 border-transparent hover:border-accent/40"
+            >
+              目录
+            </Link>
+            <Link
+              href="/about"
+              className="px-2.5 py-1 hover:text-ink transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-sm border-b-2 border-transparent hover:border-accent/40"
+            >
+              关于
+            </Link>
+          </nav>
+        </div>
+        <div className="h-px bg-ink/15" aria-hidden />
       </div>
     </header>
   );

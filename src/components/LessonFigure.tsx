@@ -7,8 +7,8 @@ type Props = {
 export function LessonFigure({ src, alt, caption }: Props) {
   if (!src) return null;
   return (
-    <figure className="my-6 overflow-hidden rounded-xl border border-ink/10 bg-paper-elevated shadow-soft">
-      <div className="relative w-full bg-paper-soft">
+    <figure className="my-7 max-w-reading">
+      <div className="relative w-full border border-ink/12 bg-paper-elevated">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={src}
@@ -18,7 +18,8 @@ export function LessonFigure({ src, alt, caption }: Props) {
           decoding="async"
         />
       </div>
-      <figcaption className="px-3.5 py-2.5 sm:px-4 text-sm text-ink-muted leading-relaxed border-t border-ink/8">
+      <figcaption className="mt-2.5 pt-2 border-t border-ink/15 text-[0.8125rem] text-ink-muted leading-relaxed text-left">
+        <span className="kicker mr-2 text-[0.62rem] align-baseline">图</span>
         {caption}
       </figcaption>
     </figure>
