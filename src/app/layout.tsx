@@ -11,6 +11,15 @@ export const metadata: Metadata = {
   description:
     "每天约一千字：概率与决策、学习方法、科学素养。带自测与来源。",
   metadataBase: new URL("https://learn.liyi.online"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/brand-icon.svg", type: "image/svg+xml" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png" }],
+    shortcut: ["/favicon.ico"],
+  },
   openGraph: {
     title: "每日高收益知识课",
     description: "每日专栏 · learn.liyi.online",

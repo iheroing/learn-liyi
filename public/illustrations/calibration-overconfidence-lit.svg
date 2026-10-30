@@ -1,0 +1,78 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cal-lit-title cal-lit-desc">
+  <title id="cal-lit-title">过置信示意：各置信度分桶的口头把握与实际正确率</title>
+  <desc id="cal-lit-desc">分组柱状图。横轴为置信度分桶，纵轴为比例。每桶两根柱：口头把握（分桶中位）与实际正确率；实际柱系统性偏低，示意过置信。非某篇论文精确数据。</desc>
+  <defs>
+    <pattern id="cal-lit-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#cal-lit-dots)" opacity="0.45"/>
+
+  <!-- Plot area: x 120–880, y 56–400 -->
+  <g stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.08">
+    <line x1="120" y1="331" x2="880" y2="331"/>
+    <line x1="120" y1="262" x2="880" y2="262"/>
+    <line x1="120" y1="194" x2="880" y2="194"/>
+    <line x1="120" y1="125" x2="880" y2="125"/>
+    <line x1="120" y1="56" x2="880" y2="56"/>
+  </g>
+  <line x1="120" y1="56" x2="120" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+  <line x1="120" y1="400" x2="880" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+
+  <g fill="#57534e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">
+    <text x="112" y="404">0</text>
+    <text x="112" y="335">0.2</text>
+    <text x="112" y="266">0.4</text>
+    <text x="112" y="198">0.6</text>
+    <text x="112" y="129">0.8</text>
+    <text x="112" y="60">1.0</text>
+  </g>
+
+  <!-- Perfect line y=x reference across bin centers — drawn behind bars lightly -->
+  <!-- Bins at x centers: 196, 348, 500, 652, 804 for 0.5..0.9 -->
+  <polyline points="196,228 348,194 500,159 652,125 804,90" fill="none" stroke="#3f6212" stroke-width="1.4" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Bars: claimed (sage outline/fill light) height = bin mid; actual (accent) lower
+       y = 400 - p*344
+       0.5→228, 0.6→193.6, 0.7→159.2, 0.8→124.8, 0.9→90.4
+       actual: 0.48→235, 0.52→221, 0.55→211, 0.58→200, 0.60→194
+       bar width 28, gap 8 between pair, centers as above
+  -->
+  <!-- bin 0.5 -->
+  <rect x="168" y="228" width="26" height="172" fill="#3f6212" fill-opacity="0.35" stroke="#3f6212" stroke-width="1"/>
+  <rect x="198" y="235" width="26" height="165" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+  <!-- bin 0.6 -->
+  <rect x="320" y="194" width="26" height="206" fill="#3f6212" fill-opacity="0.35" stroke="#3f6212" stroke-width="1"/>
+  <rect x="350" y="221" width="26" height="179" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+  <!-- bin 0.7 -->
+  <rect x="472" y="159" width="26" height="241" fill="#3f6212" fill-opacity="0.35" stroke="#3f6212" stroke-width="1"/>
+  <rect x="502" y="211" width="26" height="189" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+  <!-- bin 0.8 -->
+  <rect x="624" y="125" width="26" height="275" fill="#3f6212" fill-opacity="0.35" stroke="#3f6212" stroke-width="1"/>
+  <rect x="654" y="200" width="26" height="200" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+  <!-- bin 0.9 -->
+  <rect x="776" y="90" width="26" height="310" fill="#3f6212" fill-opacity="0.35" stroke="#3f6212" stroke-width="1"/>
+  <rect x="806" y="194" width="26" height="206" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+
+  <g fill="#57534e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">
+    <text x="196" y="420">0.5</text>
+    <text x="348" y="420">0.6</text>
+    <text x="500" y="420">0.7</text>
+    <text x="652" y="420">0.8</text>
+    <text x="804" y="420">0.9</text>
+  </g>
+
+  <text x="500" y="448" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">置信度分桶（口头把握）</text>
+  <text transform="rotate(-90 28 228)" x="28" y="228" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">比例</text>
+
+  <line x1="40" y1="472" x2="920" y2="472" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="484" width="16" height="12" fill="#3f6212" fill-opacity="0.35" stroke="#3f6212" stroke-width="1"/>
+  <text x="118" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">口头把握（分桶）</text>
+  <rect x="268" y="484" width="16" height="12" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+  <text x="290" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">实际正确率</text>
+  <line x1="430" y1="492" x2="458" y2="492" stroke="#3f6212" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="466" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">完美校准</text>
+  <text x="920" y="496" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">示意过置信模式 · 非原文精确点</text>
+</svg>

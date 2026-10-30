@@ -9,7 +9,7 @@ import {
 import { Toc } from "@/components/Toc";
 import { Quiz } from "@/components/Quiz";
 import { LessonFigure } from "@/components/LessonFigure";
-import { getLessonArt } from "@/lib/lesson-art";
+import { getLessonArt, type LessonFigureSpec } from "@/lib/lesson-art";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -27,10 +27,56 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-function splitAfterFirstSection(html: string): { before: string; after: string } {
-  const match = html.match(/^(<[\s\S]*?<\/h2>[\s\S]*?)(<h2[\s\S]*)$/i);
-  if (!match) return { before: html, after: "" };
-  return { before: match[1], after: match[2] };
+type BodyChunk =
+  | { kind: "html"; html: string }
+  | { kind: "figure"; figure: LessonFigureSpec };
+
+/**
+ * Split body HTML on h2 sections and insert figures after matching headings.
+ * Figures with empty afterHeading go after the first section.
+ * Unmatched figures append before the last remaining HTML (or at end).
+ */
+function interleaveFigures(
+  html: string,
+  figures: LessonFigureSpec[]
+): BodyChunk[] {
+  if (!figures.length) return [{ kind: "html", html }];
+
+  const parts = html.split(/(?=<h2\b)/i).filter(Boolean);
+  if (parts.length === 0) return [{ kind: "html", html }];
+
+  const used = new Set<number>();
+  const chunks: BodyChunk[] = [];
+
+  for (let i = 0; i < parts.length; i++) {
+    chunks.push({ kind: "html", html: parts[i] });
+
+    const headingMatch = parts[i].match(/<h2[^>]*>([\s\S]*?)<\/h2>/i);
+    const headingText = headingMatch
+      ? headingMatch[1].replace(/<[^>]+>/g, "").trim()
+      : "";
+
+    figures.forEach((fig, fi) => {
+      if (used.has(fi)) return;
+      const key = fig.afterHeading.trim();
+      const placeHere =
+        (key === "" && i === 0) ||
+        (key !== "" && headingText.includes(key));
+      if (placeHere) {
+        chunks.push({ kind: "figure", figure: fig });
+        used.add(fi);
+      }
+    });
+  }
+
+  figures.forEach((fig, fi) => {
+    if (!used.has(fi)) {
+      chunks.push({ kind: "figure", figure: fig });
+      used.add(fi);
+    }
+  });
+
+  return chunks;
 }
 
 function formatDate(date: string) {
@@ -49,9 +95,7 @@ export default async function LessonPage({ params }: Props) {
   const newer = idx > 0 ? all[idx - 1] : null;
   const older = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
   const art = getLessonArt(slug);
-  const { before: bodyBefore, after: bodyAfter } = splitAfterFirstSection(
-    lesson.bodyHtml
-  );
+  const bodyChunks = interleaveFigures(lesson.bodyHtml, art.figures);
 
   return (
     <article className="mx-auto max-w-lesson px-4 sm:px-6 py-6 sm:py-8">
@@ -62,7 +106,6 @@ export default async function LessonPage({ params }: Props) {
         <span aria-hidden>←</span> 返回目录
       </Link>
 
-      {/* Compact hero — meta + title + summary packed */}
       <header className="mt-4 mb-6 rounded-2xl border border-ink/10 bg-paper-elevated shadow-soft overflow-hidden">
         <div
           className="h-1 bg-gradient-to-r from-accent via-accent/50 to-sage/40"
@@ -97,24 +140,28 @@ export default async function LessonPage({ params }: Props) {
         </div>
       </header>
 
-      {/* Mobile TOC */}
       <div className="mb-5 lg:hidden">
         <Toc items={lesson.toc} variant="panel" />
       </div>
 
-      {/* Packed editorial grid: prose fills, TOC sits tight beside it */}
       <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_11.5rem] lg:gap-7 xl:grid-cols-[minmax(0,1fr)_12rem] xl:gap-8">
         <div className="min-w-0">
           <div className="prose-lesson">
-            <div dangerouslySetInnerHTML={{ __html: bodyBefore }} />
-            {art.diagram ? (
-              <LessonFigure
-                src={art.diagram}
-                alt={art.diagramAlt}
-                caption={art.diagramCaption}
-              />
-            ) : null}
-            <div dangerouslySetInnerHTML={{ __html: bodyAfter }} />
+            {bodyChunks.map((chunk, i) =>
+              chunk.kind === "html" ? (
+                <div
+                  key={`h-${i}`}
+                  dangerouslySetInnerHTML={{ __html: chunk.html }}
+                />
+              ) : (
+                <LessonFigure
+                  key={`f-${chunk.figure.src}-${i}`}
+                  src={chunk.figure.src}
+                  alt={chunk.figure.alt}
+                  caption={chunk.figure.caption}
+                />
+              )
+            )}
           </div>
 
           {lesson.quiz.length > 0 && (
