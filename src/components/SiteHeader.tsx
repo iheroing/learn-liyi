@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SiteHeader() {
   return (
     <header className="border-b border-ink/10 bg-paper/85 backdrop-blur-md sticky top-0 z-40">
-      <div className="mx-auto flex max-w-shell items-center justify-between gap-4 px-5 sm:px-8 py-3">
+      <div className="mx-auto flex max-w-shell items-center justify-between gap-4 px-4 sm:px-6 py-2.5">
         <Link
           href="/"
           className="group flex items-center gap-2.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-lg"

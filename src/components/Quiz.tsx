@@ -10,7 +10,7 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
 
   return (
     <section id="quiz" className="scroll-mt-28">
-      <div className="flex items-end justify-between gap-4 mb-6">
+      <div className="flex items-end justify-between gap-4 mb-4">
         <div>
           <p className="text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-accent mb-2">
             核对前先想
@@ -21,13 +21,13 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
           先自答，再点核对。答案默认隐藏。
         </p>
       </div>
-      <div className="space-y-5">
+      <div className="space-y-4">
         {questions.map((q, i) => {
           const open = revealed[q.id];
           return (
             <div
               key={q.id}
-              className="rounded-2xl border border-ink/10 bg-paper-elevated p-5 sm:p-6 shadow-card"
+              className="rounded-xl border border-ink/10 bg-paper-elevated p-4 sm:p-5 shadow-soft"
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent text-xs font-semibold tabular-nums">

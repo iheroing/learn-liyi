@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-shell px-5 sm:px-8 py-10 sm:py-14">
+    <div className="mx-auto max-w-shell px-4 sm:px-6 py-8 sm:py-10">
       <div className="max-w-prose">
         <p className="text-xs font-medium tracking-wide text-accent mb-3">关于</p>
         <h1 className="font-serif text-3xl sm:text-[2.35rem] text-ink mb-4 leading-tight">
@@ -21,7 +21,7 @@ export default function AboutPage() {
           。给想把研究里靠谱的做法，用进排期、学习和决策的人。
         </p>
 
-        <div className="rounded-3xl border border-ink/10 bg-paper-elevated shadow-card overflow-hidden mb-8">
+        <div className="rounded-2xl border border-ink/10 bg-paper-elevated shadow-card overflow-hidden mb-8">
           <div
             className="h-1.5 bg-gradient-to-r from-accent via-accent/60 to-sage/50"
             aria-hidden

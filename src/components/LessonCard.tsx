@@ -18,7 +18,7 @@ export function LessonCard({ lesson }: { lesson: LessonMeta }) {
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-ink/10 bg-paper-elevated shadow-soft hover:border-accent/30 hover:shadow-lift transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
     >
       <div
-        className={`relative h-28 sm:h-32 bg-gradient-to-br ${art.coverTint} border-b border-ink/8 overflow-hidden`}
+        className={`relative h-24 sm:h-28 bg-gradient-to-br ${art.coverTint} border-b border-ink/8 overflow-hidden`}
       >
         {art.diagram ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -39,7 +39,7 @@ export function LessonCard({ lesson }: { lesson: LessonMeta }) {
         </div>
       </div>
 
-      <div className="flex flex-1 flex-col p-5 sm:p-5 pt-4">
+      <div className="flex flex-1 flex-col p-4 pt-3.5">
         <div className="flex flex-wrap items-center gap-2 text-xs text-ink-muted mb-2.5">
           {lesson.issue != null && (
             <span className="meta-pill-accent meta-pill rounded-full px-2.5 py-0.5 text-xs font-medium">
@@ -54,7 +54,7 @@ export function LessonCard({ lesson }: { lesson: LessonMeta }) {
             </>
           ) : null}
         </div>
-        <h2 className="font-serif text-lg sm:text-[1.2rem] text-ink group-hover:text-accent transition-colors leading-snug mb-2">
+        <h2 className="font-serif text-base sm:text-[1.15rem] text-ink group-hover:text-accent transition-colors leading-snug mb-2">
           {lesson.title}
         </h2>
         <p className="text-sm text-ink-muted leading-relaxed line-clamp-2 flex-1">

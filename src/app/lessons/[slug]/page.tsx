@@ -27,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-
 function splitAfterFirstSection(html: string): { before: string; after: string } {
   const match = html.match(/^(<[\s\S]*?<\/h2>[\s\S]*?)(<h2[\s\S]*)$/i);
   if (!match) return { before: html, after: "" };
@@ -47,7 +46,6 @@ export default async function LessonPage({ params }: Props) {
 
   const all = getAllLessonMetas();
   const idx = all.findIndex((l) => l.slug === slug);
-  // all is newest-first; previous chronologically = next in array
   const newer = idx > 0 ? all[idx - 1] : null;
   const older = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
   const art = getLessonArt(slug);
@@ -56,28 +54,24 @@ export default async function LessonPage({ params }: Props) {
   );
 
   return (
-    <article className="mx-auto max-w-shell px-5 sm:px-8 py-8 sm:py-12">
+    <article className="mx-auto max-w-lesson px-4 sm:px-6 py-6 sm:py-8">
       <Link
         href="/"
-        className="inline-flex items-center gap-1.5 text-sm text-ink-muted hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded"
+        className="inline-flex items-center gap-1 text-[0.8125rem] text-ink-muted hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded"
       >
         <span aria-hidden>←</span> 返回目录
       </Link>
 
-      {/* Hero */}
-      <header className="mt-6 mb-8 sm:mb-10 relative overflow-hidden rounded-3xl border border-ink/10 bg-paper-elevated shadow-card">
+      {/* Compact hero — meta + title + summary packed */}
+      <header className="mt-4 mb-6 rounded-2xl border border-ink/10 bg-paper-elevated shadow-soft overflow-hidden">
         <div
-          className="absolute inset-0 pointer-events-none"
+          className="h-1 bg-gradient-to-r from-accent via-accent/50 to-sage/40"
           aria-hidden
-          style={{
-            background:
-              "radial-gradient(ellipse 70% 80% at 0% 0%, rgba(154,52,18,0.09), transparent 55%), radial-gradient(ellipse 50% 60% at 100% 100%, rgba(63,98,18,0.06), transparent 50%)",
-          }}
         />
-        <div className="relative px-5 py-7 sm:px-8 sm:py-9 lg:px-10 lg:py-10">
-          <div className="flex flex-wrap items-center gap-2 text-xs text-ink-muted mb-5">
+        <div className="px-4 py-4 sm:px-5 sm:py-5">
+          <div className="flex flex-wrap items-center gap-1.5 text-xs text-ink-muted mb-3">
             {lesson.issue != null && (
-              <span className="meta-pill-accent meta-pill rounded-full px-2.5 py-0.5 text-xs font-medium">
+              <span className="meta-pill-accent meta-pill rounded-full px-2 py-0.5 text-xs font-medium">
                 第 {lesson.issue} 期
               </span>
             )}
@@ -89,14 +83,14 @@ export default async function LessonPage({ params }: Props) {
               <span className="meta-pill">{lesson.difficulty}</span>
             ) : null}
           </div>
-          <h1 className="font-serif text-[1.75rem] sm:text-[2.15rem] lg:text-[2.35rem] text-ink leading-snug mb-5 max-w-3xl">
+          <h1 className="font-serif text-[1.55rem] sm:text-[1.85rem] text-ink leading-snug mb-3">
             {lesson.title}
           </h1>
-          <div className="max-w-prose rounded-2xl border border-accent/15 bg-accent/[0.05] px-4 py-3.5 sm:px-5 sm:py-4">
-            <p className="text-[0.7rem] font-semibold tracking-wide text-accent mb-1.5">
+          <div className="rounded-xl border border-accent/20 bg-accent/[0.06] px-3.5 py-3">
+            <p className="text-[0.68rem] font-semibold tracking-wide text-accent mb-1">
               这一课在解决什么
             </p>
-            <p className="text-ink-muted leading-relaxed text-[1.02rem] sm:text-[1.05rem]">
+            <p className="text-ink-muted leading-relaxed text-[0.98rem]">
               {lesson.summary}
             </p>
           </div>
@@ -104,14 +98,14 @@ export default async function LessonPage({ params }: Props) {
       </header>
 
       {/* Mobile TOC */}
-      <div className="mb-8 lg:hidden">
+      <div className="mb-5 lg:hidden">
         <Toc items={lesson.toc} variant="panel" />
       </div>
 
-      {/* Body + sticky rail */}
-      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_15rem] lg:gap-12 xl:grid-cols-[minmax(0,1fr)_16rem] xl:gap-14">
-        <div className="min-w-0 max-w-prose lg:max-w-none">
-          <div className="prose-lesson max-w-prose">
+      {/* Packed editorial grid: prose fills, TOC sits tight beside it */}
+      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_11.5rem] lg:gap-7 xl:grid-cols-[minmax(0,1fr)_12rem] xl:gap-8">
+        <div className="min-w-0">
+          <div className="prose-lesson">
             <div dangerouslySetInnerHTML={{ __html: bodyBefore }} />
             {art.diagram ? (
               <LessonFigure
@@ -124,7 +118,7 @@ export default async function LessonPage({ params }: Props) {
           </div>
 
           {lesson.quiz.length > 0 && (
-            <div className="mt-14 pt-10 border-t border-ink/10 max-w-prose">
+            <div className="mt-10 pt-8 border-t border-ink/10">
               <Quiz questions={lesson.quiz} />
             </div>
           )}
@@ -132,13 +126,13 @@ export default async function LessonPage({ params }: Props) {
           {lesson.sourceLinks.length > 0 && (
             <section
               id="来源"
-              className="mt-14 pt-10 border-t border-ink/10 scroll-mt-28 max-w-prose"
+              className="mt-10 pt-8 border-t border-ink/10 scroll-mt-24"
             >
-              <p className="text-[0.7rem] font-semibold tracking-wide text-accent mb-2">
+              <p className="text-[0.68rem] font-semibold tracking-wide text-accent mb-1.5">
                 文献
               </p>
-              <h2 className="font-serif text-2xl text-ink mb-5">来源</h2>
-              <ol className="space-y-3 text-sm text-ink-muted list-decimal pl-5">
+              <h2 className="font-serif text-xl text-ink mb-4">来源</h2>
+              <ol className="space-y-2.5 text-sm text-ink-muted list-decimal pl-5">
                 {lesson.sourceLinks.map((s) => (
                   <li key={s.href} className="pl-1">
                     <a
@@ -155,13 +149,13 @@ export default async function LessonPage({ params }: Props) {
             </section>
           )}
 
-          <nav className="mt-14 pt-8 border-t border-ink/10 grid gap-4 sm:grid-cols-2 max-w-prose">
+          <nav className="mt-10 pt-6 border-t border-ink/10 grid gap-3 sm:grid-cols-2">
             {older ? (
               <Link
                 href={`/lessons/${older.slug}`}
-                className="group rounded-2xl border border-ink/10 bg-paper-elevated p-4 shadow-soft hover:border-accent/30 hover:shadow-lift transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+                className="group rounded-xl border border-ink/10 bg-paper-elevated p-3.5 shadow-soft hover:border-accent/30 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
               >
-                <span className="block text-[0.7rem] uppercase tracking-wider text-ink-faint mb-1.5">
+                <span className="block text-[0.65rem] tracking-wider text-ink-faint mb-1">
                   ← 上一期
                 </span>
                 <span className="text-sm text-ink group-hover:text-accent transition-colors leading-snug line-clamp-2">
@@ -174,9 +168,9 @@ export default async function LessonPage({ params }: Props) {
             {newer ? (
               <Link
                 href={`/lessons/${newer.slug}`}
-                className="group rounded-2xl border border-ink/10 bg-paper-elevated p-4 shadow-soft hover:border-accent/30 hover:shadow-lift transition-all sm:text-right focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
+                className="group rounded-xl border border-ink/10 bg-paper-elevated p-3.5 shadow-soft hover:border-accent/30 transition-all sm:text-right focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
               >
-                <span className="block text-[0.7rem] uppercase tracking-wider text-ink-faint mb-1.5">
+                <span className="block text-[0.65rem] tracking-wider text-ink-faint mb-1">
                   下一期 →
                 </span>
                 <span className="text-sm text-ink group-hover:text-accent transition-colors leading-snug line-clamp-2">
@@ -190,7 +184,7 @@ export default async function LessonPage({ params }: Props) {
         </div>
 
         <aside className="hidden lg:block">
-          <div className="sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto pr-1">
+          <div className="sticky top-20">
             <Toc items={lesson.toc} variant="rail" />
           </div>
         </aside>

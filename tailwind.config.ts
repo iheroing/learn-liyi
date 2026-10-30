@@ -9,9 +9,10 @@ export default {
   theme: {
     extend: {
       maxWidth: {
-        reading: "42rem",
-        shell: "72rem",
-        prose: "46rem",
+        reading: "40rem",
+        shell: "64rem",
+        prose: "40rem",
+        lesson: "58rem",
       },
       colors: {
         paper: {
@@ -54,9 +55,9 @@ export default {
         ],
       },
       boxShadow: {
-        soft: "0 1px 2px rgba(28, 25, 23, 0.04), 0 8px 24px rgba(28, 25, 23, 0.04)",
-        card: "0 1px 3px rgba(28, 25, 23, 0.05), 0 12px 32px rgba(28, 25, 23, 0.06)",
-        lift: "0 4px 16px rgba(28, 25, 23, 0.08)",
+        soft: "0 1px 2px rgba(28, 25, 23, 0.04), 0 6px 18px rgba(28, 25, 23, 0.045)",
+        card: "0 1px 2px rgba(28, 25, 23, 0.05), 0 8px 24px rgba(28, 25, 23, 0.055)",
+        lift: "0 4px 14px rgba(28, 25, 23, 0.08)",
       },
     },
   },
