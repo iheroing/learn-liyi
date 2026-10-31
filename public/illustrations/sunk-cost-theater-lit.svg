@@ -1,0 +1,62 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="theater-title theater-desc">
+  <title id="theater-title">剧场季票示意：预付越高，随后到场越多</title>
+  <desc id="theater-desc">分组柱状图。横轴为季票预付价格档，纵轴为随后六个月到场次数（示意）。预付越高，柱越高。示意 Arkes &amp; Blumer 1985 方向，非精确数据。</desc>
+  <defs>
+    <pattern id="theater-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#theater-dots)" opacity="0.45"/>
+
+  <g stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.08">
+    <line x1="140" y1="331" x2="860" y2="331"/>
+    <line x1="140" y1="262" x2="860" y2="262"/>
+    <line x1="140" y1="194" x2="860" y2="194"/>
+    <line x1="140" y1="125" x2="860" y2="125"/>
+    <line x1="140" y1="56" x2="860" y2="56"/>
+  </g>
+  <line x1="140" y1="56" x2="140" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+  <line x1="140" y1="400" x2="860" y2="400" stroke="#1c1917" stroke-width="1" stroke-opacity="0.28"/>
+
+  <!-- Y ticks: 0–10 attendance (示意). y = 400 - v*34.4 -->
+  <g fill="#57534e" font-size="11" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">
+    <text x="132" y="404">0</text>
+    <text x="132" y="335">2</text>
+    <text x="132" y="266">4</text>
+    <text x="132" y="198">6</text>
+    <text x="132" y="129">8</text>
+    <text x="132" y="60">10</text>
+  </g>
+
+  <!-- Three price tiers: low / mid / high prepaid
+       Directional: ~4.0, ~5.5, ~7.0 attendance
+       y: 400-4*34.4=262.4; 400-5.5*34.4=210.8; 400-7*34.4=159.2
+       bar centers: 280, 500, 720; bar w=56
+  -->
+  <rect x="252" y="262" width="56" height="138" fill="#1c1917" fill-opacity="0.45" stroke="#1c1917" stroke-width="1" stroke-opacity="0.65"/>
+  <rect x="472" y="211" width="56" height="189" fill="#9a3412" fill-opacity="0.75" stroke="#9a3412" stroke-width="1"/>
+  <rect x="692" y="159" width="56" height="241" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+
+  <!-- Endpoint values above bars -->
+  <g fill="#57534e" font-size="12" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">
+    <text x="280" y="252">~4</text>
+    <text x="500" y="201">~5.5</text>
+    <text x="720" y="149">~7</text>
+  </g>
+
+  <g fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="280" y="424">低价预付</text>
+    <text x="500" y="424">中价预付</text>
+    <text x="720" y="424">高价预付</text>
+  </g>
+
+  <text x="500" y="448" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">季票购票时预付价格档</text>
+  <text transform="rotate(-90 36 228)" x="36" y="228" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">随后六个月到场次数（示意）</text>
+
+  <line x1="40" y1="472" x2="920" y2="472" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="484" width="16" height="12" fill="#9a3412" stroke="#9a3412" stroke-width="1"/>
+  <text x="118" y="496" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">预付越高 → 到场越多</text>
+  <text x="920" y="496" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">示意方向 · 非原文精确点</text>
+</svg>

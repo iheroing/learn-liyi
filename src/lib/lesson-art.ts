@@ -77,6 +77,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-learning.svg",
     coverTint: "from-sage/20 via-paper-elevated to-paper-elevated",
   },
+  "sunk-cost": {
+    figures: [
+      {
+        src: "/illustrations/sunk-cost.svg",
+        alt: "沉没成本机制对照：错算把已沉没投入塞进继续成本，正解只比未来增量并划掉沉没",
+        caption:
+          "左：把已花掉的塞进「继续」的账，更易硬撑。右：沉没写进账本再划掉，只比从现在起的增量成本与收益。",
+        afterHeading: "",
+      },
+      {
+        src: "/illustrations/sunk-cost-theater-lit.svg",
+        alt: "剧场季票文献向重绘：预付价格越高，随后六个月到场次数越多",
+        caption:
+          "文献向示意（Arkes & Blumer, 1985）：购票时付得更多的观众，随后六个月到场更多——更贵的沉没，对应更强的「必须用掉」压力。柱高为方向示意，非原文精确次数。DOI: 10.1016/0749-5978(85)90049-4。",
+        afterHeading: "在算什么",
+      },
+      {
+        src: "/illustrations/sunk-cost-metaphor.jpg",
+        alt: "隐喻插图：空座位上搁着未用的票，窗外暴风雪",
+        caption:
+          "票已买、窗外暴风雪：去或不去都拿不回票款；真正该比的是今晚出门的辛苦，和看球的好处。",
+        afterHeading: "别搞错的地方",
+      },
+    ],
+    diagram: "/illustrations/sunk-cost.svg",
+    diagramAlt: "沉没成本机制对照：错算把已沉没投入塞进继续成本，正解只比未来增量并划掉沉没",
+    diagramCaption: "左：把已花掉的塞进「继续」的账。右：沉没划掉，只比从现在起的增量。",
+    icon: "/icons/domain-economics.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
 };
 
 export function getLessonArt(slug: string): LessonArt {
@@ -98,6 +128,9 @@ export function iconForDomain(domain: string): string {
   }
   if (domain.includes("学习")) {
     return "/icons/domain-learning.svg";
+  }
+  if (domain.includes("经济")) {
+    return "/icons/domain-economics.svg";
   }
   return "/icons/domain-default.svg";
 }

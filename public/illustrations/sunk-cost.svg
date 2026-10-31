@@ -1,0 +1,79 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sunk-title sunk-desc" id="sunk-root">
+  <title id="sunk-title">沉没成本：错误与正确的决策方程</title>
+  <desc id="sunk-desc">左右对照。左：把已沉没投入塞进继续成本。右：只比未来增量成本与收益，沉没成本划掉并置于方程外。</desc>
+  <defs>
+    <pattern id="sunk-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#sunk-dots)" opacity="0.45"/>
+
+  <!-- Panel frames -->
+  <rect x="36" y="48" width="430" height="380" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="494" y="48" width="430" height="380" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+
+  <!-- Left panel header: WRONG -->
+  <rect x="56" y="68" width="56" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="84" y="84" fill="#9a3412" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">错算</text>
+  <text x="252" y="110" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">把沉没塞进「继续」</text>
+
+  <!-- Left equation boxes stacked -->
+  <!-- Sunk cost box (being stuffed in) -->
+  <rect x="86" y="140" width="300" height="52" rx="6" fill="#9a3412" fill-opacity="0.10" stroke="#9a3412" stroke-width="1.4"/>
+  <text x="236" y="162" fill="#9a3412" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已沉没投入</text>
+  <text x="236" y="180" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已花的钱 / 时间 / 精力</text>
+
+  <!-- Arrow down stuffing -->
+  <path d="M236 200 L236 228" stroke="#9a3412" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M228 220 L236 232 L244 220" fill="none" stroke="#9a3412" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Continue cost (inflated) -->
+  <rect x="86" y="240" width="300" height="72" rx="6" fill="#1c1917" fill-opacity="0.06" stroke="#1c1917" stroke-width="1" stroke-opacity="0.35"/>
+  <text x="236" y="268" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">「继续」的成本（被抬高）</text>
+  <text x="236" y="290" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">= 未来增量 + 已沉没投入</text>
+
+  <text x="236" y="350" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">→ 更容易选「硬着头皮继续」</text>
+  <text x="236" y="372" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">听起来负责，算账却错了</text>
+
+  <!-- Right panel header: RIGHT -->
+  <rect x="514" y="68" width="56" height="22" rx="4" fill="#3f6212" fill-opacity="0.14"/>
+  <text x="542" y="84" fill="#3f6212" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">正解</text>
+  <text x="709" y="110" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只比从现在起的增量</text>
+
+  <!-- Sunk cost OUTSIDE equation, struck through -->
+  <rect x="544" y="140" width="300" height="52" rx="6" fill="#1c1917" fill-opacity="0.04" stroke="#57534e" stroke-width="1" stroke-dasharray="4 3" stroke-opacity="0.55"/>
+  <text x="694" y="162" fill="#57534e" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已沉没投入</text>
+  <text x="694" y="180" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">写进账本 · 不进决策方程</text>
+  <!-- strike line across the box -->
+  <line x1="560" y1="166" x2="828" y2="166" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
+  <!-- label outside -->
+  <text x="694" y="128" fill="#9a3412" font-size="11" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">方程外 · 划掉</text>
+
+  <!-- Decision equation: future only -->
+  <rect x="544" y="220" width="140" height="92" rx="6" fill="#3f6212" fill-opacity="0.10" stroke="#3f6212" stroke-width="1.4"/>
+  <text x="614" y="252" fill="#3f6212" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">未来增量成本</text>
+  <text x="614" y="274" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还要花多少</text>
+  <text x="614" y="294" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">时间 / 钱</text>
+
+  <text x="704" y="270" fill="#1c1917" font-size="18" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">vs</text>
+
+  <rect x="724" y="220" width="120" height="92" rx="6" fill="#3f6212" fill-opacity="0.10" stroke="#3f6212" stroke-width="1.4"/>
+  <text x="784" y="252" fill="#3f6212" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">未来增量收益</text>
+  <text x="784" y="274" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">预期多一点</text>
+  <text x="784" y="294" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">什么</text>
+
+  <text x="709" y="350" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">→ 继续或停下，只看这条比较</text>
+  <text x="709" y="372" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">「都投了这么多」不是充分理由</text>
+
+  <!-- Legend -->
+  <line x1="40" y1="456" x2="920" y2="456" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="472" width="16" height="12" fill="#9a3412" fill-opacity="0.12" stroke="#9a3412" stroke-width="1.2"/>
+  <text x="118" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">错算：沉没进方程</text>
+  <rect x="280" y="472" width="16" height="12" fill="#3f6212" fill-opacity="0.12" stroke="#3f6212" stroke-width="1.2"/>
+  <text x="302" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">正解：只比未来增量</text>
+  <line x1="470" y1="478" x2="498" y2="478" stroke="#9a3412" stroke-width="1.6"/>
+  <text x="506" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">沉没划掉</text>
+  <text x="920" y="484" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>
