@@ -1,0 +1,67 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="triad-title triad-desc" id="triad-root">
+  <title id="triad-title">三课决策输入：校准、检索、沉没</title>
+  <desc id="triad-desc">三块输入汇入干净决策：校准管口头把握对账，检索管延后可提取，沉没管下一步只比增量。</desc>
+  <defs>
+    <pattern id="triad-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#triad-dots)" opacity="0.45"/>
+
+  <!-- Three input cards -->
+  <rect x="48" y="56" width="260" height="220" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="350" y="56" width="260" height="220" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="652" y="56" width="260" height="220" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+
+  <!-- Card 1: 校准 -->
+  <rect x="68" y="76" width="72" height="22" rx="4" fill="#0f6e6b" fill-opacity="0.12"/>
+  <text x="104" y="92" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">校准</text>
+  <text x="178" y="128" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">概率校准</text>
+  <text x="178" y="158" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">口头把握写成数字</text>
+  <text x="178" y="180" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">事后对账贴真实频率</text>
+  <text x="178" y="220" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">管「我说几成算几成」</text>
+  <text x="178" y="248" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">Lichtenstein &amp; Fischhoff</text>
+
+  <!-- Card 2: 检索 -->
+  <rect x="370" y="76" width="72" height="22" rx="4" fill="#3d4f66" fill-opacity="0.14"/>
+  <text x="406" y="92" fill="#3d4f66" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">检索</text>
+  <text x="480" y="128" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">检索练习</text>
+  <text x="480" y="158" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">合上材料自己想出来</text>
+  <text x="480" y="180" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">延后通常比再读更牢</text>
+  <text x="480" y="220" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">管「几天后还能捞出来」</text>
+  <text x="480" y="248" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">Roediger &amp; Karpicke</text>
+
+  <!-- Card 3: 沉没 -->
+  <rect x="672" y="76" width="72" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="708" y="92" fill="#9a3412" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">沉没</text>
+  <text x="782" y="128" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">沉没成本</text>
+  <text x="782" y="158" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已花投入划出方程</text>
+  <text x="782" y="180" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只比从现在起的增量</text>
+  <text x="782" y="220" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">管「下一步还值不值」</text>
+  <text x="782" y="248" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">Arkes &amp; Blumer</text>
+
+  <!-- Arrows down to merge box -->
+  <path d="M178 286 L178 318" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M170 310 L178 322 L186 310" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 286 L480 318" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M472 310 L480 322 L488 310" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M782 286 L782 318" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M774 310 L782 322 L790 310" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Merge / output -->
+  <rect x="160" y="340" width="640" height="88" rx="8" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-width="1.4"/>
+  <text x="480" y="376" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">干净的决策输入</text>
+  <text x="480" y="404" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">数字能对账 · 知识能提取 · 已沉没的不绑下一步</text>
+
+  <!-- Legend -->
+  <line x1="40" y1="456" x2="920" y2="456" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="472" width="16" height="12" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-width="1.2"/>
+  <text x="118" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">校准</text>
+  <rect x="180" y="472" width="16" height="12" fill="#3d4f66" fill-opacity="0.14" stroke="#3d4f66" stroke-width="1.2"/>
+  <text x="202" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">检索</text>
+  <rect x="264" y="472" width="16" height="12" fill="#9a3412" fill-opacity="0.12" stroke="#9a3412" stroke-width="1.2"/>
+  <text x="286" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">沉没</text>
+  <text x="920" y="484" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>

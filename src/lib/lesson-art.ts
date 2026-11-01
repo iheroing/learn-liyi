@@ -107,6 +107,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-economics.svg",
     coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
   },
+  "week-review-1101": {
+    figures: [
+      {
+        src: "/illustrations/week-review-triad.svg",
+        alt: "三课决策输入总图：概率校准、检索练习、沉没成本汇入干净的决策输入",
+        caption:
+          "本周三课都在改决策输入：校准管对账、检索管提取、沉没管下一步只比增量——先让输入干净，再谈更大策略。",
+        afterHeading: "",
+      },
+      {
+        src: "/illustrations/week-review-trap.svg",
+        alt: "三课互相绊脚链条：校准×检索、校准×沉没、检索×沉没，以及拆开先改一件",
+        caption:
+          "叠在同一件事上常互相推一把：再读抬自信却标错对象；已投入污染成功概率；卡顿感推回再读。拆开做，先改最痛的一件。",
+        afterHeading: "怎么互相绊脚",
+      },
+      {
+        src: "/illustrations/week-review-metaphor.jpg",
+        alt: "隐喻插图：桌上三张输入卡片与空白策略本，暗示先整理输入再谈策略",
+        caption:
+          "三张干净输入摆好，再写策略本：数字能对账、知识能提取、已沉没的不绑下一步。",
+        afterHeading: "三句自检",
+      },
+    ],
+    diagram: "/illustrations/week-review-triad.svg",
+    diagramAlt: "三课决策输入总图：概率校准、检索练习、沉没成本汇入干净的决策输入",
+    diagramCaption: "校准、检索、沉没汇入干净的决策输入。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
 };
 
 export function getLessonArt(slug: string): LessonArt {
@@ -131,6 +161,9 @@ export function iconForDomain(domain: string): string {
   }
   if (domain.includes("经济")) {
     return "/icons/domain-economics.svg";
+  }
+  if (domain.includes("回顾")) {
+    return "/icons/domain-default.svg";
   }
   return "/icons/domain-default.svg";
 }

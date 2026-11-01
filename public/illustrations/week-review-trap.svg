@@ -1,0 +1,69 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="trap-title trap-desc" id="trap-root">
+  <title id="trap-title">三课互相绊脚：过置信到躲检索再到沉没再扫</title>
+  <desc id="trap-desc">左到右三条链条：再读抬熟悉感导致过置信；过置信不愿合书硬想；已投入推着再扫。下方对照正解拆开做。</desc>
+  <defs>
+    <pattern id="trap-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#trap-dots)" opacity="0.45"/>
+
+  <!-- Header -->
+  <text x="480" y="44" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">常见翻车链：三课叠在同一件事上</text>
+
+  <!-- Three cascade panels -->
+  <rect x="40" y="68" width="280" height="250" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="340" y="68" width="280" height="250" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="640" y="68" width="280" height="250" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+
+  <!-- Panel 1: 校准 × 检索 -->
+  <rect x="56" y="84" width="100" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="106" y="100" fill="#9a3412" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">校准 × 检索</text>
+  <text x="180" y="140" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">再读抬熟悉感</text>
+  <path d="M180 156 L180 178" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M172 170 L180 182 L188 170" fill="none" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="208" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">自信跟着涨</text>
+  <path d="M180 224 L180 246" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M172 238 L180 250 L188 238" fill="none" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="276" fill="#9a3412" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">标的是流畅感</text>
+  <text x="180" y="296" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">不是可提取的知识</text>
+
+  <!-- Panel 2: 校准 × 沉没 -->
+  <rect x="356" y="84" width="100" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="406" y="100" fill="#9a3412" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">校准 × 沉没</text>
+  <text x="480" y="140" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已为方案花过钱</text>
+  <path d="M480 156 L480 178" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M472 170 L480 182 L488 170" fill="none" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="480" y="208" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">成功概率估更高</text>
+  <path d="M480 224 L480 246" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M472 238 L480 250 L488 238" fill="none" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="480" y="276" fill="#9a3412" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">置信被污染</text>
+  <text x="480" y="296" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已投入不是新证据</text>
+
+  <!-- Panel 3: 检索 × 沉没 -->
+  <rect x="656" y="84" width="100" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="706" y="100" fill="#9a3412" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">检索 × 沉没</text>
+  <text x="780" y="140" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">合书一开始会卡</text>
+  <path d="M780 156 L780 178" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M772 170 L780 182 L788 170" fill="none" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="780" y="208" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">像「白花了时间」</text>
+  <path d="M780 224 L780 246" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M772 238 L780 250 L788 238" fill="none" stroke="#9a3412" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="780" y="276" fill="#9a3412" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">退回再读</text>
+  <text x="780" y="296" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">卡顿是练习成本</text>
+
+  <!-- Bottom fix bar -->
+  <rect x="40" y="346" width="880" height="86" rx="8" fill="#3f6212" fill-opacity="0.10" stroke="#3f6212" stroke-width="1.4"/>
+  <text x="480" y="380" fill="#3f6212" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">拆开做，先改一件</text>
+  <text x="480" y="408" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">过置信 → 写可揭晓概率并对账　｜　躲检索 → 合书自测　｜　被沉没推着 → 零基对照</text>
+
+  <!-- Legend -->
+  <line x1="40" y1="456" x2="920" y2="456" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="472" width="16" height="12" fill="#9a3412" fill-opacity="0.12" stroke="#9a3412" stroke-width="1.2"/>
+  <text x="118" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">绊脚链</text>
+  <rect x="200" y="472" width="16" height="12" fill="#3f6212" fill-opacity="0.10" stroke="#3f6212" stroke-width="1.2"/>
+  <text x="222" y="484" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">拆开改一件</text>
+  <text x="920" y="484" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>
