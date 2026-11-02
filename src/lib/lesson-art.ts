@@ -137,6 +137,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-default.svg",
     coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
   },
+  "regression-to-the-mean": {
+    figures: [
+      {
+        src: "/illustrations/regression-scatter.svg",
+        alt: "两次模考散点图（模拟数据，r≈0.5）：第一次最低和最高的一批，第二次平均都往总体均值 70 分靠拢",
+        caption:
+          "模拟数据、没有任何干预：按第一次成绩挑出的最低一批平均从 56 涨到 62，最高一批从 81 掉到 75。两次相关越低，往回走得越多。",
+        afterHeading: "在算什么",
+      },
+      {
+        src: "/illustrations/regression-metaphor.jpg",
+        alt: "隐喻插图：远处特别高的浪和特别低的浪谷，靠近中间水平线时都变平",
+        caption:
+          "极端的那一次里，运气往往站在同一边；下一次运气重新抽签，高浪和低谷都会往平常的水位靠。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/regression-control.svg",
+        alt: "对照设计柱状图（示意数据）：最差 30 人随机分两组，对照组涨 6 分是自然回归，加练班多出的 5 分才是课程作用",
+        caption:
+          "示意数据：两组都因「最差」被挑中再随机分开，都会回升。照常组的涨幅是自然回归，加练班多出来的那一截才算课程的作用。",
+        afterHeading: "下次怎么判断",
+      },
+    ],
+    diagram: "/illustrations/regression-scatter.svg",
+    diagramAlt: "两次模考散点图：被挑出两端的平均分往均值回归",
+    diagramCaption: "按极端值挑出的一批，下次平均往均值靠。",
+    icon: "/icons/domain-probability.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
 };
 
 export function getLessonArt(slug: string): LessonArt {
