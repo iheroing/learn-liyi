@@ -137,6 +137,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-default.svg",
     coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
   },
+  "batna": {
+    figures: [
+      {
+        src: "/illustrations/batna-zopa.svg",
+        alt: "续租示例数轴：房东保留点约 5075、租客保留点约 5633，中间可成交区间，报价 5800 在区间外",
+        caption:
+          "把两边的退路都折成保留点：重叠段是可成交区间。5800 落在区间外，多半是试探。数字来自课文假设算例。",
+        afterHeading: "在算什么",
+      },
+      {
+        src: "/illustrations/batna-alt-strength.svg",
+        alt: "文献向柱状示意：没有退路、弱替代、强替代时谈成条件依次更好",
+        caption:
+          "文献向示意（Pinkley, Neale & Bennett, 1994 等）：有无替代、替代好坏，都会推谈判结果。柱高只表示方向，非原文精确分数。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/batna-metaphor.jpg",
+        alt: "隐喻插图：左侧只盯桌上报价，右侧先摸清替代房与钥匙",
+        caption:
+          "桌上的硬气，多半不来自嘴皮，而来自上桌前已经摸实的那条退路。",
+        afterHeading: "上桌前做这五步",
+      },
+    ],
+    diagram: "/illustrations/batna-zopa.svg",
+    diagramAlt: "续租示例数轴：可成交区间与保留点",
+    diagramCaption: "保留点来自真会走的退路；重叠越大越好谈。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "regression-to-the-mean": {
     figures: [
       {
@@ -193,6 +223,9 @@ export function iconForDomain(domain: string): string {
     return "/icons/domain-economics.svg";
   }
   if (domain.includes("回顾")) {
+    return "/icons/domain-default.svg";
+  }
+  if (domain.includes("沟通") || domain.includes("谈判")) {
     return "/icons/domain-default.svg";
   }
   return "/icons/domain-default.svg";
