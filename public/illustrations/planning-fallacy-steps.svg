@@ -1,0 +1,36 @@
+<svg viewBox="0 0 960 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pf-st-title pf-st-desc">
+  <title id="pf-st-title">参照类预测三步</title>
+  <desc id="pf-st-desc">第一步选参照类，第二步看该类实际结果分布，第三步把本次锚到分布上，只为有证据的差异做小幅调整。</desc>
+  <defs><pattern id="pf-st-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/></pattern></defs>
+  <rect width="960" height="400" fill="#f7f3eb"/><rect width="960" height="400" fill="url(#pf-st-dots)" opacity="0.45"/>
+  <text x="48" y="44" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">参照类预测：把外部视角做成三步</text>
+  <g font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="90" width="256" height="200" rx="10" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.18"/>
+    <text x="72" y="130" fill="#0f6e6b" font-size="26" font-weight="700">1</text>
+    <text x="72" y="166" fill="#1c1917" font-size="15" font-weight="600">选参照类</text>
+    <text x="72" y="196" fill="#57534e" font-size="12">体量接近、约束接近</text>
+    <text x="72" y="218" fill="#57534e" font-size="12">个人任务找 3–5 件往事</text>
+    <text x="72" y="240" fill="#78716c" font-size="12">太窄找不到数，太宽会失真</text>
+
+    <rect x="352" y="90" width="256" height="200" rx="10" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.18"/>
+    <text x="376" y="130" fill="#0f6e6b" font-size="26" font-weight="700">2</text>
+    <text x="376" y="166" fill="#1c1917" font-size="15" font-weight="600">看实际结果分布</text>
+    <text x="376" y="196" fill="#57534e" font-size="12">查日历、文件时间戳</text>
+    <text x="376" y="218" fill="#57534e" font-size="12">看中位数或偏慢那一档</text>
+    <text x="376" y="240" fill="#78716c" font-size="12">不凭印象</text>
+
+    <rect x="656" y="90" width="256" height="200" rx="10" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-opacity="0.45"/>
+    <text x="680" y="130" fill="#0f6e6b" font-size="26" font-weight="700">3</text>
+    <text x="680" y="166" fill="#1c1917" font-size="15" font-weight="600">把本次锚上去</text>
+    <text x="680" y="196" fill="#57534e" font-size="12">默认用参照中位数当基准</text>
+    <text x="680" y="218" fill="#57534e" font-size="12">有证据才小幅下调</text>
+    <text x="680" y="240" fill="#78716c" font-size="12">并写明理由</text>
+  </g>
+  <g stroke="#0f6e6b" stroke-opacity="0.6" stroke-width="2" fill="none">
+    <path d="M312 190 L344 190 M336 183 L344 190 L336 197"/>
+    <path d="M616 190 L648 190 M640 183 L648 190 L640 197"/>
+  </g>
+  <line x1="40" y1="330" x2="920" y2="330" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="360" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">步骤参考 Flyvbjerg（2006）对参照类预测的概括</text>
+  <text x="920" y="360" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">计划不取消，改的是数字从哪来</text>
+</svg>

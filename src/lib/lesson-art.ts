@@ -137,6 +137,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-default.svg",
     coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
   },
+  "planning-fallacy": {
+    figures: [
+      {
+        src: "/illustrations/planning-fallacy-outside-view.svg",
+        alt: "点线示意：内部估计 3 天，近三次同类交付实际 9、11、14 天，中位数 11 天",
+        caption:
+          "脑内剧本说三天，同类事的实际用时说十一天左右。先拿参照类的中位数当基准，再谈这次能不能更快。数字来自课文自测题的假设算例。",
+        afterHeading: "在算什么",
+      },
+      {
+        src: "/illustrations/planning-fallacy-buehler.svg",
+        alt: "柱状重绘：毕业论文一切顺利预测 27.4 天、最可能预测 33.9 天、一切不顺预测 48.6 天、实际完成 55.5 天",
+        caption:
+          "Buehler, Griffin & Ross（1994）研究 1：学生的「最可能」预测约 34 天，实际平均约 56 天，连「一切不顺」的预测都没兜住。按常被引用的均值重绘。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/planning-fallacy-steps.svg",
+        alt: "三步流程：选参照类、看实际结果分布、把本次锚到分布上",
+        caption:
+          "参照类预测不取消计划，只改计划上的数字从哪来。步骤参考 Flyvbjerg（2006）。",
+        afterHeading: "下次估工期做这几步",
+      },
+    ],
+    diagram: "/illustrations/planning-fallacy-outside-view.svg",
+    diagramAlt: "内部估计与参照类实际用时对比",
+    diagramCaption: "先问同类事以前实际花多久，再决定这次报多少。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "batna": {
     figures: [
       {

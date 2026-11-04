@@ -1,0 +1,45 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pf-ov-title pf-ov-desc">
+  <title id="pf-ov-title">内部估计与参照类：同一件事两种估法</title>
+  <desc id="pf-ov-desc">课文假设算例。内部估计 3 天；近三次同类交付实际 9、11、14 天，中位数 11 天，作为新的工作估计。</desc>
+  <defs><pattern id="pf-ov-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/></pattern></defs>
+  <rect width="960" height="540" fill="#f7f3eb"/><rect width="960" height="540" fill="url(#pf-ov-dots)" opacity="0.45"/>
+  <text x="48" y="44" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一件事，两种估法：脑内剧本 vs 同类事实际用时（示意）</text>
+  <!-- axis: 0..16 days, px = 120 + d*45 -->
+  <line x1="120" y1="380" x2="840" y2="380" stroke="#1c1917" stroke-opacity="0.35" stroke-width="2"/>
+  <g fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <line x1="120" y1="372" x2="120" y2="388" stroke="#1c1917" stroke-opacity="0.25"/><text x="120" y="408">0</text>
+    <line x1="300" y1="372" x2="300" y2="388" stroke="#1c1917" stroke-opacity="0.25"/><text x="300" y="408">4</text>
+    <line x1="480" y1="372" x2="480" y2="388" stroke="#1c1917" stroke-opacity="0.25"/><text x="480" y="408">8</text>
+    <line x1="660" y1="372" x2="660" y2="388" stroke="#1c1917" stroke-opacity="0.25"/><text x="660" y="408">12</text>
+    <line x1="840" y1="372" x2="840" y2="388" stroke="#1c1917" stroke-opacity="0.25"/><text x="840" y="408">16</text>
+  </g>
+  <text x="480" y="436" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">完成用时（天）</text>
+
+  <!-- row labels -->
+  <text x="48" y="164" fill="#b45309" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">内部视角</text>
+  <text x="48" y="184" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">脑内演一遍</text>
+  <text x="48" y="284" fill="#0f6e6b" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">外部视角</text>
+  <text x="48" y="304" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">近三次同类</text>
+
+  <!-- inside estimate: 3 days -> 255 -->
+  <line x1="120" y1="172" x2="255" y2="172" stroke="#b45309" stroke-width="10" stroke-linecap="round" stroke-opacity="0.75"/>
+  <text x="275" y="177" fill="#b45309" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">「专心写三天够了」</text>
+
+  <!-- reference class: 9 ->525, 11 ->615, 14 ->750 -->
+  <line x1="525" y1="292" x2="750" y2="292" stroke="#0f6e6b" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="525" cy="292" r="7" fill="#0f6e6b" fill-opacity="0.55"/>
+  <circle cx="615" cy="292" r="9" fill="#0f6e6b"/>
+  <circle cx="750" cy="292" r="7" fill="#0f6e6b" fill-opacity="0.55"/>
+  <text x="525" y="266" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">9 天</text>
+  <text x="750" y="266" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">14 天</text>
+  <text x="615" y="262" fill="#0f6e6b" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">中位数 11 天</text>
+  <text x="615" y="330" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">新的工作估计从这里起</text>
+
+  <!-- dashed drop lines to axis -->
+  <line x1="255" y1="184" x2="255" y2="370" stroke="#b45309" stroke-opacity="0.35" stroke-dasharray="4 5"/>
+  <line x1="615" y1="342" x2="615" y2="370" stroke="#0f6e6b" stroke-opacity="0.45" stroke-dasharray="4 5"/>
+
+  <line x1="40" y1="470" x2="920" y2="470" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="500" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">数字来自课文自测题的假设算例（9、11、14 天）</text>
+  <text x="920" y="500" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">示意 · 非真实统计</text>
+</svg>

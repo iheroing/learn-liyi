@@ -1,0 +1,40 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pf-bu-title pf-bu-desc">
+  <title id="pf-bu-title">Buehler 等（1994）研究 1：毕业论文预计与实际完成天数</title>
+  <desc id="pf-bu-desc">学生对论文完成天数的平均预测约 34 天，最好情况约 27 天，最坏情况约 49 天，实际平均约 56 天，比最坏情况还长。</desc>
+  <defs><pattern id="pf-bu-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/></pattern></defs>
+  <rect width="960" height="540" fill="#f7f3eb"/><rect width="960" height="540" fill="url(#pf-bu-dots)" opacity="0.45"/>
+  <text x="48" y="44" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">毕业论文要写多久：学生的三种预测与实际（重绘）</text>
+  <!-- baseline y=400, scale 5px/day: 60 days = 300px -->
+  <line x1="120" y1="400" x2="860" y2="400" stroke="#1c1917" stroke-opacity="0.35" stroke-width="2"/>
+  <g fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">
+    <text x="108" y="404">0</text><text x="108" y="304">20</text><text x="108" y="204">40</text><text x="108" y="104">60</text>
+  </g>
+  <g stroke="#1c1917" stroke-opacity="0.08"><line x1="120" y1="300" x2="860" y2="300"/><line x1="120" y1="200" x2="860" y2="200"/><line x1="120" y1="100" x2="860" y2="100"/></g>
+  <text x="62" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle" transform="rotate(-90 62 250)">天数（均值）</text>
+
+  <!-- worst-case dashed reference across -->
+  <line x1="120" y1="157" x2="860" y2="157" stroke="#57534e" stroke-opacity="0.45" stroke-dasharray="5 5"/>
+  <text x="128" y="149" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">最坏情况预测线</text>
+
+  <!-- bars: 27.4 ->137 ; 33.9 ->169.5 ; 48.6 ->243 ; 55.5 ->277.5 -->
+  <rect x="170" y="263" width="110" height="137" fill="#a8a29e" fill-opacity="0.7"/>
+  <rect x="340" y="230.5" width="110" height="169.5" fill="#b45309" fill-opacity="0.75"/>
+  <rect x="510" y="157" width="110" height="243" fill="#a8a29e" fill-opacity="0.7"/>
+  <rect x="680" y="122.5" width="110" height="277.5" fill="#0f6e6b"/>
+  <g font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="225" y="253" fill="#57534e">27.4</text>
+    <text x="395" y="220" fill="#b45309">33.9</text>
+    <text x="565" y="147" fill="#57534e">48.6</text>
+    <text x="735" y="112" fill="#0f6e6b">55.5</text>
+  </g>
+  <g font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle" fill="#57534e">
+    <text x="225" y="424">一切顺利</text>
+    <text x="395" y="424">「最可能」预测</text>
+    <text x="565" y="424">一切不顺</text>
+    <text x="735" y="424" fill="#0f6e6b" font-weight="600">实际完成</text>
+  </g>
+
+  <line x1="40" y1="462" x2="920" y2="462" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="492" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">据 Buehler, Griffin &amp; Ross（1994）研究 1 常被引用的均值重绘</text>
+  <text x="920" y="492" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">实际用时比「最坏情况」还长</text>
+</svg>
