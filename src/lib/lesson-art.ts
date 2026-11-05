@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "out-of-band-verification": {
+    figures: [
+      {
+        src: "/illustrations/oob-channels.svg",
+        alt: "同一通道与换通道核实对照：在对方发起的电话或消息里回复、回拨仍在原线上；先挂断，再用自己早存的号码联系本人",
+        caption:
+          "回复原邮件、回拨消息里的号码都仍在原线；换通道要用消息出现前就掌握的号码、合同电话或官网号码。",
+        afterHeading: "在核什么",
+      },
+      {
+        src: "/illustrations/oob-metaphor.jpg",
+        alt: "隐喻插图：刚挂断来电的手，正在手机通讯录里点选早已保存的联系人",
+        caption:
+          "先结束对方发起的通话，再从自己早已保存的通讯录里找到本人回拨。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/oob-steps.svg",
+        alt: "六步处理可疑急消息：认触发条件、结束对话、用早存号码找本人、家里约暗号、单位付款流程复核、已付款后止损报警",
+        caption:
+          "任一触发条件命中就进入流程；单位改账户要回拨留档号码并由第二人复核，已付款就联系银行尝试拦截并报警。",
+        afterHeading: "碰到这类消息，按这几步走",
+      },
+    ],
+    diagram: "/illustrations/oob-channels.svg",
+    diagramAlt: "同一通道核实与换通道核实对照",
+    diagramCaption: "先挂断，再用自己早已保存的号码或官方渠道主动联系本人。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "probability-calibration": {
     figures: [
       {

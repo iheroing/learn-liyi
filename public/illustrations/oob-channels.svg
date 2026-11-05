@@ -1,0 +1,61 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="oob-channels-title oob-channels-desc">
+  <title id="oob-channels-title">同一通道核实与换通道核实</title>
+  <desc id="oob-channels-desc">左侧是在对方发起的消息、电话或视频里回复和回拨，仍在原来的线上；右侧先挂断，再用自己早已保存的号码主动联系本人。</desc>
+  <defs>
+    <pattern id="oob-channels-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/></pattern>
+  </defs>
+  <rect width="960" height="500" fill="#f7f3eb"/>
+  <rect width="960" height="500" fill="url(#oob-channels-dots)" opacity="0.42"/>
+
+  <text x="48" y="48" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">核实的关键：你还在对方发起的那条线上吗？</text>
+
+  <!-- Same channel -->
+  <rect x="48" y="78" width="416" height="390" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.18"/>
+  <text x="76" y="120" fill="#1c1917" font-size="18" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一通道核实</text>
+  <text x="76" y="146" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">仍在对方发起的电话、邮件或群聊里</text>
+
+  <rect x="76" y="188" width="154" height="108" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.16"/>
+  <rect x="284" y="188" width="154" height="108" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="153" y="230" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">对方来电 / 消息</text>
+  <text x="153" y="256" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">对方发起</text>
+  <text x="361" y="230" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">回复 / 回拨</text>
+  <text x="361" y="256" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">消息里给的号码</text>
+  <text x="257" y="222" fill="#78716c" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">原通道</text>
+
+  <line x1="76" y1="332" x2="436" y2="332" stroke="#1c1917" stroke-opacity="0.10"/>
+  <text x="76" y="366" fill="#1c1917" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">回复原邮件、回拨新号码也一样</text>
+  <text x="76" y="392" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">仍由对方控制这条线，回答可以伪造。</text>
+
+  <!-- Switch channel -->
+  <rect x="496" y="78" width="416" height="390" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <rect x="496" y="78" width="416" height="390" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+
+  <!-- Connectors sit above panel fills and below the cards. -->
+  <g fill="none" stroke="#57534e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M236 242 H273"/>
+    <path d="M273 236 L281 242 L273 248"/>
+  </g>
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M630 242 H640"/>
+    <path d="M636 236 L644 242 L636 248"/>
+    <path d="M757 242 H767"/>
+    <path d="M763 236 L771 242 L763 248"/>
+  </g>
+
+  <text x="524" y="120" fill="#1c1917" font-size="18" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">换通道核实</text>
+  <text x="524" y="146" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">挂断后，自己主动找原有联系方式</text>
+
+  <rect x="522" y="188" width="106" height="108" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <rect x="649" y="188" width="106" height="108" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <rect x="776" y="188" width="106" height="108" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <text x="575" y="226" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先挂断</text>
+  <text x="575" y="251" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">结束对话</text>
+  <text x="702" y="226" fill="#0f6e6b" font-size="13" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">翻出自己</text>
+  <text x="702" y="251" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">早存的号码</text>
+  <text x="829" y="226" fill="#0f6e6b" font-size="13" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">主动打给</text>
+  <text x="829" y="251" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">本人确认</text>
+
+  <line x1="524" y1="332" x2="884" y2="332" stroke="#0f6e6b" stroke-opacity="0.18"/>
+  <text x="524" y="366" fill="#1c1917" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">号码来自：通讯录 · 合同 · 官网</text>
+  <text x="524" y="392" fill="#0f6e6b" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不用对方刚给的号码或链接</text>
+</svg>
