@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "premortem": {
+    figures: [
+      {
+        src: "/illustrations/premortem-frame.svg",
+        alt: "同一张计划草稿两种问法对照：普通问风险得到沉默或「应该没大问题」；事前验尸宣布假设已失败后写出具体原因并改计划",
+        caption:
+          "问「还有风险吗」等于请人当众泼冷水；改成「假设已经失败了，每人写出为什么」，具体坑位更容易说出口。",
+        afterHeading: "在核什么",
+      },
+      {
+        src: "/illustrations/premortem-confidence.svg",
+        alt: "文献向柱状示意：普通批评、列优缺点、只列缺点、事前验尸四组中，事前验尸对计划成功信心的下降幅度更大",
+        caption:
+          "文献向示意（Veinott, Klein & Wiggins, 2010）：事前验尸比普通批评更能压下「这份计划会成功」的自信。柱高只表示方向，非原文精确分数。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/premortem-steps.svg",
+        alt: "事前验尸六步：有草稿、宣布失败已成事实、独立写原因、轮流读出只记录、当场改计划、留一页已处理原因",
+        caption:
+          "有可执行草稿再验尸；写完原因必须当场改计划或检查单，否则只是气氛活动。",
+        afterHeading: "敲定前做这几步",
+      },
+    ],
+    diagram: "/illustrations/premortem-frame.svg",
+    diagramAlt: "普通问风险与事前验尸对照",
+    diagramCaption: "把失败当成既定事实，具体原因才更容易说出口。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "out-of-band-verification": {
     figures: [
       {

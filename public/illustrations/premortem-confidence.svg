@@ -1,0 +1,45 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pm-conf-title pm-conf-desc">
+  <title id="pm-conf-title">事前验尸降低计划成功信心（文献向示意）</title>
+  <desc id="pm-conf-desc">方向示意：事前验尸组对计划成功的信心下降幅度，大于普通批评、列优缺点、只列缺点。非 Veinott, Klein &amp; Wiggins（2010）原文精确分数。</desc>
+  <defs><pattern id="pm-conf-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/></pattern></defs>
+  <rect width="960" height="540" fill="#f7f3eb"/><rect width="960" height="540" fill="url(#pm-conf-dots)" opacity="0.45"/>
+  <text x="48" y="44" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">哪种做法更能压下「这份计划会成功」的自信（文献向示意）</text>
+
+  <line x1="120" y1="420" x2="700" y2="420" stroke="#1c1917" stroke-opacity="0.2"/>
+  <text x="100" y="424" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">小</text>
+  <line x1="120" y1="300" x2="700" y2="300" stroke="#1c1917" stroke-opacity="0.06"/>
+  <line x1="120" y1="180" x2="700" y2="180" stroke="#1c1917" stroke-opacity="0.06"/>
+  <text x="100" y="184" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">大</text>
+  <text transform="translate(64 300) rotate(-90)" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">信心下降幅度（示意）</text>
+
+  <!-- bars: crit / pros-cons / cons-only / premortem -->
+  <rect x="160" y="310" width="88" height="110" fill="#57534e" fill-opacity="0.30"/>
+  <text x="204" y="302" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">较小</text>
+  <text x="204" y="444" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">普通批评</text>
+
+  <rect x="300" y="280" width="88" height="140" fill="#57534e" fill-opacity="0.45"/>
+  <text x="344" y="272" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">中等</text>
+  <text x="344" y="444" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">列优缺点</text>
+
+  <rect x="440" y="250" width="88" height="170" fill="#57534e" fill-opacity="0.55"/>
+  <text x="484" y="242" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">偏大</text>
+  <text x="484" y="444" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只列缺点</text>
+
+  <rect x="580" y="160" width="88" height="260" fill="#0f6e6b" fill-opacity="0.70"/>
+  <text x="624" y="152" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">更大</text>
+  <text x="624" y="444" fill="#0f6e6b" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">事前验尸</text>
+
+  <rect x="720" y="120" width="200" height="260" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.15"/>
+  <text x="740" y="152" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">读图要点</text>
+  <text x="740" y="184" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">信心降一点</text>
+  <text x="740" y="208" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不是目的本身。</text>
+  <text x="740" y="244" fill="#0f6e6b" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">目的是把藏着的</text>
+  <text x="740" y="268" fill="#0f6e6b" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">具体漏洞逼出来，</text>
+  <text x="740" y="292" fill="#0f6e6b" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">好当场改计划。</text>
+  <text x="740" y="328" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">柱高只表示方向，</text>
+  <text x="740" y="350" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">非原文精确分数。</text>
+
+  <line x1="40" y1="478" x2="920" y2="478" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="506" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">方向参考 Veinott, Klein &amp; Wiggins（2010）：校园流感应急计划上的信心变化</text>
+  <text x="920" y="506" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">文献向示意 · 非精确复现</text>
+</svg>

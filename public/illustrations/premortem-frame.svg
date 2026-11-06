@@ -1,0 +1,61 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pm-frame-title pm-frame-desc">
+  <title id="pm-frame-title">普通问风险 vs 事前验尸</title>
+  <desc id="pm-frame-desc">左侧普通问「还有风险吗」得到沉默或「应该没大问题」；右侧宣布「假设已经失败了」后，人们写出具体失败原因并改计划。</desc>
+  <defs>
+    <pattern id="pm-frame-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/></pattern>
+  </defs>
+  <rect width="960" height="500" fill="#f7f3eb"/>
+  <rect width="960" height="500" fill="url(#pm-frame-dots)" opacity="0.42"/>
+
+  <text x="48" y="48" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一张计划草稿，两种问法，出口完全不同</text>
+
+  <!-- Left: ordinary ask -->
+  <rect x="48" y="78" width="416" height="390" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.18"/>
+  <text x="76" y="120" fill="#1c1917" font-size="18" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">普通问风险</text>
+  <text x="76" y="146" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">等于当众泼冷水，真话容易留在会后</text>
+
+  <rect x="76" y="176" width="360" height="56" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="256" y="210" fill="#1c1917" font-size="15" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">「还有风险吗？」</text>
+
+  <g fill="none" stroke="#78716c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M256 232 V252"/><path d="M250 246 L256 254 L262 246"/>
+  </g>
+
+  <rect x="76" y="264" width="168" height="88" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.14"/>
+  <text x="160" y="302" fill="#57534e" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">沉默两秒</text>
+  <text x="160" y="326" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">没人先开口</text>
+
+  <rect x="268" y="264" width="168" height="88" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.14"/>
+  <text x="352" y="302" fill="#57534e" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">「应该没大问题」</text>
+  <text x="352" y="326" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">气氛收场</text>
+
+  <line x1="76" y1="380" x2="436" y2="380" stroke="#1c1917" stroke-opacity="0.10"/>
+  <text x="76" y="412" fill="#1c1917" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">计划原样敲定</text>
+  <text x="76" y="438" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">具体坑位，事后才说得出口。</text>
+
+  <!-- Right: premortem -->
+  <rect x="496" y="78" width="416" height="390" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <rect x="496" y="78" width="416" height="390" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+
+  <text x="524" y="120" fill="#1c1917" font-size="18" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">事前验尸</text>
+  <text x="524" y="146" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">失败被当成既定事实，批评不再针对某人</text>
+
+  <rect x="524" y="176" width="360" height="56" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <text x="704" y="210" fill="#0f6e6b" font-size="15" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">「假设已经失败了」</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M704 232 V252"/><path d="M698 246 L704 254 L710 246"/>
+  </g>
+
+  <rect x="524" y="264" width="168" height="88" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.30"/>
+  <text x="608" y="298" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">各自写原因</text>
+  <text x="608" y="322" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">具体情节</text>
+
+  <rect x="716" y="264" width="168" height="88" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.30"/>
+  <text x="800" y="298" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当场改计划</text>
+  <text x="800" y="322" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">加检查点</text>
+
+  <line x1="524" y1="380" x2="884" y2="380" stroke="#0f6e6b" stroke-opacity="0.18"/>
+  <text x="524" y="412" fill="#1c1917" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">漏洞先说出来，再定开干日</text>
+  <text x="524" y="438" fill="#0f6e6b" font-size="13" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">你是在解释已被宣布的失败。</text>
+</svg>
