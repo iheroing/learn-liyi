@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "survivorship-bias": {
+    figures: [
+      {
+        src: "/illustrations/survivorship-plane.svg",
+        alt: "返航轰炸机示意：机翼机身尾翼可见弹孔，发动机与驾驶舱几乎空白，提示关键部位中弹更可能回不来",
+        caption:
+          "Wald 的提醒：装甲不该只补在看得见弹孔的地方；返航样本里「缺」的那块，往往才是要命处。示意方向，非某次战损精确图。",
+        afterHeading: "在核什么",
+      },
+      {
+        src: "/illustrations/survivorship-sample.svg",
+        alt: "对照图：左侧群聊晒单只剩 6 个成功故事看似都成了；右侧同期 30 人补上退群关停后成功率变成 6/30",
+        caption:
+          "成功率要用分母算。只看还愿意晒的人，会把「都成了」估高；补上失败侧，数字才老实。示意人数。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/survivorship-steps.svg",
+        alt: "六步：写清样本、失败去哪了、找分母、找不到就降把握、单列看不见的风险、与回归均值分开",
+        caption:
+          "先问失败的那些去哪了，再谈「这样做能成」。分母找不到就把结论降级，别和回归均值混账。",
+        afterHeading: "做判断前先过这几步",
+      },
+    ],
+    diagram: "/illustrations/survivorship-plane.svg",
+    diagramAlt: "返航飞机弹孔与关键部位空白对照",
+    diagramCaption: "该优先怀疑的，是返航样本里看不见的那块。",
+    icon: "/icons/domain-probability.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "premortem": {
     figures: [
       {

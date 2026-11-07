@@ -1,0 +1,28 @@
+<svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sv-plane-title sv-plane-desc">
+  <title id="sv-plane-title">Wald 的返航飞机：弹孔在哪，和该加固哪</title>
+  <desc id="sv-plane-desc">返航轰炸机的机翼、机身、尾部布满弹孔；发动机与驾驶舱几乎空白，提示那里中弹的飞机更可能没能返航（由幸存样本推断，并非每次中弹都致命）。</desc>
+  <defs><pattern id="P" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/></pattern></defs>
+  <rect width="960" height="520" fill="#f7f3eb"/><rect width="960" height="520" fill="url(#P)" opacity="0.42"/>
+  <text x="48" y="48" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">只看返航的飞机：空白处更可能是要命的地方</text>
+  <g fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.55" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M470 90 Q480 70 490 90 L500 420 Q480 445 460 420 Z"/>
+    <path d="M470 220 L230 270 L230 290 L470 270 Z"/><path d="M490 220 L730 270 L730 290 L490 270 Z"/>
+    <path d="M465 385 L400 420 L400 432 L465 418 Z"/><path d="M495 385 L560 420 L560 432 L495 418 Z"/>
+  </g>
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-dasharray="4 4">
+    <ellipse cx="380" cy="252" rx="16" ry="22"/><ellipse cx="580" cy="252" rx="16" ry="22"/>
+    <ellipse cx="480" cy="100" rx="14" ry="18"/>
+  </g>
+  <g opacity="0.75"><circle cx="300" cy="250" r="4" fill="#1c1917"/><circle cx="330" cy="230" r="4" fill="#1c1917"/><circle cx="340" cy="268" r="4" fill="#1c1917"/><circle cx="420" cy="258" r="4" fill="#1c1917"/><circle cx="620" cy="250" r="4" fill="#1c1917"/><circle cx="650" cy="232" r="4" fill="#1c1917"/><circle cx="610" cy="270" r="4" fill="#1c1917"/><circle cx="480" cy="330" r="4" fill="#1c1917"/><circle cx="470" cy="360" r="4" fill="#1c1917"/><circle cx="495" cy="390" r="4" fill="#1c1917"/><circle cx="462" cy="410" r="4" fill="#1c1917"/><circle cx="478" cy="150" r="4" fill="#1c1917"/><circle cx="485" cy="140" r="4" fill="#1c1917"/><circle cx="455" cy="175" r="4" fill="#1c1917"/><circle cx="430" cy="252" r="4" fill="#1c1917"/><circle cx="540" cy="245" r="4" fill="#1c1917"/><circle cx="690" cy="274" r="4" fill="#1c1917"/><circle cx="275" cy="277" r="4" fill="#1c1917"/></g>
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="13">
+    <text x="120" y="200" fill="#1c1917">返航可见弹孔</text>
+    <text x="120" y="218" fill="#78716c" font-size="11">机翼、机身、尾翼</text>
+    <line x1="200" y1="226" x2="270" y2="255" stroke="#1c1917" stroke-opacity="0.3"/>
+    <text x="640" y="150" fill="#0f6e6b" font-weight="600">关键部位几乎空白</text>
+    <text x="640" y="170" fill="#0f6e6b">→ 推断：这里中弹更可能回不来</text>
+    <line x1="636" y1="176" x2="594" y2="234" stroke="#0f6e6b" stroke-opacity="0.6"/>
+    <line x1="636" y1="146" x2="496" y2="102" stroke="#0f6e6b" stroke-opacity="0.6"/>
+    <text x="640" y="190" fill="#78716c" font-size="11">发动机 / 驾驶舱</text>
+    <text x="480" y="480" fill="#57534e" text-anchor="middle">该优先怀疑的，是返航样本里「缺」的那块</text>
+  </g>
+</svg>
