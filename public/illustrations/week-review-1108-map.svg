@@ -1,0 +1,87 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="map-title map-desc" id="wr1108-map">
+  <title id="map-title">本周六课收成一件事：判断前先找到没看见的那些</title>
+  <desc id="map-desc">三列对照：回归均值与幸存者偏差补样本；规划谬误与事前验尸补计划和原因；BATNA与换通道核实离开对方给的框。三列汇入同一句：判断之前，先找到你没看见的那些。</desc>
+  <defs>
+    <pattern id="map-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#map-dots)" opacity="0.45"/>
+
+  <text x="480" y="42" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">本周六课，收成一件事</text>
+
+  <!-- Column 1: 样本 -->
+  <rect x="40" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="56" y="80" width="52" height="22" rx="4" fill="#0f6e6b" fill-opacity="0.12"/>
+  <text x="82" y="96" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">样本</text>
+  <text x="180" y="132" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">回归均值</text>
+  <text x="180" y="154" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">极端一批会往平均靠</text>
+  <text x="180" y="174" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">补法：对照</text>
+
+  <line x1="68" y1="196" x2="292" y2="196" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="180" y="228" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">幸存者偏差</text>
+  <text x="180" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">失败的没被算进来</text>
+  <text x="180" y="270" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">补法：找回缺口</text>
+
+  <text x="180" y="322" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都是样本在骗你</text>
+  <text x="180" y="344" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">机制不同，别混成一种</text>
+
+  <!-- Column 2: 乐观 -->
+  <rect x="340" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="356" y="80" width="52" height="22" rx="4" fill="#3d4f66" fill-opacity="0.14"/>
+  <text x="382" y="96" fill="#3d4f66" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">乐观</text>
+  <text x="480" y="132" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">规划谬误</text>
+  <text x="480" y="154" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">自己这回的工期几乎总估短</text>
+  <text x="480" y="174" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">补法：同类事实际用时</text>
+
+  <line x1="368" y1="196" x2="592" y2="196" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="480" y="228" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">事前验尸</text>
+  <text x="480" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">假设已经失败，写出为什么</text>
+  <text x="480" y="270" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">补法：改计划或检查单</text>
+
+  <text x="480" y="322" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都在对付「这回肯定行」</text>
+  <text x="480" y="344" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一个管数字，一个管原因</text>
+
+  <!-- Column 3: 退路 -->
+  <rect x="640" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="656" y="80" width="52" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="682" y="96" fill="#9a3412" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">退路</text>
+  <text x="780" y="132" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">BATNA</text>
+  <text x="780" y="154" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">谈崩之后手里最好的那条路</text>
+  <text x="780" y="174" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">补法：算成一个数</text>
+
+  <line x1="668" y1="196" x2="892" y2="196" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="780" y="228" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">换通道核实</text>
+  <text x="780" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">别在对方这条线上核实</text>
+  <text x="780" y="270" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">补法：用自己存的号打回</text>
+
+  <text x="780" y="322" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都是离开眼前这个框</text>
+  <text x="780" y="344" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">走你事先准备好的路</text>
+
+  <!-- Arrows -->
+  <path d="M180 370 L180 392" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M172 384 L180 396 L188 384" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 370 L480 392" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M472 384 L480 396 L488 384" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M780 370 L780 392" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M772 384 L780 396 L788 384" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Merge -->
+  <rect x="40" y="406" width="880" height="72" rx="8" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-width="1.4"/>
+  <text x="480" y="436" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">判断之前，先找到你没看见的那些</text>
+  <text x="480" y="460" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">样本里缺的 · 计划里没写的 · 对方给你的框之外</text>
+
+  <line x1="40" y1="496" x2="920" y2="496" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="510" width="16" height="12" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-width="1.2"/>
+  <text x="118" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">样本</text>
+  <rect x="180" y="510" width="16" height="12" fill="#3d4f66" fill-opacity="0.14" stroke="#3d4f66" stroke-width="1.2"/>
+  <text x="202" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">乐观</text>
+  <rect x="264" y="510" width="16" height="12" fill="#9a3412" fill-opacity="0.12" stroke="#9a3412" stroke-width="1.2"/>
+  <text x="286" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">退路</text>
+  <text x="920" y="522" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>

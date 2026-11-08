@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "week-review-1108": {
+    figures: [
+      {
+        src: "/illustrations/week-review-1108-map.svg",
+        alt: "三列总图：回归均值与幸存者偏差补样本，规划谬误与事前验尸补计划和原因，BATNA与换通道核实离开对方给的框，三列汇入判断前先找到没看见的那些",
+        caption:
+          "六课问的是同一类事：你现在看见的，是全部，还是被筛过、在脑子里演过、或对方递过来的那一半？",
+        afterHeading: "本周六课",
+      },
+      {
+        src: "/illustrations/week-review-1108-pairs.svg",
+        alt: "三对容易混的课：幸存者偏差找回缺口、回归均值要对照；规划谬误管工期、事前验尸管原因；BATNA和换通道核实都是离开眼前的框",
+        caption:
+          "分开再叠用。查同期关掉的基金是在补幸存者；看最差一批处理后分数涨了却没有对照，是把回落当成了干预效果。",
+        afterHeading: "怎么互相绊脚",
+      },
+      {
+        src: "/illustrations/week-review-1108-metaphor.jpg",
+        alt: "隐喻插图：桌上几张看得见的卡片旁留着空白勾边，一只手掀起最左边那张，下面还有没看见的一层",
+        caption:
+          "判断之前，先找到你没看见的那些——样本里缺的、同类事实际花的时间、谈不成之后手头的路，以及对方这条线之外的核实方式。",
+        afterHeading: "三句自检",
+      },
+    ],
+    diagram: "/illustrations/week-review-1108-map.svg",
+    diagramAlt: "六课收成一件事：判断前先找到没看见的那些",
+    diagramCaption: "样本里缺的、计划里没写的、对方给的框之外。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "survivorship-bias": {
     figures: [
       {
