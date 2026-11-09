@@ -1,0 +1,64 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="voi-dec-title voi-dec-desc">
+  <title id="voi-dec-title">信息只在会改决定时才值钱</title>
+  <desc id="voi-dec-desc">左侧多打听后仍买，价值约等于 0；右侧打听后从买改成不买，信息价值大于 0。</desc>
+  <defs>
+    <pattern id="voi-dec-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="500" fill="#f7f3eb"/>
+  <rect width="960" height="500" fill="url(#voi-dec-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">信息值多少，不看多专业，而看会不会改你的行动</text>
+
+  <!-- Left panel: same decision -->
+  <rect x="48" y="72" width="416" height="384" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.18"/>
+  <text x="76" y="110" fill="#1c1917" font-size="17" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">多打听，决定不变</text>
+  <text x="76" y="134" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">试听 · 对比帖 · 再问朋友</text>
+
+  <rect x="76" y="156" width="148" height="56" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.14"/>
+  <text x="150" y="180" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">现在的决定</text>
+  <text x="150" y="200" fill="#1c1917" font-size="15" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">买</text>
+
+  <g fill="none" stroke="#78716c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M236 184 H268"/><path d="M262 178 L270 184 L262 190"/>
+  </g>
+
+  <rect x="280" y="156" width="148" height="56" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.14"/>
+  <text x="354" y="180" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">打听之后</text>
+  <text x="354" y="200" fill="#1c1917" font-size="15" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">还是买</text>
+
+  <rect x="76" y="240" width="352" height="88" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.12"/>
+  <text x="252" y="276" fill="#57534e" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">行动没变 → 期望结果没变</text>
+  <text x="252" y="302" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">多出来的只是更安心</text>
+
+  <line x1="76" y1="356" x2="428" y2="356" stroke="#1c1917" stroke-opacity="0.10"/>
+  <text x="252" y="392" fill="#1c1917" font-size="22" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">价值 ≈ 0</text>
+  <text x="252" y="422" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">信息不能改变行动，就不值钱</text>
+
+  <!-- Right panel: flipped decision -->
+  <rect x="496" y="72" width="416" height="384" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <rect x="496" y="72" width="416" height="384" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+  <text x="524" y="110" fill="#1c1917" font-size="17" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">打听后，决定翻转</text>
+  <text x="524" y="134" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">例如得知「没用」→ 改成不买</text>
+
+  <rect x="524" y="156" width="148" height="56" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.28"/>
+  <text x="598" y="180" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">现在的决定</text>
+  <text x="598" y="200" fill="#1c1917" font-size="15" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">买</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M684 184 H716"/><path d="M710 178 L718 184 L710 190"/>
+  </g>
+
+  <rect x="728" y="156" width="148" height="56" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <text x="802" y="180" fill="#0f6e6b" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">打听之后</text>
+  <text x="802" y="200" fill="#0f6e6b" font-size="15" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不买</text>
+
+  <rect x="524" y="240" width="352" height="88" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.28"/>
+  <text x="700" y="276" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">行动变了 → 期望结果能改善</text>
+  <text x="700" y="302" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这才是信息产生价值的路径</text>
+
+  <line x1="524" y1="356" x2="876" y2="356" stroke="#0f6e6b" stroke-opacity="0.18"/>
+  <text x="700" y="392" fill="#0f6e6b" font-size="22" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">价值 &gt; 0</text>
+  <text x="700" y="422" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">改了决定，并因此改善期望结果</text>
+</svg>

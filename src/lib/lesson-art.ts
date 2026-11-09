@@ -47,6 +47,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-default.svg",
     coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
   },
+  "value-of-information": {
+    figures: [
+      {
+        src: "/illustrations/voi-decision.svg",
+        alt: "对照图：左侧多打听后仍买，信息价值约等于0；右侧打听后从买改成不买，信息价值大于0",
+        caption:
+          "信息值多少，不看多专业，而看会不会改你的行动。打听完还是同一决定，价值≈0；会翻转决定并改善期望结果，才值钱。",
+        afterHeading: "在核什么",
+      },
+      {
+        src: "/illustrations/voi-evpi.svg",
+        alt: "教学示意柱状与减法：无信息时买的期望1400，有完美信息时期望3200，EVPI=1800为愿付上限",
+        caption:
+          "教学示意：无信息最优买，EMV=1400；有完美信息时有用买、没用不买，EMV=3200；EVPI=3200−1400=1800，是消除「有没有用」这笔不确定性的付出上限。不完美信息价值不会高于它。",
+        afterHeading: "别搞错的地方",
+      },
+      {
+        src: "/illustrations/voi-steps.svg",
+        alt: "六步：写下现在的决定、可能听到的结果、会改决定吗、改了能好多少上限、打听代价对比、不完美信息打折",
+        caption:
+          "多打听之前先过这几步。所有结果都不会改决定就停；上限明显低于打听成本也可以停。安心不等于能多赚。",
+        afterHeading: "做决定前先过这几步",
+      },
+    ],
+    diagram: "/illustrations/voi-decision.svg",
+    diagramAlt: "信息会不会改决定：不变价值约0，翻转则价值大于0",
+    diagramCaption: "信息只通过改变行动、改善期望结果才产生价值。",
+    icon: "/icons/domain-probability.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "survivorship-bias": {
     figures: [
       {
