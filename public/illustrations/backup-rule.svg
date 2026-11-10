@@ -1,0 +1,84 @@
+<svg viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="backup-rule-title backup-rule-desc">
+  <title id="backup-rule-title">3-2-1：三份、两种介质、一份异地</title>
+  <desc id="backup-rule-desc">三份副本：正在用的电脑、平时断开的移动硬盘、带历史版本的云；两种介质、一份不在身边，至少一份平时断开。</desc>
+  <defs>
+    <pattern id="backup-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="520" fill="#f7f3eb"/>
+  <rect width="960" height="520" fill="url(#backup-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">3-2-1：三份 · 两种介质 · 一份不在身边（至少一份平时断开）</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <!-- Copy 1: working -->
+    <rect x="48" y="72" width="280" height="280" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.18"/>
+    <circle cx="88" cy="112" r="18" fill="#0f6e6b" fill-opacity="0.12"/>
+    <text x="88" y="118" fill="#0f6e6b" font-size="16" font-weight="700" text-anchor="middle">1</text>
+    <text x="118" y="118" fill="#1c1917" font-size="15" font-weight="600">正在用的那份</text>
+    <text x="72" y="148" fill="#57534e" font-size="12">日常工作副本</text>
+
+    <rect x="118" y="180" width="140" height="88" rx="6" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="190" width="120" height="64" rx="3" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.12"/>
+    <rect x="108" y="272" width="160" height="10" rx="3" fill="#1c1917" fill-opacity="0.12"/>
+    <text x="188" y="228" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle">笔记本</text>
+    <text x="188" y="308" fill="#78716c" font-size="12" text-anchor="middle">介质 A · 本地硬盘</text>
+    <text x="188" y="330" fill="#78716c" font-size="11" text-anchor="middle">平时连着网</text>
+
+    <!-- Copy 2: disconnected drive -->
+    <rect x="340" y="72" width="280" height="280" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.42"/>
+    <rect x="340" y="72" width="280" height="280" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+    <circle cx="380" cy="112" r="18" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="380" y="118" fill="#0f6e6b" font-size="16" font-weight="700" text-anchor="middle">2</text>
+    <text x="410" y="118" fill="#1c1917" font-size="15" font-weight="600">移动硬盘备份</text>
+    <text x="364" y="148" fill="#0f6e6b" font-size="12" font-weight="600">备份完就拔下</text>
+
+    <rect x="400" y="178" width="160" height="64" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <circle cx="430" cy="210" r="10" fill="none" stroke="#0f6e6b" stroke-width="2"/>
+    <circle cx="430" cy="210" r="3" fill="#0f6e6b"/>
+    <text x="510" y="216" fill="#1c1917" font-size="14" font-weight="600">外置硬盘</text>
+
+    <!-- cable with gap = disconnected -->
+    <g fill="none" stroke="#0f6e6b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M430 256 H454"/>
+      <path d="M506 256 H530"/>
+      <path d="M460 248 L468 256 L460 264"/>
+      <path d="M500 248 L492 256 L500 264"/>
+    </g>
+    <text x="480" y="288" fill="#0f6e6b" font-size="12" font-weight="600" text-anchor="middle">已拔下 · 平时断开</text>
+    <text x="480" y="314" fill="#57534e" font-size="11" text-anchor="middle">介质 B · 勒索软件碰不到</text>
+    <text x="480" y="336" fill="#78716c" font-size="11" text-anchor="middle">时间机器 / 文件历史</text>
+
+    <!-- Copy 3: offsite cloud -->
+    <rect x="632" y="72" width="280" height="280" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.18"/>
+    <circle cx="672" cy="112" r="18" fill="#0f6e6b" fill-opacity="0.12"/>
+    <text x="672" y="118" fill="#0f6e6b" font-size="16" font-weight="700" text-anchor="middle">3</text>
+    <text x="702" y="118" fill="#1c1917" font-size="15" font-weight="600">异地 / 云备份</text>
+    <text x="656" y="148" fill="#57534e" font-size="12">不在家、不在办公室</text>
+
+    <ellipse cx="772" cy="220" rx="70" ry="36" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.20"/>
+    <text x="772" y="226" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle">云 · 历史版本</text>
+    <text x="772" y="308" fill="#78716c" font-size="12" text-anchor="middle">介质 B · 异地那份</text>
+    <text x="772" y="330" fill="#78716c" font-size="11" text-anchor="middle">火灾 / 失窃也还在</text>
+  </g>
+
+  <rect x="48" y="372" width="864" height="112" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.14"/>
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="192" y="412" fill="#0f6e6b" font-size="22" font-weight="700">3</text>
+    <text x="192" y="438" fill="#1c1917" font-size="14" font-weight="600">份副本</text>
+    <text x="192" y="460" fill="#78716c" font-size="12">用的 + 两份备份</text>
+
+    <line x1="320" y1="396" x2="320" y2="460" stroke="#1c1917" stroke-opacity="0.10"/>
+
+    <text x="448" y="412" fill="#0f6e6b" font-size="22" font-weight="700">2</text>
+    <text x="448" y="438" fill="#1c1917" font-size="14" font-weight="600">种介质</text>
+    <text x="448" y="460" fill="#78716c" font-size="12">本机盘 ≠ 外置 / 云</text>
+
+    <line x1="576" y1="396" x2="576" y2="460" stroke="#1c1917" stroke-opacity="0.10"/>
+
+    <text x="704" y="412" fill="#0f6e6b" font-size="22" font-weight="700">1</text>
+    <text x="704" y="438" fill="#1c1917" font-size="14" font-weight="600">份在外</text>
+    <text x="704" y="460" fill="#78716c" font-size="12">火灾失窃也留得住</text>
+  </g>
+</svg>

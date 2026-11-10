@@ -1,0 +1,70 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="backup-sync-title backup-sync-desc">
+  <title id="backup-sync-title">同步不是备份：一边加密，两边一起坏</title>
+  <desc id="backup-sync-desc">左侧同步：本机被加密后云端立刻跟着变成加密副本；右侧备份：断开的硬盘或云历史版本仍可回退到干净时间点。</desc>
+  <defs>
+    <pattern id="backup-sync-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="500" fill="#f7f3eb"/>
+  <rect width="960" height="500" fill="url(#backup-sync-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同步保证「两边一样」；备份要能拿回「过去某时点」</text>
+
+  <!-- LEFT: Sync -->
+  <rect x="48" y="72" width="416" height="384" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.18"/>
+  <text x="76" y="110" fill="#1c1917" font-size="17" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同步</text>
+  <text x="76" y="134" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">本机变了 → 云上跟着变</text>
+
+  <rect x="76" y="160" width="148" height="100" rx="8" fill="#f7f3eb" stroke="#b45309" stroke-opacity="0.45"/>
+  <text x="150" y="198" fill="#b45309" font-size="13" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">本机</text>
+  <text x="150" y="222" fill="#b45309" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">已加密 ✕</text>
+  <text x="150" y="244" fill="#78716c" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">勒索软件</text>
+
+  <text x="252" y="188" fill="#b45309" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">立刻同步</text>
+  <g fill="none" stroke="#b45309" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M236 214 H268"/><path d="M262 208 L270 214 L262 220"/>
+  </g>
+
+  <rect x="280" y="160" width="148" height="100" rx="8" fill="#f7f3eb" stroke="#b45309" stroke-opacity="0.45"/>
+  <text x="354" y="198" fill="#b45309" font-size="13" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">云盘当前版</text>
+  <text x="354" y="222" fill="#b45309" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">也加密 ✕</text>
+  <text x="354" y="244" fill="#78716c" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">跟着坏掉</text>
+
+  <rect x="76" y="292" width="352" height="72" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.12"/>
+  <text x="252" y="322" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">两边一样 → 坏也一起坏</text>
+  <text x="252" y="346" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">删了、改坏了、被加密，另一边同步</text>
+
+  <line x1="76" y1="390" x2="428" y2="390" stroke="#1c1917" stroke-opacity="0.10"/>
+  <text x="252" y="420" fill="#1c1917" font-size="18" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不算备份</text>
+  <text x="252" y="442" fill="#78716c" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">除非另有不可立刻覆盖的历史版本</text>
+
+  <!-- RIGHT: Backup -->
+  <rect x="496" y="72" width="416" height="384" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <rect x="496" y="72" width="416" height="384" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+  <text x="524" y="110" fill="#1c1917" font-size="17" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">备份</text>
+  <text x="524" y="134" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">能回退到加密之前的时间点</text>
+
+  <rect x="524" y="160" width="148" height="100" rx="8" fill="#f7f3eb" stroke="#b45309" stroke-opacity="0.35"/>
+  <text x="598" y="198" fill="#b45309" font-size="13" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">本机</text>
+  <text x="598" y="222" fill="#b45309" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">已加密 ✕</text>
+  <text x="598" y="244" fill="#78716c" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">出事了</text>
+
+  <text x="700" y="188" fill="#0f6e6b" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">回退</text>
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M684 214 H716"/><path d="M710 208 L718 214 L710 220"/>
+  </g>
+
+  <rect x="728" y="160" width="148" height="100" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.40"/>
+  <text x="802" y="198" fill="#0f6e6b" font-size="13" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">断开硬盘</text>
+  <text x="802" y="222" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">仍干净 ✓</text>
+  <text x="802" y="244" fill="#57534e" font-size="11" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">或云历史版本</text>
+
+  <rect x="524" y="292" width="352" height="72" rx="8" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.28"/>
+  <text x="700" y="322" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">能拿回过去某个时间点</text>
+  <text x="700" y="346" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">断开副本 / 不可立刻覆盖的历史版本</text>
+
+  <line x1="524" y1="390" x2="876" y2="390" stroke="#0f6e6b" stroke-opacity="0.18"/>
+  <text x="700" y="420" fill="#0f6e6b" font-size="18" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这才是备份</text>
+  <text x="700" y="442" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">没真正恢复过一次，仍不算数</text>
+</svg>

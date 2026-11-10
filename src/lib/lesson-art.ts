@@ -77,6 +77,36 @@ const bySlug: Record<string, LessonArt> = {
     icon: "/icons/domain-probability.svg",
     coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
   },
+  "backup-3-2-1": {
+    figures: [
+      {
+        src: "/illustrations/backup-rule.svg",
+        alt: "3-2-1 备份规则：重要文件保留三份、使用两种存储介质、至少一份放在异地；其中一份平时应断开",
+        caption:
+          "三份、两种介质、一份异地，分别降低单盘故障、介质共因和火灾失窃的风险；平时再让至少一份保持断开，别让勒索软件同时碰到所有副本。",
+        afterHeading: "3-2-1 到底指什么",
+      },
+      {
+        src: "/illustrations/backup-sync.svg",
+        alt: "同步与备份对照：本地文件被勒索软件加密后，云同步也跟着上传加密版本；同盘复制、单一网盘多份、一直插着的硬盘和未测试的备份都不算可靠备份",
+        caption:
+          "同步只让两边变得一样：本地文件被勒索软件加密，云端也可能跟着变成加密版。放在同一块盘、同一个网盘或同一地点，移动硬盘一直插着，以及从未检查或恢复过的副本，都不能当作可靠备份。",
+        afterHeading: "这几种不算备份",
+      },
+      {
+        src: "/illustrations/backup-steps.svg",
+        alt: "半小时备份搭建步骤：列出重要文件夹、设置并拔下移动硬盘、增加异地云或硬盘副本、安排每月恢复和半年整目录演练",
+        caption:
+          "今晚先列重要文件夹，设置移动硬盘备份并拔下，再加一份异地副本；日历里安排每月恢复一个文件。只有亲手恢复并打开检查过，备份才算真正可用。",
+        afterHeading: "今晚花半小时搭起来",
+      },
+    ],
+    diagram: "/illustrations/backup-rule.svg",
+    diagramAlt: "3-2-1 备份规则：三份副本、两种介质、一份异地，并让至少一份平时断开",
+    diagramCaption: "三份、两种介质、一份异地；至少一份平时断开，定期真恢复。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "survivorship-bias": {
     figures: [
       {

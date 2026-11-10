@@ -1,0 +1,76 @@
+<svg viewBox="0 0 960 390" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="backup-steps-title backup-steps-desc">
+  <title id="backup-steps-title">今晚花半小时搭起 3-2-1</title>
+  <desc id="backup-steps-desc">六步：列清单、移动硬盘自动备份并拔下、异地或云历史版本、每月随机恢复一个文件、每半年整目录演练、出事先断网不急插盘。</desc>
+  <defs>
+    <pattern id="backup-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="390" fill="#f7f3eb"/>
+  <rect width="960" height="390" fill="url(#backup-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="48" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">今晚半小时：先搭起来，再养成恢复习惯</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M176 218 H187"/><path d="M181 213 L188 218 L181 223"/>
+    <path d="M324 218 H335"/><path d="M329 213 L336 218 L329 223"/>
+    <path d="M472 218 H483"/><path d="M477 213 L484 218 L477 223"/>
+    <path d="M620 218 H631"/><path d="M625 213 L632 218 L625 223"/>
+    <path d="M768 218 H779"/><path d="M773 213 L780 218 L773 223"/>
+  </g>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="44" y="104" width="132" height="228" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="192" y="104" width="132" height="228" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="340" y="104" width="132" height="228" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="488" y="104" width="132" height="228" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="636" y="104" width="132" height="228" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="784" y="104" width="132" height="228" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="110" cy="154" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="258" cy="154" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="406" cy="154" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="554" cy="154" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="702" cy="154" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="850" cy="154" r="22" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="110" y="161" fill="#0f6e6b" font-size="18" font-weight="700">1</text>
+    <text x="258" y="161" fill="#0f6e6b" font-size="18" font-weight="700">2</text>
+    <text x="406" y="161" fill="#0f6e6b" font-size="18" font-weight="700">3</text>
+    <text x="554" y="161" fill="#0f6e6b" font-size="18" font-weight="700">4</text>
+    <text x="702" y="161" fill="#0f6e6b" font-size="18" font-weight="700">5</text>
+    <text x="850" y="161" fill="#0f6e6b" font-size="18" font-weight="700">6</text>
+
+    <text x="110" y="218" fill="#1c1917" font-size="14" font-weight="600">先列清单</text>
+    <text x="110" y="244" fill="#1c1917" font-size="14" font-weight="600">要保的文件夹</text>
+    <text x="110" y="280" fill="#78716c" font-size="11">课件 · 照片</text>
+    <text x="110" y="300" fill="#78716c" font-size="11">合同 · 笔记</text>
+
+    <text x="258" y="218" fill="#1c1917" font-size="14" font-weight="600">移动硬盘</text>
+    <text x="258" y="244" fill="#1c1917" font-size="14" font-weight="600">自动备份</text>
+    <text x="258" y="280" fill="#78716c" font-size="11">时间机器等</text>
+    <text x="258" y="300" fill="#78716c" font-size="11">备份完拔下</text>
+
+    <text x="406" y="218" fill="#1c1917" font-size="14" font-weight="600">异地 / 云</text>
+    <text x="406" y="244" fill="#1c1917" font-size="14" font-weight="600">历史版本</text>
+    <text x="406" y="280" fill="#78716c" font-size="11">开两步验证</text>
+    <text x="406" y="300" fill="#78716c" font-size="11">或第二块盘</text>
+
+    <text x="554" y="218" fill="#1c1917" font-size="14" font-weight="600">每月随机</text>
+    <text x="554" y="244" fill="#1c1917" font-size="14" font-weight="600">恢复一文件</text>
+    <text x="554" y="280" fill="#78716c" font-size="11">另位置打开</text>
+    <text x="554" y="300" fill="#78716c" font-size="11">约十分钟</text>
+
+    <text x="702" y="218" fill="#1c1917" font-size="14" font-weight="600">每半年</text>
+    <text x="702" y="244" fill="#1c1917" font-size="14" font-weight="600">整目录演练</text>
+    <text x="702" y="280" fill="#78716c" font-size="11">记下卡点</text>
+    <text x="702" y="300" fill="#78716c" font-size="11">步骤写纸上</text>
+
+    <text x="850" y="218" fill="#1c1917" font-size="14" font-weight="600">出事：断网</text>
+    <text x="850" y="244" fill="#1c1917" font-size="14" font-weight="600">别急插盘</text>
+    <text x="850" y="280" fill="#78716c" font-size="11">接干净设备</text>
+    <text x="850" y="300" fill="#78716c" font-size="11">先扫再恢复</text>
+  </g>
+
+  <text x="48" y="368" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">没恢复过的备份不算数；系统软件可重装，不用全盘备</text>
+  <text x="912" y="368" fill="#78716c" font-size="11" text-anchor="end" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">成本：一块盘 + 云 + 每月十分钟</text>
+</svg>
