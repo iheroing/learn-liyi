@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "opportunity-cost": {
+    figures: [
+      {
+        src: "/illustrations/opportunity-cost-study.svg",
+        alt: "三项实验柱状对照：DVD 想买比例从只写「不买」的 75% 降到写成「把 14.99 美元留着买别的」的 55%；已决定购买的人里，选更便宜 16GB iPod 的比例从 37% 升到 73%；用刚发的钱买真杯子，选更便宜那只从 40% 升到 60%",
+        caption:
+          "Frederick、Novemsky 等（2009）：只是把「你放弃了什么」写到台面上，选择就会变。图中百分数为该实验条件下的选择变化，不是个人精确阈值。",
+        afterHeading: "场景",
+      },
+      {
+        src: "/illustrations/opportunity-cost-rule.svg",
+        alt: "电脑例机制图：8000 元够用与 12000 元更好，差价 4000 元要写成这 4000 元能做成的最好那件事；不要把 4000 元可能买到的所有东西加总，也不要认为差价已包含在 12000 里不必另算；选贵的等于放弃便宜那台，外加这 4000 元能做成的最好那件事",
+        caption:
+          "机会成本只取次优那一项。差价不是已经含在总价里就不用另算：总价告诉你要付多少，机会成本告诉你付了之后做不成哪件最好的事。",
+        afterHeading: "机会成本在算什么",
+      },
+      {
+        src: "/illustrations/opportunity-cost-steps.svg",
+        alt: "五步流程：先写眼前要买、答应或投入的事及其钱与时间；补写「如果我不做，这些钱或时间会用在______」，填真心会做的次优项，不要只写节约或买别的；把眼前这件事的好处和次优的好处并排只比这两者；涉及时间时把时间换成具体事项；一时想不出就先写留着以后用在尚未指定的事上",
+        caption:
+          "做选择时先写出那句完整的话，只跟次优这一项比。空格里要填你真心会去做的事；想不出具体项时，先写「留着以后用」也会改变选择。",
+        afterHeading: "做决定时按这五步写",
+      },
+    ],
+    diagram: "/illustrations/opportunity-cost-study.svg",
+    diagramAlt: "Frederick 等（2009）三项实验：把机会成本写到台面上后，DVD 想买从 75% 降到 55%，选便宜 iPod 从 37% 升到 73%，选更便宜杯子从 40% 升到 60%",
+    diagramCaption: "点名「留下这笔钱」会改变选择；百分数为该实验条件下的变化。",
+    icon: "/icons/domain-economics.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "week-review-1108": {
     figures: [
       {

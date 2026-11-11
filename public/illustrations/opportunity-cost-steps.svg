@@ -1,0 +1,79 @@
+<svg viewBox="0 0 960 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="oc-steps-title oc-steps-desc">
+  <title id="oc-steps-title">做决定时按这五步写</title>
+  <desc id="oc-steps-desc">五步：先写眼前这件事及其钱与时间；补写如果不做会把钱或时间用在何处，填真心会做的次优项；把眼前这件事的好处和次优的好处并排只比这两者；涉及时间时把时间换成具体事项；一时想不出就先写留着以后用在尚未指定的事上。</desc>
+  <defs>
+    <pattern id="oc-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="440" fill="#f7f3eb"/>
+  <rect width="960" height="440" fill="url(#oc-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">做选择时先写出那句完整的话，只跟次优这一项比</text>
+
+  <!-- arrows between 5 cards: 160 wide, gap 18, start 44 -->
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 220 H218"/><path d="M211 215 L219 220 L211 225"/>
+    <path d="M382 220 H396"/><path d="M389 215 L397 220 L389 225"/>
+    <path d="M560 220 H574"/><path d="M567 215 L575 220 L567 225"/>
+    <path d="M738 220 H752"/><path d="M745 215 L753 220 L745 225"/>
+  </g>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="44" y="72" width="160" height="300" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="222" y="72" width="160" height="300" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="400" y="72" width="160" height="300" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="578" y="72" width="160" height="300" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="756" y="72" width="160" height="300" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="124" cy="126" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="302" cy="126" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="480" cy="126" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="658" cy="126" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="836" cy="126" r="22" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="124" y="133" fill="#0f6e6b" font-size="18" font-weight="700">1</text>
+    <text x="302" y="133" fill="#0f6e6b" font-size="18" font-weight="700">2</text>
+    <text x="480" y="133" fill="#0f6e6b" font-size="18" font-weight="700">3</text>
+    <text x="658" y="133" fill="#0f6e6b" font-size="18" font-weight="700">4</text>
+    <text x="836" y="133" fill="#0f6e6b" font-size="18" font-weight="700">5</text>
+
+    <text x="124" y="176" fill="#1c1917" font-size="14" font-weight="600">先写眼前</text>
+    <text x="124" y="198" fill="#1c1917" font-size="14" font-weight="600">这件事</text>
+    <text x="124" y="236" fill="#57534e" font-size="12">准备买、答应</text>
+    <text x="124" y="256" fill="#57534e" font-size="12">或投入的是什么</text>
+    <text x="124" y="280" fill="#78716c" font-size="11">要花多少钱</text>
+    <text x="124" y="298" fill="#78716c" font-size="11">多少时间</text>
+
+    <text x="302" y="176" fill="#1c1917" font-size="14" font-weight="600">补写一句</text>
+    <text x="302" y="198" fill="#1c1917" font-size="14" font-weight="600">完整的话</text>
+    <text x="302" y="236" fill="#57534e" font-size="12">如果不做，钱或</text>
+    <text x="302" y="256" fill="#57534e" font-size="12">时间用在______</text>
+    <text x="302" y="280" fill="#78716c" font-size="11">填真心会做的次优项</text>
+    <text x="302" y="298" fill="#78716c" font-size="11">不要只写「节约」</text>
+    <text x="302" y="316" fill="#78716c" font-size="11">或「买别的」</text>
+
+    <text x="480" y="176" fill="#1c1917" font-size="14" font-weight="600">两边</text>
+    <text x="480" y="198" fill="#1c1917" font-size="14" font-weight="600">并排比</text>
+    <text x="480" y="236" fill="#57534e" font-size="12">眼前这件事的好处</text>
+    <text x="480" y="256" fill="#57534e" font-size="12">对次优那件的好处</text>
+    <text x="480" y="280" fill="#78716c" font-size="11">只比这两者</text>
+    <text x="480" y="298" fill="#78716c" font-size="11">不要跟清单总和比</text>
+
+    <text x="658" y="176" fill="#1c1917" font-size="14" font-weight="600">涉及时间时</text>
+    <text x="658" y="198" fill="#1c1917" font-size="14" font-weight="600">换成具体事项</text>
+    <text x="658" y="236" fill="#57534e" font-size="12">这两个小时若不去</text>
+    <text x="658" y="256" fill="#57534e" font-size="12">会用来做什么</text>
+    <text x="658" y="280" fill="#78716c" font-size="11">睡觉、写完拖着的稿</text>
+    <text x="658" y="298" fill="#78716c" font-size="11">还是去接人</text>
+
+    <text x="836" y="176" fill="#1c1917" font-size="14" font-weight="600">想不出就先写</text>
+    <text x="836" y="198" fill="#1c1917" font-size="14" font-weight="600">「留着以后用」</text>
+    <text x="836" y="236" fill="#57534e" font-size="12">留着以后用在</text>
+    <text x="836" y="256" fill="#57534e" font-size="12">尚未指定的事上</text>
+    <text x="836" y="280" fill="#78716c" font-size="11">仅写「留着买别的」</text>
+    <text x="836" y="298" fill="#78716c" font-size="11">选择就已经会变</text>
+  </g>
+
+  <text x="48" y="412" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">空格里要填你真心会去做的次优项；想清楚之后，再把空格换成一件真事</text>
+  <text x="912" y="412" fill="#78716c" font-size="11" text-anchor="end" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">只跟次优这一项比</text>
+</svg>
