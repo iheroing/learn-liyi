@@ -1,0 +1,109 @@
+<svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pa-notice-title pa-notice-desc">
+  <title id="pa-notice-title">同一页培训通知：先改间距和对齐，再动颜色</title>
+  <desc id="pa-notice-desc">左侧：十二行每行间距一样，标题居中，时间地点标红，二维码靠右，整页仍看不出分组。右侧：按「是什么、什么时候在哪、怎么报名、找谁」分成四组，组内收紧、组间拉开，左边对齐同一条线。</desc>
+  <defs>
+    <pattern id="pa-notice-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="640" fill="#f7f3eb"/>
+  <rect width="960" height="640" fill="url(#pa-notice-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一页十二行通知：先别换配色，先改间距和对齐</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">四组意思：是什么、什么时候在哪、怎么报名、找谁 · 按课文里的假设通知重绘</text>
+
+  <rect x="48" y="84" width="420" height="500" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <rect x="492" y="84" width="420" height="500" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <rect x="492" y="84" width="420" height="500" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+
+  <!-- ===== Left: before ===== -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="68" y="104" width="64" height="22" rx="4" fill="#b45309" fill-opacity="0.12"/>
+    <text x="100" y="120" fill="#b45309" font-size="12" font-weight="600" text-anchor="middle">改之前</text>
+
+    <text x="258" y="154" fill="#1c1917" font-size="18" font-weight="700" text-anchor="middle">培训通知</text>
+
+    <text x="88" y="184" fill="#1c1917" font-size="13">主题</text>
+    <text x="88" y="209" fill="#57534e" font-size="13">主题说明</text>
+    <text x="88" y="234" fill="#b45309" font-size="13">时间</text>
+    <text x="88" y="259" fill="#b45309" font-size="13">时间说明</text>
+    <text x="88" y="284" fill="#b45309" font-size="13">地点</text>
+    <text x="88" y="309" fill="#b45309" font-size="13">地点说明</text>
+    <text x="88" y="334" fill="#1c1917" font-size="13">报名方式</text>
+    <text x="88" y="359" fill="#57534e" font-size="13">报名说明</text>
+    <text x="88" y="384" fill="#1c1917" font-size="13">注意事项</text>
+    <text x="88" y="409" fill="#57534e" font-size="13">注意说明</text>
+    <text x="88" y="434" fill="#1c1917" font-size="13">联系人</text>
+    <text x="88" y="459" fill="#57534e" font-size="13">联系方式</text>
+
+    <!-- schematic QR, bottom right, off the left edge -->
+    <rect x="388" y="400" width="56" height="56" rx="3" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35"/>
+    <g fill="#1c1917">
+      <rect x="392" y="404" width="16" height="16"/>
+      <rect x="424" y="404" width="16" height="16"/>
+      <rect x="392" y="436" width="16" height="16"/>
+      <rect x="396" y="408" width="8" height="8" fill="#fffdf8"/>
+      <rect x="428" y="408" width="8" height="8" fill="#fffdf8"/>
+      <rect x="396" y="440" width="8" height="8" fill="#fffdf8"/>
+      <rect x="416" y="424" width="6" height="6"/>
+      <rect x="428" y="428" width="5" height="5"/>
+      <rect x="414" y="438" width="7" height="5"/>
+      <rect x="434" y="440" width="6" height="8"/>
+    </g>
+    <text x="416" y="472" fill="#78716c" font-size="10" text-anchor="middle">二维码</text>
+
+    <text x="258" y="548" fill="#57534e" font-size="12" text-anchor="middle">每行间距一样，时间地点已标红</text>
+    <text x="258" y="566" fill="#78716c" font-size="11" text-anchor="middle">标题居中 · 正文左对齐 · 二维码靠右</text>
+  </g>
+
+  <!-- ===== Right: after ===== -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="512" y="104" width="64" height="22" rx="4" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="544" y="120" fill="#0f6e6b" font-size="12" font-weight="600" text-anchor="middle">改之后</text>
+
+    <text x="536" y="146" fill="#0f6e6b" font-size="11">主对齐线</text>
+    <line x1="524" y1="156" x2="524" y2="544" stroke="#0f6e6b" stroke-width="1.4" stroke-dasharray="5 4" stroke-opacity="0.7"/>
+
+    <text x="536" y="176" fill="#1c1917" font-size="18" font-weight="700">培训通知</text>
+
+    <text x="536" y="204" fill="#0f6e6b" font-size="11" font-weight="600">是什么</text>
+    <text x="536" y="222" fill="#1c1917" font-size="13">主题</text>
+    <text x="536" y="238" fill="#57534e" font-size="13">主题说明</text>
+
+    <text x="536" y="270" fill="#0f6e6b" font-size="11" font-weight="600">什么时候在哪</text>
+    <text x="536" y="288" fill="#1c1917" font-size="13">时间</text>
+    <text x="536" y="304" fill="#57534e" font-size="13">时间说明</text>
+    <text x="536" y="320" fill="#1c1917" font-size="13">地点</text>
+    <text x="536" y="336" fill="#57534e" font-size="13">地点说明</text>
+
+    <text x="536" y="368" fill="#0f6e6b" font-size="11" font-weight="600">怎么报名</text>
+    <text x="536" y="386" fill="#1c1917" font-size="13">报名方式</text>
+    <text x="536" y="402" fill="#57534e" font-size="13">报名说明</text>
+    <text x="536" y="418" fill="#1c1917" font-size="13">注意事项</text>
+    <text x="536" y="434" fill="#57534e" font-size="13">注意说明</text>
+
+    <text x="536" y="466" fill="#0f6e6b" font-size="11" font-weight="600">找谁</text>
+    <text x="536" y="484" fill="#1c1917" font-size="13">联系人</text>
+    <text x="536" y="500" fill="#57534e" font-size="13">联系方式</text>
+
+    <rect x="536" y="512" width="32" height="32" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35"/>
+    <g fill="#1c1917">
+      <rect x="538" y="514" width="9" height="9"/>
+      <rect x="557" y="514" width="9" height="9"/>
+      <rect x="538" y="533" width="9" height="9"/>
+      <rect x="540" y="516" width="5" height="5" fill="#fffdf8"/>
+      <rect x="559" y="516" width="5" height="5" fill="#fffdf8"/>
+      <rect x="540" y="535" width="5" height="5" fill="#fffdf8"/>
+      <rect x="551" y="526" width="4" height="4"/>
+      <rect x="558" y="528" width="3" height="3"/>
+      <rect x="550" y="535" width="5" height="3"/>
+    </g>
+    <text x="574" y="532" fill="#78716c" font-size="10">二维码也靠上这条线</text>
+
+    <text x="702" y="562" fill="#57534e" font-size="12" text-anchor="middle">组内收紧、组间拉开，左边都靠上同一条线</text>
+    <text x="702" y="578" fill="#78716c" font-size="11" text-anchor="middle">不必先改颜色，分组就已经清楚</text>
+  </g>
+
+  <line x1="48" y1="604" x2="912" y2="604" stroke="#1c1917" stroke-opacity="0.10"/>
+  <text x="48" y="626" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">示意同一页假设通知的改法，不是某份真实文件。组间空白大于组内，是好用的起点，不是研究结论。</text>
+</svg>

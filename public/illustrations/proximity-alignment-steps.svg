@@ -1,0 +1,87 @@
+<svg viewBox="0 0 960 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pa-steps-title pa-steps-desc">
+  <title id="pa-steps-title">改一页东西，按这五步走</title>
+  <desc id="pa-steps-desc">五步：先数意思有几组；眯眼或缩小到 25% 看一眼，对照看到的块数和组数；组内收紧、组间拉开，组间空白约为组内的两倍以上（经验值，不是研究结论）；一页只选一条主对齐线，通常选左边线；最后才动重复和对比，差异要做就做足。</desc>
+  <defs>
+    <pattern id="pa-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="480" fill="#f7f3eb"/>
+  <rect width="960" height="480" fill="url(#pa-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">改一页东西，按这五步走，大约十分钟</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 220 H218"/><path d="M211 215 L219 220 L211 225"/>
+    <path d="M382 220 H396"/><path d="M389 215 L397 220 L389 225"/>
+    <path d="M560 220 H574"/><path d="M567 215 L575 220 L567 225"/>
+    <path d="M738 220 H752"/><path d="M745 215 L753 220 L745 225"/>
+  </g>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="44" y="72" width="160" height="340" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="222" y="72" width="160" height="340" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="400" y="72" width="160" height="340" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="578" y="72" width="160" height="340" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="756" y="72" width="160" height="340" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="124" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="302" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="480" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="658" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="836" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="124" y="121" fill="#0f6e6b" font-size="18" font-weight="700">1</text>
+    <text x="302" y="121" fill="#0f6e6b" font-size="18" font-weight="700">2</text>
+    <text x="480" y="121" fill="#0f6e6b" font-size="18" font-weight="700">3</text>
+    <text x="658" y="121" fill="#0f6e6b" font-size="18" font-weight="700">4</text>
+    <text x="836" y="121" fill="#0f6e6b" font-size="18" font-weight="700">5</text>
+
+    <text x="124" y="164" fill="#1c1917" font-size="14" font-weight="600">先数意思</text>
+    <text x="124" y="186" fill="#1c1917" font-size="14" font-weight="600">有几组</text>
+    <text x="124" y="224" fill="#57534e" font-size="12">不看排版，只写</text>
+    <text x="124" y="244" fill="#57534e" font-size="12">这一页要说几件事</text>
+    <text x="124" y="264" fill="#57534e" font-size="12">每件一句话</text>
+    <text x="124" y="288" fill="#78716c" font-size="11">例如通知可分成</text>
+    <text x="124" y="306" fill="#78716c" font-size="11">是什么、什么时候在哪</text>
+    <text x="124" y="324" fill="#78716c" font-size="11">怎么报名、找谁</text>
+    <text x="124" y="348" fill="#78716c" font-size="11">四组</text>
+
+    <text x="302" y="164" fill="#1c1917" font-size="14" font-weight="600">眯眼或缩小到</text>
+    <text x="302" y="186" fill="#1c1917" font-size="14" font-weight="600">25% 看一眼</text>
+    <text x="302" y="224" fill="#57534e" font-size="12">数一数眼睛</text>
+    <text x="302" y="244" fill="#57534e" font-size="12">看到了几块</text>
+    <text x="302" y="268" fill="#78716c" font-size="11">和步骤 1 的组数对比</text>
+    <text x="302" y="286" fill="#78716c" font-size="11">对不上的地方</text>
+    <text x="302" y="304" fill="#78716c" font-size="11">就是要改的地方</text>
+
+    <text x="480" y="164" fill="#1c1917" font-size="14" font-weight="600">组内收紧</text>
+    <text x="480" y="186" fill="#1c1917" font-size="14" font-weight="600">组间拉开</text>
+    <text x="480" y="224" fill="#57534e" font-size="12">同一组的行挨近</text>
+    <text x="480" y="244" fill="#57534e" font-size="12">组与组明显空开</text>
+    <text x="480" y="268" fill="#78716c" font-size="11">组间约两倍于组内</text>
+    <text x="480" y="286" fill="#78716c" font-size="11">（经验值，非研究结论）</text>
+    <text x="480" y="310" fill="#78716c" font-size="11">标题靠近自己那段</text>
+    <text x="480" y="328" fill="#78716c" font-size="11">离上一段远一些</text>
+
+    <text x="658" y="164" fill="#1c1917" font-size="14" font-weight="600">一页只选一条</text>
+    <text x="658" y="186" fill="#1c1917" font-size="14" font-weight="600">主对齐线</text>
+    <text x="658" y="224" fill="#57534e" font-size="12">通常选左边线</text>
+    <text x="658" y="244" fill="#57534e" font-size="12">标题、正文、图片</text>
+    <text x="658" y="264" fill="#57534e" font-size="12">和二维码的左边</text>
+    <text x="658" y="284" fill="#57534e" font-size="12">都靠上这条线</text>
+    <text x="658" y="308" fill="#78716c" font-size="11">要右对齐的</text>
+    <text x="658" y="326" fill="#78716c" font-size="11">就整列一起右对齐</text>
+
+    <text x="836" y="164" fill="#1c1917" font-size="14" font-weight="600">最后才动</text>
+    <text x="836" y="186" fill="#1c1917" font-size="14" font-weight="600">重复和对比</text>
+    <text x="836" y="224" fill="#57534e" font-size="12">同一级用同一</text>
+    <text x="836" y="244" fill="#57534e" font-size="12">字号和颜色</text>
+    <text x="836" y="268" fill="#78716c" font-size="11">要突出只选一两处</text>
+    <text x="836" y="286" fill="#78716c" font-size="11">差异要做就做足</text>
+    <text x="836" y="310" fill="#78716c" font-size="11">字号只大一点点</text>
+    <text x="836" y="328" fill="#78716c" font-size="11">看起来会像排错了</text>
+  </g>
+
+  <text x="48" y="444" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">间距和对齐修好之后，再动颜色和字号。组间约为组内两倍以上，是经验值，按页面调。</text>
+  <text x="912" y="444" fill="#78716c" font-size="11" text-anchor="end" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">约十分钟</text>
+</svg>

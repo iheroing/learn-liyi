@@ -1,0 +1,108 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pa-rule-title pa-rule-desc">
+  <title id="pa-rule-title">距离分组常常压过颜色；表单按意思分组更好填</title>
+  <desc id="pa-rule-desc">上排：间距相同时给其中几项标色，仍是均匀的一排；颜色不同但挨得近，仍会被看成一组。下排：十二个输入框排成一长串显得费劲；按意思拆成三组、每组四个，就显得好填多了。要点来自 Nielsen Norman Group 的 Aurora Harley（2020），图为示意，不是实验数据。</desc>
+  <defs>
+    <pattern id="pa-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#pa-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">挨得近的看成一组；按距离分组，常常压过颜色</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Aurora Harley，Nielsen Norman Group（2020）· 按课文要点重绘，不是实验数据图</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="11" fill="#57534e">
+    <rect x="668" y="46" width="14" height="14" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.35"/>
+    <text x="688" y="58">未标颜色</text>
+    <rect x="770" y="46" width="14" height="14" fill="#0f6e6b" fill-opacity="0.80"/>
+    <text x="790" y="58">标了颜色</text>
+  </g>
+
+  <rect x="48" y="84" width="420" height="220" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <rect x="492" y="84" width="420" height="220" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <rect x="48" y="320" width="420" height="240" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <rect x="492" y="320" width="420" height="240" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <rect x="492" y="320" width="420" height="240" rx="8" fill="#0f6e6b" fill-opacity="0.035"/>
+
+  <!-- Top left: equal spacing + color -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="68" y="114" fill="#1c1917" font-size="15" font-weight="600">间距相同，只靠颜色</text>
+    <rect x="72" y="148" width="36" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="120" y="148" width="36" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <rect x="168" y="148" width="36" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="216" y="148" width="36" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <rect x="264" y="148" width="36" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="312" y="148" width="36" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <rect x="360" y="148" width="36" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="408" y="148" width="36" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <text x="258" y="216" fill="#57534e" font-size="13" text-anchor="middle">几项标了颜色，仍是均匀的一排</text>
+    <text x="258" y="238" fill="#78716c" font-size="12" text-anchor="middle">标红解决不了「谁和谁是一伙」</text>
+  </g>
+
+  <!-- Top right: proximity beats color -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="512" y="114" fill="#1c1917" font-size="15" font-weight="600">颜色不同，但挨得近</text>
+    <!-- cluster 1: start 516, 32px boxes, intra 8 -->
+    <rect x="516" y="148" width="32" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="556" y="148" width="32" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <rect x="596" y="148" width="32" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <!-- gap 36, cluster 2 at 664 -->
+    <rect x="664" y="148" width="32" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <rect x="704" y="148" width="32" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="744" y="148" width="32" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <!-- gap 36, cluster 3 at 812 -->
+    <rect x="812" y="148" width="32" height="36" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.30"/>
+    <rect x="852" y="148" width="32" height="36" rx="4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <text x="702" y="216" fill="#0f6e6b" font-size="13" font-weight="600" text-anchor="middle">颜色混在一组里，挨得近的仍看成一组</text>
+    <text x="702" y="238" fill="#78716c" font-size="12" text-anchor="middle">距离分组常常压过颜色</text>
+  </g>
+
+  <!-- Bottom left: 12 fields in a column -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="68" y="348" fill="#1c1917" font-size="15" font-weight="600">十二个输入框排成一长串</text>
+    <text x="68" y="368" fill="#57534e" font-size="12">看起来很费劲</text>
+    <rect x="128" y="380" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="394" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="408" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="422" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="436" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="450" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="464" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="478" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="492" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="506" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="520" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <rect x="128" y="534" width="260" height="10" rx="2" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+  </g>
+
+  <!-- Bottom right: 3 groups of 4 -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="512" y="348" fill="#1c1917" font-size="15" font-weight="600">按意思拆成三组、每组四个</text>
+    <text x="512" y="368" fill="#57534e" font-size="12">例如收货信息、付款信息这类分法</text>
+
+    <text x="568" y="396" fill="#0f6e6b" font-size="12" font-weight="600" text-anchor="middle">收货信息</text>
+    <rect x="512" y="406" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="512" y="428" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="512" y="450" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="512" y="472" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+
+    <text x="702" y="396" fill="#0f6e6b" font-size="12" font-weight="600" text-anchor="middle">付款信息</text>
+    <rect x="646" y="406" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="646" y="428" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="646" y="450" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="646" y="472" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+
+    <text x="836" y="396" fill="#0f6e6b" font-size="12" font-weight="600" text-anchor="middle">第三组</text>
+    <rect x="780" y="406" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="780" y="428" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="780" y="450" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <rect x="780" y="472" width="112" height="14" rx="2" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.35"/>
+
+    <text x="702" y="522" fill="#0f6e6b" font-size="13" font-weight="600" text-anchor="middle">分成三组后，就显得好填多了</text>
+    <text x="702" y="542" fill="#78716c" font-size="11" text-anchor="middle">课文举了前两类；第三组只表示同样按意思再分一组</text>
+  </g>
+
+  <line x1="48" y1="580" x2="912" y2="580" stroke="#1c1917" stroke-opacity="0.10"/>
+  <text x="48" y="604" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Harley（2020）：近则成组，距离分组常压过颜色和形状。下排表单是课文里的示意，不是实验数据。</text>
+</svg>

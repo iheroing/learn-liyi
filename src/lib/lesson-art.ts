@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "proximity-alignment": {
+    figures: [
+      {
+        src: "/illustrations/proximity-alignment-notice.svg",
+        alt: "同一页十二行培训通知对照：左侧每行间距一样，标题居中，时间地点标红，二维码靠右，仍看不出分组；右侧按「是什么、什么时候在哪、怎么报名、找谁」分成四组，组内收紧、组间拉开，左边对齐同一条线",
+        caption:
+          "同一页假设通知的改法：先按意思分组并对齐，不必先换颜色。组间空白大于组内是好用的起点，不是研究结论。",
+        afterHeading: "场景",
+      },
+      {
+        src: "/illustrations/proximity-alignment-rule.svg",
+        alt: "上排对照：间距相同时给其中几项标色，仍是均匀的一排；颜色不同但挨得近，仍会被看成一组。下排：十二个输入框排成一长串显得费劲，按意思拆成三组、每组四个，就显得好填多了",
+        caption:
+          "Aurora Harley，Nielsen Norman Group（2020）：近则成组，距离分组常压过颜色和形状。下排表单是课文里的示意，不是实验数据。",
+        afterHeading: "眼睛先看位置，再看颜色",
+      },
+      {
+        src: "/illustrations/proximity-alignment-steps.svg",
+        alt: "五步：先数意思有几组；眯眼或缩小到 25% 看一眼，对照看到的块数与组数；组内收紧、组间拉开，组间空白约为组内的两倍以上（经验值，不是研究结论）；一页只选一条主对齐线，通常选左边线；最后才动重复和对比，差异要做就做足",
+        caption:
+          "改一页大约十分钟：先分组和对齐，再动颜色和字号。组间空白约为组内两倍以上是经验值，不是研究结论，按页面调。",
+        afterHeading: "改一页东西，按这五步走",
+      },
+    ],
+    diagram: "/illustrations/proximity-alignment-notice.svg",
+    diagramAlt: "同一页十二行培训通知对照：左侧每行间距一样，标题居中，时间地点标红，二维码靠右，仍看不出分组；右侧按「是什么、什么时候在哪、怎么报名、找谁」分成四组，组内收紧、组间拉开，左边对齐同一条线",
+    diagramCaption: "同一页假设通知的改法：先按意思分组并对齐，不必先换颜色。组间空白大于组内是好用的起点，不是研究结论。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "opportunity-cost": {
     figures: [
       {
