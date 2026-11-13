@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "interleaving": {
+    figures: [
+      {
+        src: "/illustrations/interleaving-scene.svg",
+        alt: "左侧练习册把 t 检验连做四道、再把回归连做四道，每道都打对勾；右侧一周后的综合题没有标明方法，在 t 检验、卡方检验、相关和回归里选错了检验",
+        caption:
+          "同一类题连着做，当时会觉得很顺。缺的不是公式，而是看见一道没标明方法的新题时，先判断该用哪一招。",
+        afterHeading: "场景",
+      },
+      {
+        src: "/illustrations/interleaving-rule.svg",
+        alt: "上排对照：分块练习按 AAAA 再 BBBB 排列，交错练习把 t 检验、卡方、回归、相关打乱，相邻两道不是同一类。下排柱状图按 Rohrer、Dedrick、Hartwig 和 Cheung（2020）重绘：一个月后未预告测验，分块组正确率 38%，交错组 61%，效应量 d = 0.83",
+        caption:
+          "Rohrer、Dedrick、Hartwig 和 Cheung（2020）：日常作业里交错练习，一个月后未预告测验正确率 61%，分块组 38%，d = 0.83。这是该研究条件下的数字，不要当成所有科目的固定涨幅。Kang 和 Pashler（2012）表明，主要机制是对照差异，不是单纯拉开间隔。",
+        afterHeading: "分块练的是手法，交错练的是选题",
+      },
+      {
+        src: "/illustrations/interleaving-steps.svg",
+        alt: "五步：先写下三到五种容易搞混的类型；每种先做一到两道确认步骤还在；打乱成一张练习单，相邻两道不要同一类型；每道先写选用的方法再动手做；隔一两天再混着做一轮，用选题正确率判断有没有学会",
+        caption:
+          "改一次练习大约二十分钟。先用很短的分块把步骤走顺，再交错着练选题；隔几天后用选题正确率来检验，不要用当天做题有多顺来判断。",
+        afterHeading: "改一次练习，按这五步走",
+      },
+    ],
+    diagram: "/illustrations/interleaving-scene.svg",
+    diagramAlt: "左侧练习册把同一类题连着做完，右侧一周后的综合题没有标明方法，选错了检验",
+    diagramCaption: "同一类题连着做当时很顺，缺的是先判断该用哪一招。",
+    icon: "/icons/domain-learning.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "proximity-alignment": {
     figures: [
       {

@@ -1,0 +1,105 @@
+<svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="il-rule-title il-rule-desc">
+  <title id="il-rule-title">分块练的是手法，交错练的是选题</title>
+  <desc id="il-rule-desc">上排对照：分块练习把同一类题连着做，AAAA 再 BBBB，做第 2 道时方法已经知道；交错练习把不同类型混在一起，相邻两道不用同一招，每道都要先判断。下排重绘 Rohrer、Dedrick、Hartwig 和 Cheung（2020）课堂试验：一个月后未预告测验，交错组正确率 61%，分块组 38%，效应量 d = 0.83。均为该研究条件下的数字。Kang 和 Pashler（2012）指出，只拉长间隔、仍按类连着看没有同样好处，主要机制是对照差异。</desc>
+  <defs>
+    <pattern id="il-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="640" fill="#f7f3eb"/>
+  <rect width="960" height="640" fill="url(#il-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">分块练的是手法，交错练的是选题</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">交错的操作定义：练习单里，相邻两道题不能用同一种解法</text>
+
+  <!-- Blocked panel -->
+  <rect x="48" y="84" width="420" height="236" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="114" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">分块练习（blocked practice）</text>
+  <text x="68" y="136" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一类连着做：AAAA 再 BBBB</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="68" y="156" width="86" height="44" rx="6" fill="#0f6e6b" fill-opacity="0.16" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="111" y="183" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+    <rect x="162" y="156" width="86" height="44" rx="6" fill="#0f6e6b" fill-opacity="0.16" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="205" y="183" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+    <rect x="256" y="156" width="86" height="44" rx="6" fill="#0f6e6b" fill-opacity="0.16" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="299" y="183" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+    <rect x="350" y="156" width="86" height="44" rx="6" fill="#0f6e6b" fill-opacity="0.16" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="393" y="183" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+
+    <rect x="68" y="212" width="86" height="44" rx="6" fill="#57534e" fill-opacity="0.12" stroke="#57534e" stroke-opacity="0.40"/>
+    <text x="111" y="239" fill="#44403c" font-size="13" font-weight="600">回归</text>
+    <rect x="162" y="212" width="86" height="44" rx="6" fill="#57534e" fill-opacity="0.12" stroke="#57534e" stroke-opacity="0.40"/>
+    <text x="205" y="239" fill="#44403c" font-size="13" font-weight="600">回归</text>
+    <rect x="256" y="212" width="86" height="44" rx="6" fill="#57534e" fill-opacity="0.12" stroke="#57534e" stroke-opacity="0.40"/>
+    <text x="299" y="239" fill="#44403c" font-size="13" font-weight="600">回归</text>
+    <rect x="350" y="212" width="86" height="44" rx="6" fill="#57534e" fill-opacity="0.12" stroke="#57534e" stroke-opacity="0.40"/>
+    <text x="393" y="239" fill="#44403c" font-size="13" font-weight="600">回归</text>
+  </g>
+  <text x="68" y="284" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">做第 2 道时，你已经知道方法和第 1 道一样。</text>
+  <text x="68" y="304" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">练到的是手法，不是选题。</text>
+
+  <!-- Interleaved panel -->
+  <rect x="492" y="84" width="420" height="236" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="114" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">交错练习（interleaved practice）</text>
+  <text x="512" y="136" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不同类型混在一起：ACBD…</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="512" y="156" width="86" height="44" rx="6" fill="#0f6e6b" fill-opacity="0.16" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="555" y="183" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+    <rect x="606" y="156" width="86" height="44" rx="6" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.28"/>
+    <text x="649" y="183" fill="#44403c" font-size="13" font-weight="600">卡方</text>
+    <rect x="700" y="156" width="86" height="44" rx="6" fill="#57534e" fill-opacity="0.12" stroke="#57534e" stroke-opacity="0.40"/>
+    <text x="743" y="183" fill="#44403c" font-size="13" font-weight="600">回归</text>
+    <rect x="794" y="156" width="86" height="44" rx="6" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45" stroke-dasharray="3 2"/>
+    <text x="837" y="183" fill="#0f6e6b" font-size="13" font-weight="600">相关</text>
+
+    <rect x="512" y="212" width="86" height="44" rx="6" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.28"/>
+    <text x="555" y="239" fill="#44403c" font-size="13" font-weight="600">卡方</text>
+    <rect x="606" y="212" width="86" height="44" rx="6" fill="#0f6e6b" fill-opacity="0.16" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="649" y="239" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+    <rect x="700" y="212" width="86" height="44" rx="6" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.45" stroke-dasharray="3 2"/>
+    <text x="743" y="239" fill="#0f6e6b" font-size="13" font-weight="600">相关</text>
+    <rect x="794" y="212" width="86" height="44" rx="6" fill="#57534e" fill-opacity="0.12" stroke="#57534e" stroke-opacity="0.40"/>
+    <text x="837" y="239" fill="#44403c" font-size="13" font-weight="600">回归</text>
+  </g>
+  <text x="512" y="284" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">没法靠「这一页都是同一招」往下做。</text>
+  <text x="512" y="304" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">每道都要先判断，再动手。</text>
+
+  <!-- Study panel -->
+  <rect x="48" y="340" width="864" height="264" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="370" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Rohrer、Dedrick、Hartwig 和 Cheung（2020）</text>
+  <text x="68" y="392" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">54 个七年级数学班 · 约四个月作业后，两组都做一次交错复习 · 一个月后未预告测验</text>
+
+  <!-- Bars: axis at y=560, 0-100% maps to 160px, so 38% = 60.8, 61% = 97.6 -->
+  <!-- bar width 72, blocked at x=100, interleaved at x=230, axis x from 80 to 340 -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <line x1="88" y1="568" x2="348" y2="568" stroke="#1c1917" stroke-opacity="0.22" stroke-width="1.5"/>
+    <line x1="88" y1="498" x2="348" y2="498" stroke="#1c1917" stroke-opacity="0.08"/>
+    <line x1="88" y1="428" x2="348" y2="428" stroke="#1c1917" stroke-opacity="0.08"/>
+    <g fill="#78716c" font-size="11" text-anchor="end">
+      <text x="80" y="572">0</text>
+      <text x="80" y="502">50</text>
+      <text x="80" y="432">100%</text>
+    </g>
+
+    <!-- 38% bar: height 53.2, y = 568-53.2 = 514.8 -->
+    <rect x="108" y="514.8" width="72" height="53.2" fill="#57534e" fill-opacity="0.40"/>
+    <text x="144" y="506" fill="#1c1917" font-size="16" font-weight="600" text-anchor="middle">38%</text>
+    <text x="144" y="588" fill="#57534e" font-size="12" text-anchor="middle">分块组</text>
+
+    <!-- 61% bar: height 85.4, y = 568-85.4 = 482.6 -->
+    <rect x="238" y="482.6" width="72" height="85.4" fill="#0f6e6b" fill-opacity="0.80"/>
+    <text x="274" y="474" fill="#0f6e6b" font-size="16" font-weight="600" text-anchor="middle">61%</text>
+    <text x="274" y="588" fill="#1c1917" font-size="12" text-anchor="middle">交错组</text>
+  </g>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="380" y="430" fill="#0f6e6b" font-size="15" font-weight="600">交错组 61%，分块组 38%，d = 0.83</text>
+    <text x="380" y="456" fill="#57534e" font-size="12">这是该研究条件下的数字（美国七年级数学、那套材料），</text>
+    <text x="380" y="476" fill="#57534e" font-size="12">不要当成所有科目的固定涨幅。方向很清楚：日常作业里</text>
+    <text x="380" y="496" fill="#57534e" font-size="12">就混着练，事后更分得清该用哪一招。</text>
+    <text x="380" y="528" fill="#57534e" font-size="12">Kang 和 Pashler（2012）：只拉长间隔、仍按画家连着看，</text>
+    <text x="380" y="548" fill="#57534e" font-size="12">没有同样好处。主要机制是对照差异，不是单纯拉开间隔。</text>
+  </g>
+</svg>

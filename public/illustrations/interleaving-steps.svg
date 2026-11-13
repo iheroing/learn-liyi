@@ -1,0 +1,84 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="il-steps-title il-steps-desc">
+  <title id="il-steps-title">改一次练习，按这五步走</title>
+  <desc id="il-steps-desc">五步：先写下 3 到 5 种容易搞混的类型；每种先做 1 到 2 道，确认步骤还在；打乱成一张练习单，相邻两道不要同一类型；每道先写选用的方法，再动手做；隔一两天再混着做一轮，用选题正确率判断有没有学会。</desc>
+  <defs>
+    <pattern id="il-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="500" fill="#f7f3eb"/>
+  <rect width="960" height="500" fill="url(#il-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">改一次练习，按这五步走，大约二十分钟</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 230 H218"/><path d="M211 225 L219 230 L211 235"/>
+    <path d="M382 230 H396"/><path d="M389 225 L397 230 L389 235"/>
+    <path d="M560 230 H574"/><path d="M567 225 L575 230 L567 235"/>
+    <path d="M738 230 H752"/><path d="M745 225 L753 230 L745 235"/>
+  </g>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="44" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="222" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="400" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="578" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="756" y="72" width="160" height="388" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="124" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="302" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="480" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="658" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="836" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="124" y="121" fill="#0f6e6b" font-size="18" font-weight="700">1</text>
+    <text x="302" y="121" fill="#0f6e6b" font-size="18" font-weight="700">2</text>
+    <text x="480" y="121" fill="#0f6e6b" font-size="18" font-weight="700">3</text>
+    <text x="658" y="121" fill="#0f6e6b" font-size="18" font-weight="700">4</text>
+    <text x="836" y="121" fill="#0f6e6b" font-size="18" font-weight="700">5</text>
+
+    <text x="124" y="164" fill="#1c1917" font-size="14" font-weight="600">先写下 3–5 种</text>
+    <text x="124" y="186" fill="#1c1917" font-size="14" font-weight="600">容易搞混的类型</text>
+    <text x="124" y="224" fill="#57534e" font-size="12">不是把所有东西都混</text>
+    <text x="124" y="244" fill="#57534e" font-size="12">只选不做标记时</text>
+    <text x="124" y="264" fill="#57534e" font-size="12">会选错方法的</text>
+    <text x="124" y="292" fill="#78716c" font-size="11">例如 t 检验和回归</text>
+    <text x="124" y="310" fill="#78716c" font-size="11">或过去时和</text>
+    <text x="124" y="328" fill="#78716c" font-size="11">现在完成时</text>
+
+    <text x="302" y="164" fill="#1c1917" font-size="14" font-weight="600">每种先做 1–2 道</text>
+    <text x="302" y="186" fill="#1c1917" font-size="14" font-weight="600">确认步骤还在</text>
+    <text x="302" y="224" fill="#57534e" font-size="12">这是很短的分块</text>
+    <text x="302" y="244" fill="#57534e" font-size="12">目的是把手法走顺</text>
+    <text x="302" y="268" fill="#78716c" font-size="11">不是把这一类</text>
+    <text x="302" y="286" fill="#78716c" font-size="11">一次练完</text>
+    <text x="302" y="310" fill="#78716c" font-size="11">步骤还不会时</text>
+    <text x="302" y="328" fill="#78716c" font-size="11">先不要直接混练</text>
+
+    <text x="480" y="164" fill="#1c1917" font-size="14" font-weight="600">打乱成一张</text>
+    <text x="480" y="186" fill="#1c1917" font-size="14" font-weight="600">练习单</text>
+    <text x="480" y="224" fill="#57534e" font-size="12">相邻两道不要</text>
+    <text x="480" y="244" fill="#57534e" font-size="12">同一类型</text>
+    <text x="480" y="268" fill="#78716c" font-size="11">八到十二道就够</text>
+    <text x="480" y="292" fill="#78716c" font-size="11">不要按章节排</text>
+    <text x="480" y="310" fill="#78716c" font-size="11">也不要给每道题</text>
+    <text x="480" y="328" fill="#78716c" font-size="11">标「这是第 X 章」</text>
+
+    <text x="658" y="164" fill="#1c1917" font-size="14" font-weight="600">每道先写</text>
+    <text x="658" y="186" fill="#1c1917" font-size="14" font-weight="600">选用的方法</text>
+    <text x="658" y="224" fill="#57534e" font-size="12">再动手做</text>
+    <text x="658" y="248" fill="#57534e" font-size="12">对错先看选题</text>
+    <text x="658" y="268" fill="#57534e" font-size="12">再看计算或执行</text>
+    <text x="658" y="292" fill="#78716c" font-size="11">选题错了</text>
+    <text x="658" y="310" fill="#78716c" font-size="11">后面做得再整齐</text>
+    <text x="658" y="328" fill="#78716c" font-size="11">也没用</text>
+
+    <text x="836" y="164" fill="#1c1917" font-size="14" font-weight="600">隔一两天</text>
+    <text x="836" y="186" fill="#1c1917" font-size="14" font-weight="600">再混着做一轮</text>
+    <text x="836" y="224" fill="#57534e" font-size="12">用这一轮的</text>
+    <text x="836" y="244" fill="#57534e" font-size="12">选题正确率</text>
+    <text x="836" y="264" fill="#57534e" font-size="12">判断有没有学会</text>
+    <text x="836" y="292" fill="#78716c" font-size="11">不要用今天</text>
+    <text x="836" y="310" fill="#78716c" font-size="11">做题有多顺</text>
+    <text x="836" y="328" fill="#78716c" font-size="11">来判断</text>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="il-scene-title il-scene-desc">
+  <title id="il-scene-title">同一类题连着做当时很顺，缺的是先判断该用哪一招</title>
+  <desc id="il-scene-desc">左侧：练习册按章把同一类题连着做，先做完 t 检验再做回归，又快又对。右侧：一周后的综合练习没有标明方法，在几种检验里选错了。公式会用，缺的是根据题目本身选题。</desc>
+  <defs>
+    <pattern id="il-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="560" fill="#f7f3eb"/>
+  <rect width="960" height="560" fill="url(#il-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">公式会用，缺的是看见题先判断该用哪一招</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">假设的自学场景 · 刚学完 t 检验、卡方检验、相关和回归</text>
+
+  <!-- Left: blocked workbook -->
+  <rect x="48" y="84" width="420" height="436" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">练习册按章连做</text>
+  <text x="68" y="140" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一类题一口气做完</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <!-- rows 1-4 t-test -->
+    <g id="il-row-t1">
+      <text x="72" y="184" fill="#78716c" font-size="12">1</text>
+      <rect x="96" y="166" width="248" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-opacity="0.35"/>
+      <text x="112" y="185" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+      <path d="M362 173 l6 8 12 -14" fill="none" stroke="#0f6e6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <text x="72" y="224" fill="#78716c" font-size="12">2</text>
+      <rect x="96" y="206" width="248" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-opacity="0.35"/>
+      <text x="112" y="225" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+      <path d="M362 213 l6 8 12 -14" fill="none" stroke="#0f6e6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <text x="72" y="264" fill="#78716c" font-size="12">3</text>
+      <rect x="96" y="246" width="248" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-opacity="0.35"/>
+      <text x="112" y="265" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+      <path d="M362 253 l6 8 12 -14" fill="none" stroke="#0f6e6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <text x="72" y="304" fill="#78716c" font-size="12">4</text>
+      <rect x="96" y="286" width="248" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-opacity="0.35"/>
+      <text x="112" y="305" fill="#0f6e6b" font-size="13" font-weight="600">t 检验</text>
+      <path d="M362 293 l6 8 12 -14" fill="none" stroke="#0f6e6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- rows 5-8 regression -->
+    <g>
+      <text x="72" y="344" fill="#78716c" font-size="12">5</text>
+      <rect x="96" y="326" width="248" height="28" rx="4" fill="#57534e" fill-opacity="0.10" stroke="#57534e" stroke-opacity="0.35"/>
+      <text x="112" y="345" fill="#44403c" font-size="13" font-weight="600">回归</text>
+      <path d="M362 333 l6 8 12 -14" fill="none" stroke="#57534e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <text x="72" y="384" fill="#78716c" font-size="12">6</text>
+      <rect x="96" y="366" width="248" height="28" rx="4" fill="#57534e" fill-opacity="0.10" stroke="#57534e" stroke-opacity="0.35"/>
+      <text x="112" y="385" fill="#44403c" font-size="13" font-weight="600">回归</text>
+      <path d="M362 373 l6 8 12 -14" fill="none" stroke="#57534e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <text x="72" y="424" fill="#78716c" font-size="12">7</text>
+      <rect x="96" y="406" width="248" height="28" rx="4" fill="#57534e" fill-opacity="0.10" stroke="#57534e" stroke-opacity="0.35"/>
+      <text x="112" y="425" fill="#44403c" font-size="13" font-weight="600">回归</text>
+      <path d="M362 413 l6 8 12 -14" fill="none" stroke="#57534e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <text x="72" y="464" fill="#78716c" font-size="12">8</text>
+      <rect x="96" y="446" width="248" height="28" rx="4" fill="#57534e" fill-opacity="0.10" stroke="#57534e" stroke-opacity="0.35"/>
+      <text x="112" y="465" fill="#44403c" font-size="13" font-weight="600">回归</text>
+      <path d="M362 453 l6 8 12 -14" fill="none" stroke="#57534e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="258" y="498" fill="#57534e" font-size="12" text-anchor="middle">又快又顺，当章测验也不错</text>
+  </g>
+
+  <!-- Right: delayed mixed test -->
+  <rect x="492" y="84" width="420" height="436" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">一周后的综合练习</text>
+  <text x="512" y="140" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">题目不再告诉你类型</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="516" y="164" width="372" height="250" rx="6" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.12"/>
+    <text x="536" y="192" fill="#78716c" font-size="12">综合题 · 未标明方法</text>
+    <!-- schematic data: tiny bars, not a real dataset -->
+    <rect x="536" y="210" width="18" height="46" fill="#57534e" fill-opacity="0.28"/>
+    <rect x="560" y="226" width="18" height="30" fill="#57534e" fill-opacity="0.28"/>
+    <rect x="584" y="204" width="18" height="52" fill="#57534e" fill-opacity="0.28"/>
+    <rect x="608" y="218" width="18" height="38" fill="#57534e" fill-opacity="0.28"/>
+    <text x="640" y="236" fill="#57534e" font-size="13">一组未标注的数据</text>
+    <text x="702" y="258" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle">该用哪一种检验？</text>
+
+    <rect x="536" y="278" width="160" height="28" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <circle cx="552" cy="292" r="5" fill="none" stroke="#78716c" stroke-width="1.4"/>
+    <text x="566" y="297" fill="#44403c" font-size="12">t 检验</text>
+
+    <rect x="708" y="278" width="160" height="28" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <circle cx="724" cy="292" r="5" fill="none" stroke="#78716c" stroke-width="1.4"/>
+    <text x="738" y="297" fill="#44403c" font-size="12">卡方检验</text>
+
+    <rect x="536" y="318" width="160" height="28" rx="4" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.22"/>
+    <circle cx="552" cy="332" r="5" fill="none" stroke="#78716c" stroke-width="1.4"/>
+    <text x="566" y="337" fill="#44403c" font-size="12">相关</text>
+
+    <rect x="708" y="318" width="160" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.10" stroke="#1c1917" stroke-opacity="0.55"/>
+    <circle cx="724" cy="332" r="5" fill="#1c1917"/>
+    <text x="738" y="337" fill="#1c1917" font-size="12" font-weight="600">回归</text>
+    <path d="M848 326 l16 16 m0 -16 l-16 16" fill="none" stroke="#1c1917" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <text x="702" y="448" fill="#1c1917" font-size="14" font-weight="600" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">犹豫之后，选错了检验</text>
+  <text x="702" y="472" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">方法在做题前不再被提前告知</text>
+  <text x="702" y="494" fill="#57534e" font-size="12" text-anchor="middle" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">练到的不是「先判断该用哪一招」</text>
+</svg>
