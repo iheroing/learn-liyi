@@ -1,0 +1,82 @@
+<svg viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="se-steps-title se-steps-desc">
+  <title id="se-steps-title">搭一张评测表，按六步走</title>
+  <desc id="se-steps-desc">六步，第一次约 30 分钟：写一句能核对的成功标准；从真实记录里攒 15 到 30 条输入，补 3 到 5 条难的，另留 3 到 5 条先不看；每条写一个通过条件；用当前版本跑一遍，记下基线；一次只改一处，再跑全套，通过率升了且原来通过的没掉才换新版；把新错例补进表。</desc>
+  <defs>
+    <pattern id="se-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="420" fill="#f7f3eb"/>
+  <rect width="960" height="420" fill="url(#se-steps-dots)" opacity="0.42"/>
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">搭一张评测表，按六步走，第一次约 30 分钟</text>
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M170 250 H180"/><path d="M174 245 L181 250 L174 255"/>
+    <path d="M324 250 H334"/><path d="M328 245 L335 250 L328 255"/>
+    <path d="M478 250 H488"/><path d="M482 245 L489 250 L482 255"/>
+    <path d="M632 250 H642"/><path d="M636 245 L643 250 L636 255"/>
+    <path d="M786 250 H796"/><path d="M790 245 L797 250 L790 255"/>
+  </g>
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="30" y="72" width="136" height="316" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <circle cx="98" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.1"/>
+    <text x="98" y="121" fill="#0f6e6b" font-size="18" font-weight="700">1</text>
+    <text x="98" y="164" fill="#1c1917" font-size="14" font-weight="600">写一句能核对的</text>
+    <text x="98" y="186" fill="#1c1917" font-size="14" font-weight="600">成功标准</text>
+    <text x="98" y="232" fill="#57534e" font-size="12">不写「分类准确」</text>
+    <text x="98" y="252" fill="#57534e" font-size="12">写「标签与人工</text>
+    <text x="98" y="272" fill="#57534e" font-size="12">标注一致」</text>
+    <text x="98" y="320" fill="#78716c" font-size="11">拿不准时输出</text>
+    <text x="98" y="338" fill="#78716c" font-size="11">「待人工」</text>
+    <text x="98" y="356" fill="#78716c" font-size="11">不硬猜</text>
+    <rect x="184" y="72" width="136" height="316" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <circle cx="252" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.1"/>
+    <text x="252" y="121" fill="#0f6e6b" font-size="18" font-weight="700">2</text>
+    <text x="252" y="164" fill="#1c1917" font-size="14" font-weight="600">从真实记录里</text>
+    <text x="252" y="186" fill="#1c1917" font-size="14" font-weight="600">攒 15–30 条</text>
+    <text x="252" y="232" fill="#57534e" font-size="12">按平时出现的</text>
+    <text x="252" y="252" fill="#57534e" font-size="12">比例取</text>
+    <text x="252" y="320" fill="#78716c" font-size="11">再补 3–5 条</text>
+    <text x="252" y="338" fill="#78716c" font-size="11">难的或边缘的</text>
+    <text x="252" y="356" fill="#78716c" font-size="11">另留 3–5 条先不看</text>
+    <rect x="338" y="72" width="136" height="316" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <circle cx="406" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.1"/>
+    <text x="406" y="121" fill="#0f6e6b" font-size="18" font-weight="700">3</text>
+    <text x="406" y="164" fill="#1c1917" font-size="14" font-weight="600">每条写一个</text>
+    <text x="406" y="186" fill="#1c1917" font-size="14" font-weight="600">通过条件</text>
+    <text x="406" y="232" fill="#57534e" font-size="12">「标签 = X」</text>
+    <text x="406" y="252" fill="#57534e" font-size="12">「必须提到 Y」</text>
+    <text x="406" y="272" fill="#57534e" font-size="12">「不能出现 Z」</text>
+    <text x="406" y="320" fill="#78716c" font-size="11">只能主观判断的</text>
+    <text x="406" y="338" fill="#78716c" font-size="11">只判通过或不通过</text>
+    <rect x="492" y="72" width="136" height="316" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <circle cx="560" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.1"/>
+    <text x="560" y="121" fill="#0f6e6b" font-size="18" font-weight="700">4</text>
+    <text x="560" y="164" fill="#1c1917" font-size="14" font-weight="600">用当前版本</text>
+    <text x="560" y="186" fill="#1c1917" font-size="14" font-weight="600">跑一遍记基线</text>
+    <text x="560" y="232" fill="#57534e" font-size="12">输入、期望、</text>
+    <text x="560" y="252" fill="#57534e" font-size="12">本版输出、</text>
+    <text x="560" y="272" fill="#57534e" font-size="12">是否通过</text>
+    <text x="560" y="320" fill="#78716c" font-size="11">表格里就能做</text>
+    <text x="560" y="338" fill="#78716c" font-size="11">不需要专门工具</text>
+    <rect x="646" y="72" width="136" height="316" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <circle cx="714" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.1"/>
+    <text x="714" y="121" fill="#0f6e6b" font-size="18" font-weight="700">5</text>
+    <text x="714" y="164" fill="#1c1917" font-size="14" font-weight="600">一次只改一处</text>
+    <text x="714" y="186" fill="#1c1917" font-size="14" font-weight="600">再跑全套</text>
+    <text x="714" y="232" fill="#57534e" font-size="12">通过率升了，</text>
+    <text x="714" y="252" fill="#57534e" font-size="12">原来对的没掉，</text>
+    <text x="714" y="272" fill="#57534e" font-size="12">才换新版</text>
+    <text x="714" y="320" fill="#78716c" font-size="11">掉了的那几条</text>
+    <text x="714" y="338" fill="#78716c" font-size="11">单独看为什么</text>
+    <rect x="800" y="72" width="136" height="316" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+    <circle cx="868" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="868" y="121" fill="#0f6e6b" font-size="18" font-weight="700">6</text>
+    <text x="868" y="164" fill="#1c1917" font-size="14" font-weight="600">把新错例</text>
+    <text x="868" y="186" fill="#1c1917" font-size="14" font-weight="600">补进表</text>
+    <text x="868" y="232" fill="#57534e" font-size="12">使用中每发现</text>
+    <text x="868" y="252" fill="#57534e" font-size="12">一类新错</text>
+    <text x="868" y="272" fill="#57534e" font-size="12">就加一行</text>
+    <text x="868" y="320" fill="#78716c" font-size="11">表会越用越</text>
+    <text x="868" y="338" fill="#78716c" font-size="11">贴近真实情况</text>
+  </g>
+</svg>

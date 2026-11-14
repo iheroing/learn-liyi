@@ -1,0 +1,75 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="se-rule-title se-rule-desc">
+  <title id="se-rule-title">小评测表的三样东西，以及为什么三条不够</title>
+  <desc id="se-rule-desc">上排：小评测表由三部分组成。样例集是一批固定输入，最好来自真实使用记录，含难的和边缘的；通过标准是每条写清楚怎样算对；记录是每改一版就跑全套，记下版本、通过率和错在哪几条。下排算术示意，假设各条互不影响：真实正确率 95% 的版本连对 3 条的概率约 86%；真实正确率 70% 的版本连对 3 条约 34%；同样 70% 的版本连对 20 条不到千分之一。三条全对在好版本和一般版本身上都常见，样例一多，差的版本就藏不住。</desc>
+  <defs>
+    <pattern id="se-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#se-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">一张小评测表：固定样例、通过标准、每版记录</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">二三十行就够，在表格里就能做</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="272" height="196" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="116" fill="#0f6e6b" font-size="15" font-weight="600">样例集</text>
+    <text x="68" y="146" fill="#44403c" font-size="12">一批固定的输入</text>
+    <text x="68" y="168" fill="#44403c" font-size="12">最好来自真实使用记录</text>
+    <text x="68" y="198" fill="#78716c" font-size="11">要有几条难的、边缘的：</text>
+    <text x="68" y="216" fill="#78716c" font-size="11">很短的、很长的、一句话两个要求的、</text>
+    <text x="68" y="234" fill="#78716c" font-size="11">写错别字的</text>
+    <text x="68" y="262" fill="#78716c" font-size="11">另留 3–5 条平时不看，最后再验</text>
+
+    <rect x="344" y="84" width="272" height="196" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="364" y="116" fill="#0f6e6b" font-size="15" font-weight="600">通过标准</text>
+    <text x="364" y="146" fill="#44403c" font-size="12">每条写清楚怎样算对</text>
+    <text x="364" y="176" fill="#0f6e6b" font-size="12" font-weight="600">「标签 = X」「不能出现 Z」</text>
+    <text x="364" y="200" fill="#78716c" font-size="11">而不是「回答得好」</text>
+    <text x="364" y="234" fill="#78716c" font-size="11">只能主观判断的，</text>
+    <text x="364" y="252" fill="#78716c" font-size="11">先只判通过或不通过</text>
+
+    <rect x="640" y="84" width="272" height="196" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="660" y="116" fill="#0f6e6b" font-size="15" font-weight="600">记录</text>
+    <text x="660" y="146" fill="#44403c" font-size="12">每改一版就把整套跑一遍</text>
+    <text x="660" y="168" fill="#44403c" font-size="12">记下版本、通过率、错在哪几条</text>
+    <text x="660" y="204" fill="#78716c" font-size="11">一半看新问题修没修好，</text>
+    <text x="660" y="222" fill="#78716c" font-size="11">一半看原来对的</text>
+    <text x="660" y="240" fill="#78716c" font-size="11">有没有被改错</text>
+  </g>
+
+  <!-- Probability panel -->
+  <rect x="48" y="304" width="864" height="284" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="336" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">为什么随手试三条不够：一道算术</text>
+  <text x="68" y="358" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">假设各条互不影响；「连对 n 条」的概率 = 正确率的 n 次方</text>
+
+  <!-- bars: scale 0-100% over 360px, x0 = 330 -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <line x1="330" y1="384" x2="330" y2="540" stroke="#1c1917" stroke-opacity="0.22" stroke-width="1.5"/>
+    <line x1="690" y1="384" x2="690" y2="540" stroke="#1c1917" stroke-opacity="0.08"/>
+
+    <text x="310" y="408" fill="#1c1917" font-size="13" font-weight="600" text-anchor="end">正确率 95% · 连对 3 条</text>
+    <rect x="330" y="392" width="309.6" height="26" fill="#0f6e6b" fill-opacity="0.80"/>
+    <text x="650" y="410" fill="#0f6e6b" font-size="15" font-weight="600">≈ 86%</text>
+
+    <text x="310" y="456" fill="#1c1917" font-size="13" font-weight="600" text-anchor="end">正确率 70% · 连对 3 条</text>
+    <rect x="330" y="440" width="122.4" height="26" fill="#b45309" fill-opacity="0.55"/>
+    <text x="464" y="458" fill="#b45309" font-size="15" font-weight="600">≈ 34%</text>
+
+    <text x="310" y="504" fill="#1c1917" font-size="13" font-weight="600" text-anchor="end">正确率 70% · 连对 20 条</text>
+    <rect x="330" y="488" width="2" height="26" fill="#b45309" fill-opacity="0.75"/>
+    <text x="344" y="506" fill="#b45309" font-size="15" font-weight="600">不到 0.1%</text>
+
+    <g fill="#78716c" font-size="11" text-anchor="middle">
+      <text x="330" y="556">0</text>
+      <text x="690" y="556">100%</text>
+    </g>
+  </g>
+  <text x="730" y="414" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">「三条全对」在好版本</text>
+  <text x="730" y="434" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">和一般版本身上都常见，</text>
+  <text x="730" y="454" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">分不开它们。</text>
+  <text x="730" y="490" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">样例一多，</text>
+  <text x="730" y="510" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">差的版本就藏不住。</text>
+  <text x="68" y="576" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">0.7³ ≈ 0.34 · 0.95³ ≈ 0.86 · 0.7 的 20 次方 &lt; 0.001 · 算术示意，不是实验数据</text>
+</svg>
