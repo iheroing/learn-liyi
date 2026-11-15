@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "week-review-1115": {
+    figures: [
+      {
+        src: "/illustrations/week-review-1115-map.svg",
+        alt: "三列总图：信息价值与机会成本都是先写出「不这样做会怎样」；交错练习与小评测都是别用「今天看起来很顺」当学会了；3-2-1 备份与亲近对齐都是别把最顺手的那一步当成已经做完。三列汇入同一句：动手改之前，先写下你拿什么来对照。",
+        caption:
+          "六课问的是同一类事——你正要再打听、再答应、再改的时候，手里有没有一样能对照的东西？没有的话，先写下来。",
+        afterHeading: "本周六课",
+      },
+      {
+        src: "/illustrations/week-review-1115-pairs.svg",
+        alt: "三对容易混的课：信息价值和机会成本都是先写出「不这样做会怎样」，对照的对象不同；交错练习和小评测都在对付「今天看起来很顺」；3-2-1 备份和亲近对齐都容易把最顺手的一步当成做完。",
+        caption:
+          "分开再叠用。再调研前先写你会怎么选，也写下这下午本来能做的最好那件事；判断学会了或改好了，别用「今天有多顺」；没做恢复测试就说已经备份，和没改位置就换配色，都是把最顺手的动作当成做完了。",
+        afterHeading: "怎么互相绊脚",
+      },
+      {
+        src: "/illustrations/week-review-1115-steps.svg",
+        alt: "三句自检：已经写了对照吗；拿什么判断已经会了或已经改好了；最顺手的那一步是不是被当成已经做完。底部提示别六课并行，按最痛的那条选一个七天动作。",
+        caption:
+          "对着一件真事只问三句。别六课并行，按你最痛的那条选一个七天动作；动手改、再打听、再答应之前，先写下你拿什么来对照。",
+        afterHeading: "三句自检",
+      },
+    ],
+    diagram: "/illustrations/week-review-1115-map.svg",
+    diagramAlt: "六课收成一件事：动手改之前，先写下你拿什么来对照",
+    diagramCaption: "再打听、再答应、再改的时候，手里有没有一样能对照的东西？",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "small-evals": {
     figures: [
       {

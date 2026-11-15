@@ -1,0 +1,77 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wr1115-pairs-title wr1115-pairs-desc" id="wr1115-pairs">
+  <title id="wr1115-pairs-title">三对容易混的课：先写对照、别凭手感、别当做完</title>
+  <desc id="wr1115-pairs-desc">左：信息价值和机会成本都是先写出「不这样做会怎样」，对照的对象不同。中：交错练习和小评测都在对付「今天看起来很顺」，要用隔几天后的选题正确率，或固定样例上的通过率来检验。右：3-2-1 备份和亲近对齐都容易把最顺手的一步当成做完。</desc>
+  <defs>
+    <pattern id="wr1115-pairs-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#wr1115-pairs-dots)" opacity="0.45"/>
+
+  <text x="480" y="42" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">最容易混的三对，先分开再叠用</text>
+
+  <!-- Panel 1 -->
+  <rect x="40" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="56" y="80" width="168" height="22" rx="4" fill="#0f6e6b" fill-opacity="0.12"/>
+  <text x="140" y="96" fill="#0f6e6b" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">信息价值 × 机会成本</text>
+  <text x="180" y="132" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都是先写出「不这样做会怎样」</text>
+
+  <text x="180" y="168" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">信息价值</text>
+  <text x="180" y="190" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">现在就决定，还是再打听</text>
+  <text x="180" y="210" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">不会改决定，价值接近 0</text>
+
+  <line x1="68" y1="228" x2="292" y2="228" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="180" y="258" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">机会成本</text>
+  <text x="180" y="280" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">放弃的最好那一件是什么</text>
+  <text x="180" y="300" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只跟这一项比，不加总</text>
+  <text x="180" y="336" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">再调研前，两件对照都先写下</text>
+
+  <!-- Panel 2 -->
+  <rect x="340" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="356" y="80" width="148" height="22" rx="4" fill="#3d4f66" fill-opacity="0.14"/>
+  <text x="430" y="96" fill="#3d4f66" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">交错练习 × 小评测</text>
+  <text x="480" y="132" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都在对付「今天看起来很顺」</text>
+
+  <text x="480" y="168" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">交错练习</text>
+  <text x="480" y="190" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">同一类连着做，练不到选题</text>
+  <text x="480" y="210" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">用隔几天后的选题正确率</text>
+
+  <line x1="368" y1="228" x2="592" y2="228" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="480" y="258" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">小评测</text>
+  <text x="480" y="280" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">随手试三条，分不出好坏</text>
+  <text x="480" y="300" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">用约二十条真实样例的通过率</text>
+  <text x="480" y="336" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七成正确率，三次里大约有一次全对</text>
+
+  <!-- Panel 3 -->
+  <rect x="640" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="656" y="80" width="160" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="736" y="96" fill="#9a3412" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">3-2-1 备份 × 亲近对齐</text>
+  <text x="780" y="132" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都容易把最顺手的一步当成做完</text>
+
+  <text x="780" y="168" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">3-2-1 备份</text>
+  <text x="780" y="190" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">网盘同步会把误删一起传走</text>
+  <text x="780" y="210" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还要有断开的，并真恢复过</text>
+
+  <line x1="668" y1="228" x2="892" y2="228" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="780" y="258" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">亲近对齐</text>
+  <text x="780" y="280" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">标红加粗，仍分不出分组</text>
+  <text x="780" y="300" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先收紧、拉开、对齐，颜色留到最后</text>
+  <text x="780" y="336" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">没做恢复测试，和没改位置就换色，同类错</text>
+
+  <!-- Bottom -->
+  <rect x="40" y="386" width="880" height="72" rx="8" fill="#3f6212" fill-opacity="0.10" stroke="#3f6212" stroke-width="1.4"/>
+  <text x="480" y="416" fill="#3f6212" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先改你最常踩的那一对</text>
+  <text x="480" y="440" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">再开一轮会却没写会不会改决定 · 邀请来了直接答应 · 提示词试三条就换上 · 丢进网盘就算备份 · 通知标红了还是看不清分组</text>
+
+  <line x1="40" y1="480" x2="920" y2="480" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="508" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="496" width="16" height="12" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-width="1.2"/>
+  <text x="118" y="508" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">分开机制</text>
+  <rect x="200" y="496" width="16" height="12" fill="#3f6212" fill-opacity="0.10" stroke="#3f6212" stroke-width="1.2"/>
+  <text x="222" y="508" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先改一对</text>
+  <text x="920" y="508" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wr1115-steps-title wr1115-steps-desc" id="wr1115-steps">
+  <title id="wr1115-steps-title">对着一件真事，只问三句</title>
+  <desc id="wr1115-steps-desc">三句自检：我是在收集信息，还是已经写了对照；我拿什么判断已经会了或已经改好了；最顺手的那一步，是不是被我当成已经做完。别六课并行，按最痛的那条选一个七天动作。</desc>
+  <defs>
+    <pattern id="wr1115-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#wr1115-steps-dots)" opacity="0.45"/>
+
+  <text x="480" y="40" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">对着一件真事，只问三句</text>
+  <text x="480" y="60" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还在调研的决定、要不要答应一个局、要改的提示词、一份文件夹、一页通知、正在练的题型</text>
+
+  <!-- Step 1 -->
+  <rect x="40" y="80" width="280" height="300" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-width="1" stroke-opacity="0.16"/>
+  <circle cx="180" cy="112" r="18" fill="#0f6e6b" fill-opacity="0.10"/>
+  <text x="180" y="117" fill="#0f6e6b" font-size="16" font-weight="700" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">1</text>
+  <text x="180" y="148" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">已经写了对照吗？</text>
+
+  <text x="180" y="180" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还在打听、再开一轮会</text>
+  <text x="180" y="200" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先写现有材料下你会怎么选</text>
+  <text x="180" y="218" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">新信息会不会改这个选择</text>
+
+  <line x1="68" y1="236" x2="292" y2="236" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="180" y="262" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">正在犹豫要不要答应、买、投入</text>
+  <text x="180" y="282" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先写放弃它，这些钱或时间</text>
+  <text x="180" y="300" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">会用在哪件最好的事上</text>
+  <text x="180" y="336" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">信息价值 · 机会成本</text>
+  <text x="180" y="354" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先写对照，再继续打听或答应</text>
+
+  <!-- Step 2 -->
+  <rect x="340" y="80" width="280" height="300" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-width="1" stroke-opacity="0.16"/>
+  <circle cx="480" cy="112" r="18" fill="#0f6e6b" fill-opacity="0.10"/>
+  <text x="480" y="117" fill="#0f6e6b" font-size="16" font-weight="700" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">2</text>
+  <text x="480" y="148" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">拿什么判断已经会了？</text>
+
+  <text x="480" y="180" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">练习时同一类连着做、当天很顺</text>
+  <text x="480" y="200" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还是隔几天后混在一起</text>
+  <text x="480" y="218" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还能选对方法</text>
+
+  <line x1="368" y1="236" x2="592" y2="236" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="480" y="262" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">改工具或提示词，随手试了几条</text>
+  <text x="480" y="282" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还是同一批固定样例上</text>
+  <text x="480" y="300" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">记下了通过率</text>
+  <text x="480" y="336" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">交错练习 · 小评测</text>
+  <text x="480" y="354" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">别用「今天有多顺」来收工</text>
+
+  <!-- Step 3 -->
+  <rect x="640" y="80" width="280" height="300" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-width="1" stroke-opacity="0.46"/>
+  <circle cx="780" cy="112" r="18" fill="#0f6e6b" fill-opacity="0.14"/>
+  <text x="780" y="117" fill="#0f6e6b" font-size="16" font-weight="700" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">3</text>
+  <text x="780" y="148" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">最顺手的一步当成做完了吗？</text>
+
+  <text x="780" y="180" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">重要文件只在电脑和网盘里</text>
+  <text x="780" y="200" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">现在有几份、在几种地方</text>
+  <text x="780" y="218" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">最近一次真恢复是什么时候</text>
+
+  <line x1="668" y1="236" x2="892" y2="236" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="780" y="262" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一页通知、PPT、表格看着乱</text>
+  <text x="780" y="282" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">本来有几组意思，眯眼能看出几块</text>
+  <text x="780" y="300" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">看不出分组，就先别换配色</text>
+  <text x="780" y="336" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">3-2-1 备份 · 亲近对齐</text>
+  <text x="780" y="354" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">最顺手的动作，不算做完</text>
+
+  <!-- Bottom -->
+  <rect x="40" y="406" width="880" height="72" rx="8" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-width="1.4"/>
+  <text x="480" y="436" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">别六课并行。按你最痛的那条，选一个七天动作</text>
+  <text x="480" y="460" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">动手改、再打听、再答应之前，先写下你拿什么来对照</text>
+
+  <line x1="40" y1="496" x2="920" y2="496" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="522" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">三句自检 · 下周先抓一件</text>
+  <text x="920" y="522" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>
