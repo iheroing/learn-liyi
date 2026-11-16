@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "implementation-intentions": {
+    figures: [
+      {
+        src: "/illustrations/implementation-intentions-scene.svg",
+        alt: "假设的情况：这周要把拖了很久的材料写完。左侧只立了目标意向「要把那份拖了很久的材料写完」，目标是真心的，日历晚上也空得出时间。右侧周四晚上文件还是一个字没动，每天都在等更合适的空隙：开完会再写、吃完晚饭再写，空隙没以想象的样子出现，这件事又被推到了明天。卡住的通常不是志向，是到时候由什么把你启动。",
+        caption:
+          "只写下「我要完成」，到时候还要再决定现在要不要动手。卡住的通常不是志向，是到时候由什么把你启动。",
+        afterHeading: "场景",
+      },
+      {
+        src: "/illustrations/implementation-intentions-rule.svg",
+        alt: "上排：实施意向的格式是「如果情境 Y 出现，那么我就做行为 X」。Y 要是真会碰到的线索，如倒完早上那杯咖啡、下班换下衣服；X 要是当场能开始的动作，如打开草稿先写开头三个要点，而不是把材料写完。Gollwitzer 1999 年综述：形成实施意向，等于把目标导向行为的控制，委托给预期会出现的情境线索。下排按 Gollwitzer 和 Brandstätter（1997）重绘：86 名大学生立下同一目标，寄回且能分清组别的 36 份里，写下时间地点的 17 人中有 12 人在两天窗口内写完，对照组 19 人中只有 6 人；前者平均在平安夜后 2.3 天动笔，后者是 7.7 天。另注 Gollwitzer 和 Sheeran（2006）汇总 94 项独立检验、8461 人，平均效应 d = 0.65（中等到偏大），这是许多研究的平均结果，不是写一条就有六成五的把握一定完成。",
+        caption:
+          "Gollwitzer 和 Brandstätter（1997）：写下何时何地动笔的 17 人中有 12 人在两天窗口内写完，对照组 19 人中只有 6 人；平均动笔分别是平安夜后 2.3 天和 7.7 天。Gollwitzer 和 Sheeran（2006）94 项、8461 人，平均效应 d = 0.65，这是许多研究的平均结果，不是写一条就有六成五的把握。",
+        afterHeading: "如果—那么计划是什么",
+      },
+      {
+        src: "/illustrations/implementation-intentions-steps.svg",
+        alt: "五步，第一次大约 15 分钟：用一句话写下这周最想做成的一件事，写到能看出怎样算做成；先标出通常卡在哪；只为这件事写一条如果—那么，「如果」选本周真会碰到的线索，「那么」写两分钟内能开始的动作；若真正的干扰是诱惑或打断，再补一条对付它；过几天回看，线索没出现就改「如果」，出现了却没行动，多半是「那么」还是太大，或这件事其实没打算做。",
+        caption:
+          "第一次大约 15 分钟。一次先只盯一件；「如果」要真会碰到，「那么」要能当场开始。",
+        afterHeading: "先写一条，按五步走",
+      },
+    ],
+    diagram: "/illustrations/implementation-intentions-scene.svg",
+    diagramAlt: "假设的情况：左侧只立了目标意向，日历也空得出时间；右侧周四晚上文件还是一个字没动，又被推到了明天。",
+    diagramCaption: "只写下「我要完成」，到时候还要再决定现在要不要动手。卡住的通常不是志向，是到时候由什么把你启动。",
+    icon: "/icons/domain-learning.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "week-review-1115": {
     figures: [
       {

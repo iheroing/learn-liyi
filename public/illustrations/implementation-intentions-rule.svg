@@ -1,0 +1,122 @@
+<svg viewBox="0 0 960 680" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ii-rule-title ii-rule-desc">
+  <title id="ii-rule-title">如果情境出现，就做这一步；不必到时候再决定要不要动手</title>
+  <desc id="ii-rule-desc">上排：实施意向的格式是「如果情境 Y 出现，那么我就做行为 X」。Y 要是真会碰到的线索，如倒完早上那杯咖啡、下班换下衣服；X 要是当场能开始的动作，如打开草稿先写开头三个要点，而不是把材料写完。Gollwitzer 1999 年综述：形成实施意向，等于把目标导向行为的控制，委托给预期会出现的情境线索。下排重绘 Gollwitzer 和 Brandstätter 1997 年研究：86 名大学生立下同一目标，寄回且能分清组别的 36 份里，写下时间地点的 17 人中有 12 人在两天窗口内写完，对照组 19 人中只有 6 人；前者平均在平安夜后 2.3 天动笔，后者是 7.7 天。另注 Gollwitzer 和 Sheeran 2006 年汇总 94 项独立检验、8461 名参与者，平均效应 d = 0.65（中等到偏大），这是许多研究的平均结果，不是写一条就有六成五的把握一定完成。</desc>
+  <defs>
+    <pattern id="ii-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="680" fill="#f7f3eb"/>
+  <rect width="960" height="680" fill="url(#ii-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">如果情境出现，就做这一步；不必到时候再决定</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">实施意向（implementation intention）· 如果—那么计划</text>
+
+  <!-- Format card -->
+  <rect x="48" y="84" width="420" height="210" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="114" fill="#0f6e6b" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">格式</text>
+  <text x="68" y="142" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">如果情境 Y 出现，那么我就做行为 X</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="68" y="174" fill="#57534e" font-size="12">Y 要是你真会碰到的线索</text>
+    <rect x="68" y="186" width="168" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.10" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <text x="152" y="205" fill="#0f6e6b" font-size="11" font-weight="600" text-anchor="middle">倒完早上那杯咖啡</text>
+    <rect x="244" y="186" width="148" height="28" rx="4" fill="#0f6e6b" fill-opacity="0.10" stroke="#0f6e6b" stroke-opacity="0.35"/>
+    <text x="318" y="205" fill="#0f6e6b" font-size="11" font-weight="600" text-anchor="middle">下班换下衣服</text>
+
+    <text x="68" y="238" fill="#57534e" font-size="12">X 要是当场能开始的动作</text>
+    <text x="68" y="262" fill="#0f6e6b" font-size="12" font-weight="600">打开那份草稿，先写开头三个要点</text>
+    <text x="68" y="280" fill="#78716c" font-size="11">而不是「把材料写完」</text>
+  </g>
+
+  <!-- Mechanism card -->
+  <rect x="492" y="84" width="420" height="210" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="114" fill="#0f6e6b" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">机制</text>
+  <text x="512" y="142" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">把目标导向行为的控制，</text>
+  <text x="512" y="162" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">委托给预期会出现的情境线索</text>
+  <text x="512" y="184" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Gollwitzer（1999）《美国心理学家》综述</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <circle cx="524" cy="214" r="8" fill="#0f6e6b" fill-opacity="0.12"/>
+    <text x="524" y="218" fill="#0f6e6b" font-size="10" font-weight="700" text-anchor="middle">1</text>
+    <text x="540" y="212" fill="#44403c" font-size="12">事先想清楚「在哪种情况下开始做」</text>
+    <text x="540" y="230" fill="#44403c" font-size="12">到时候不必再重新决定要不要动手</text>
+
+    <circle cx="524" cy="258" r="8" fill="#0f6e6b" fill-opacity="0.12"/>
+    <text x="524" y="262" fill="#0f6e6b" font-size="10" font-weight="700" text-anchor="middle">2</text>
+    <text x="540" y="256" fill="#44403c" font-size="12">同时，这个线索也会变得</text>
+    <text x="540" y="274" fill="#44403c" font-size="12">更容易被你注意到</text>
+  </g>
+
+  <!-- Study panel -->
+  <rect x="48" y="304" width="864" height="292" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="334" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Gollwitzer 和 Brandstätter（1997）</text>
+  <text x="68" y="356" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">86 名大学生都立下同一个目标：假期里写一篇平安夜怎么过的报告，并尽快寄回。一半人额外写下何时何地动笔。</text>
+  <text x="68" y="374" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">寄回且能分清组别的 36 份。</text>
+
+  <!-- Counts: people dots -->
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="68" y="408" fill="#1c1917" font-size="13" font-weight="600">两天窗口内写完</text>
+
+    <text x="68" y="436" fill="#0f6e6b" font-size="12" font-weight="600">写下时间地点</text>
+    <!-- 12 filled + 5 empty, r=6, spacing=16, start cx=68+16? label takes space. Dots start at x=200 -->
+    <!-- 17 dots: cx = 200 + i*16, i=0..16, last = 456 -->
+    <g fill="#0f6e6b">
+      <circle cx="200" cy="432" r="6"/><circle cx="216" cy="432" r="6"/><circle cx="232" cy="432" r="6"/><circle cx="248" cy="432" r="6"/>
+      <circle cx="264" cy="432" r="6"/><circle cx="280" cy="432" r="6"/><circle cx="296" cy="432" r="6"/><circle cx="312" cy="432" r="6"/>
+      <circle cx="328" cy="432" r="6"/><circle cx="344" cy="432" r="6"/><circle cx="360" cy="432" r="6"/><circle cx="376" cy="432" r="6"/>
+    </g>
+    <g fill="none" stroke="#0f6e6b" stroke-opacity="0.45" stroke-width="1.4">
+      <circle cx="392" cy="432" r="6"/><circle cx="408" cy="432" r="6"/><circle cx="424" cy="432" r="6"/><circle cx="440" cy="432" r="6"/><circle cx="456" cy="432" r="6"/>
+    </g>
+    <text x="474" y="436" fill="#0f6e6b" font-size="13" font-weight="600">17 人中有 12 人</text>
+
+    <text x="68" y="472" fill="#57534e" font-size="12" font-weight="600">对照组</text>
+    <!-- 6 filled + 13 empty = 19, same start, last = 200+18*16=488 -->
+    <g fill="#57534e" fill-opacity="0.55">
+      <circle cx="200" cy="468" r="6"/><circle cx="216" cy="468" r="6"/><circle cx="232" cy="468" r="6"/><circle cx="248" cy="468" r="6"/><circle cx="264" cy="468" r="6"/><circle cx="280" cy="468" r="6"/>
+    </g>
+    <g fill="none" stroke="#57534e" stroke-opacity="0.45" stroke-width="1.4">
+      <circle cx="296" cy="468" r="6"/><circle cx="312" cy="468" r="6"/><circle cx="328" cy="468" r="6"/><circle cx="344" cy="468" r="6"/>
+      <circle cx="360" cy="468" r="6"/><circle cx="376" cy="468" r="6"/><circle cx="392" cy="468" r="6"/><circle cx="408" cy="468" r="6"/>
+      <circle cx="424" cy="468" r="6"/><circle cx="440" cy="468" r="6"/><circle cx="456" cy="468" r="6"/><circle cx="472" cy="468" r="6"/><circle cx="488" cy="468" r="6"/>
+    </g>
+    <text x="506" y="472" fill="#57534e" font-size="13" font-weight="600">19 人中只有 6 人</text>
+  </g>
+
+  <!-- Days bars: right side. axis from x=200? Wait, counts already use left. Put days below or on the right.
+
+       Counts end around x=620 (506+ text). "19 人中只有 6 人" is about 13 chars * 13px ≈ 169, so ends ~675.
+       That doesn't leave much room on the right. Better put days BELOW the dots.
+
+       Horizontal bars below:
+       Label left, bar, endpoint label.
+       "平均在平安夜后几天动笔"
+       写下时间地点  bar 2.3/10 * width
+       对照组        bar 7.7/10 * width
+  -->
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="68" y="498" fill="#1c1917" font-size="13" font-weight="600">平均在平安夜后几天动笔</text>
+
+    <!-- axis: x0=280, width=400 for 10 days, so 40px per day. y bars at 528 and 556 -->
+    <text x="268" y="524" fill="#0f6e6b" font-size="12" font-weight="600" text-anchor="end">写下时间地点</text>
+    <rect x="280" y="510" width="92" height="18" fill="#0f6e6b" fill-opacity="0.80"/>
+    <text x="380" y="524" fill="#0f6e6b" font-size="13" font-weight="600">2.3 天</text>
+
+    <text x="268" y="552" fill="#57534e" font-size="12" font-weight="600" text-anchor="end">对照组</text>
+    <rect x="280" y="538" width="308" height="18" fill="#57534e" fill-opacity="0.40"/>
+    <text x="596" y="552" fill="#44403c" font-size="13" font-weight="600">7.7 天</text>
+
+    <line x1="280" y1="564" x2="680" y2="564" stroke="#1c1917" stroke-opacity="0.22" stroke-width="1.5"/>
+    <g fill="#78716c" font-size="11">
+      <text x="280" y="580">0</text>
+      <text x="680" y="580" text-anchor="end">10 天</text>
+    </g>
+  </g>
+
+  <!-- Meta-analysis strip -->
+  <rect x="48" y="616" width="864" height="44" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+  <text x="68" y="636" fill="#0f6e6b" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Gollwitzer 和 Sheeran（2006）：94 项独立检验、8461 人，平均效应 d = 0.65（中等到偏大）</text>
+  <text x="68" y="652" fill="#44403c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这是许多研究的平均结果，不是说你写一条计划就有六成五的把握一定完成</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg viewBox="0 0 960 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ii-steps-title ii-steps-desc">
+  <title id="ii-steps-title">先写一条，按五步走</title>
+  <desc id="ii-steps-desc">五步，第一次大约 15 分钟：用一句话写下这周最想做成的一件事，写到能看出怎样算做成；先标出你通常卡在哪，是一直开不了头、做到一半被打断，还是旧习惯把你带走；只为这件事写一条如果—那么，「如果」选一个本周真会碰到的线索，「那么」写一个两分钟内能开始的动作；若真正的干扰是诱惑或打断，再补一条对付它；过几天回看，线索没出现就要改「如果」，线索出现了却没行动，多半是「那么」还是太大，或者这件事你其实没打算做。</desc>
+  <defs>
+    <pattern id="ii-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="500" fill="#f7f3eb"/>
+  <rect width="960" height="500" fill="url(#ii-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="44" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先写一条，按五步走，第一次大约 15 分钟</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M204 230 H218"/><path d="M211 225 L219 230 L211 235"/>
+    <path d="M382 230 H396"/><path d="M389 225 L397 230 L389 235"/>
+    <path d="M560 230 H574"/><path d="M567 225 L575 230 L567 235"/>
+    <path d="M738 230 H752"/><path d="M745 225 L753 230 L745 235"/>
+  </g>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <rect x="44" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="222" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="400" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="578" y="72" width="160" height="388" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="756" y="72" width="160" height="388" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="124" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="302" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="480" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="658" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.10"/>
+    <circle cx="836" cy="114" r="22" fill="#0f6e6b" fill-opacity="0.14"/>
+    <text x="124" y="121" fill="#0f6e6b" font-size="18" font-weight="700">1</text>
+    <text x="302" y="121" fill="#0f6e6b" font-size="18" font-weight="700">2</text>
+    <text x="480" y="121" fill="#0f6e6b" font-size="18" font-weight="700">3</text>
+    <text x="658" y="121" fill="#0f6e6b" font-size="18" font-weight="700">4</text>
+    <text x="836" y="121" fill="#0f6e6b" font-size="18" font-weight="700">5</text>
+
+    <text x="124" y="164" fill="#1c1917" font-size="14" font-weight="600">用一句话写下</text>
+    <text x="124" y="186" fill="#1c1917" font-size="14" font-weight="600">这周最想做成的</text>
+    <text x="124" y="208" fill="#1c1917" font-size="14" font-weight="600">一件事</text>
+    <text x="124" y="248" fill="#57534e" font-size="12">写到能看出</text>
+    <text x="124" y="268" fill="#57534e" font-size="12">怎样算做成</text>
+    <text x="124" y="312" fill="#78716c" font-size="11">一次先只盯一件</text>
+
+    <text x="302" y="164" fill="#1c1917" font-size="14" font-weight="600">先标出你</text>
+    <text x="302" y="186" fill="#1c1917" font-size="14" font-weight="600">通常卡在哪</text>
+    <text x="302" y="248" fill="#57534e" font-size="12">一直开不了头，</text>
+    <text x="302" y="268" fill="#57534e" font-size="12">做到一半被打断，</text>
+    <text x="302" y="288" fill="#57534e" font-size="12">还是旧习惯</text>
+    <text x="302" y="308" fill="#57534e" font-size="12">把你带走</text>
+
+    <text x="480" y="164" fill="#1c1917" font-size="14" font-weight="600">只为这件事写</text>
+    <text x="480" y="186" fill="#1c1917" font-size="14" font-weight="600">一条如果—那么</text>
+    <text x="480" y="248" fill="#57534e" font-size="12">「如果」选一个</text>
+    <text x="480" y="268" fill="#57534e" font-size="12">本周真会碰到的</text>
+    <text x="480" y="288" fill="#57534e" font-size="12">线索</text>
+    <text x="480" y="320" fill="#78716c" font-size="11">「那么」写一个</text>
+    <text x="480" y="338" fill="#78716c" font-size="11">两分钟内能开始</text>
+    <text x="480" y="356" fill="#78716c" font-size="11">的动作</text>
+
+    <text x="658" y="164" fill="#1c1917" font-size="14" font-weight="600">若干扰是诱惑</text>
+    <text x="658" y="186" fill="#1c1917" font-size="14" font-weight="600">或打断，再补一条</text>
+    <text x="658" y="248" fill="#57534e" font-size="12">如果我想在这段</text>
+    <text x="658" y="268" fill="#57534e" font-size="12">时间打开手机，</text>
+    <text x="658" y="288" fill="#57534e" font-size="12">我就先把手机</text>
+    <text x="658" y="308" fill="#57534e" font-size="12">放到另一个房间</text>
+    <text x="658" y="348" fill="#78716c" font-size="11">不是每件事都要</text>
+    <text x="658" y="366" fill="#78716c" font-size="11">再写一条对付它</text>
+
+    <text x="836" y="164" fill="#1c1917" font-size="14" font-weight="600">过几天回看</text>
+    <text x="836" y="248" fill="#57534e" font-size="12">线索没出现，</text>
+    <text x="836" y="268" fill="#57534e" font-size="12">就要改「如果」</text>
+    <text x="836" y="300" fill="#57534e" font-size="12">出现了却没行动，</text>
+    <text x="836" y="320" fill="#57534e" font-size="12">多半是「那么」</text>
+    <text x="836" y="340" fill="#57534e" font-size="12">还是太大，</text>
+    <text x="836" y="360" fill="#57534e" font-size="12">或者这件事你</text>
+    <text x="836" y="380" fill="#57534e" font-size="12">其实没打算做</text>
+  </g>
+</svg>
