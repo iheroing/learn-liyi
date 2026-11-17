@@ -1,0 +1,76 @@
+<svg viewBox="0 0 960 716" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ivp-rule-title ivp-rule-desc">
+  <title id="ivp-rule-title">立场是你已经决定要的东西，利益是你为什么会做这个决定</title>
+  <desc id="ivp-rule-desc">上排左：Fisher、Ury 和 Patton 在《Getting to Yes》里的区分：立场是你已经决定要的东西，利益是你为什么会做这个决定，包括需要、愿望、顾虑和害怕。同一个利益通常有好几种办法能满足。上排右：书中用 1978 年戴维营谈判作说明，不是对那段历史的完整叙述。埃及坚持西奈一寸都不能留给以色列，以色列坚持必须留下一部分，按地盘折中两边都不能接受；落到利益上，一边要主权，一边要边境安全。后来的方案是全部归还埃及，同时大面积非军事化。下排按 Thompson 和 Hastie（1990）的结论重绘：多数谈判者一上来就假定对方的利益和自己完全相反，像在分一块大小固定的蛋糕；能较早、较准确地看出对方利益的人，结果更好；相当一部分人甚至没发现双方利益其实完全相容，最后接受了更差的方案。底栏按 Thompson（1991）：在有可能让双方都更好的任务里，说明或询问利益都能让判断更准、也更容易达成对双方都更有利的协议；即使只有一方在做，共同结果也常能改善；主动说明的人并不必然在个人所得上吃亏。这是该研究条件下的结果，不能直接推论到所有你死我活的砍价。</desc>
+  <defs>
+    <pattern id="ivp-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="716" fill="#f7f3eb"/>
+  <rect width="960" height="716" fill="url(#ivp-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">立场是你已经决定要的，利益是你为什么会做这个决定</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Fisher、Ury、Patton《Getting to Yes》· 看利益，不只看立场</text>
+
+  <rect x="48" y="84" width="420" height="196" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="114" fill="#0f6e6b" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这两个词差在哪</text>
+
+  <rect x="68" y="132" width="380" height="56" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.35"/>
+  <text x="84" y="154" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">立场 position</text>
+  <text x="84" y="174" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">你已经决定要的东西</text>
+
+  <rect x="68" y="200" width="380" height="60" rx="6" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <text x="84" y="222" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">利益 interest</text>
+  <text x="84" y="244" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">你为什么会做这个决定</text>
+
+  <rect x="492" y="84" width="420" height="196" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="114" fill="#0f6e6b" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一个利益，通常有好几条路</text>
+  <text x="512" y="136" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">人往往先抓住最先想到的那个立场，</text>
+  <text x="512" y="156" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">等于把别的办法关在门外。</text>
+  <text x="512" y="186" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">对立的立场背后，常常既有冲突的利益，</text>
+  <text x="512" y="206" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">也有其实相容、甚至相同的利益。</text>
+  <text x="512" y="236" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">只在两个立场之间取中，可能两边最在意的都没被照顾到。</text>
+  <text x="512" y="258" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先把利益写出来，再想办法，而不是先折中。</text>
+
+  <rect x="48" y="296" width="864" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="326" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">戴维营谈判：书中的典型说明</text>
+  <text x="68" y="346" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">用来看「利益和立场不是一回事」，不是对 1978 年那段历史的完整叙述</text>
+
+  <rect x="68" y="364" width="256" height="140" rx="6" fill="#f7f3eb" stroke="#b45309" stroke-opacity="0.40"/>
+  <text x="196" y="390" fill="#9a3412" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只看立场</text>
+  <text x="196" y="416" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">埃及：西奈一寸都不能留</text>
+  <text x="196" y="438" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">以色列：必须留下一部分</text>
+  <text x="196" y="468" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">按地盘折中</text>
+  <text x="196" y="488" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">两边都不能接受</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M336 434 H354"/>
+    <path d="M346 429 L355 434 L346 439"/>
+  </g>
+
+  <rect x="366" y="364" width="256" height="140" rx="6" fill="#f7f3eb" stroke="#0f6e6b" stroke-opacity="0.45"/>
+  <text x="494" y="390" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">落到利益</text>
+  <text x="494" y="422" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一边要主权</text>
+  <text x="494" y="444" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一边要边境安全</text>
+  <text x="494" y="480" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">两个利益不必互相取消</text>
+
+  <g fill="none" stroke="#0f6e6b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M634 434 H652"/>
+    <path d="M644 429 L653 434 L644 439"/>
+  </g>
+
+  <rect x="664" y="364" width="224" height="140" rx="6" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-opacity="0.50"/>
+  <text x="776" y="390" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">后来的方案</text>
+  <text x="776" y="422" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">全部归还埃及</text>
+  <text x="776" y="444" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">同时大面积非军事化</text>
+  <text x="776" y="480" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">主权和安全都能被照顾</text>
+
+  <rect x="48" y="544" width="864" height="88" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="572" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Thompson 和 Hastie（1990）：多数人一上来就假定利益完全相反</text>
+  <text x="68" y="596" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">像在分一块大小固定的蛋糕。能较早、较准确地看出对方利益的人，结果更好；相当一部分人甚至没发现</text>
+  <text x="68" y="616" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">双方利益其实完全相容，最后接受了更差的方案。这两种判断偏差并不总是一起出现。</text>
+
+  <rect x="48" y="648" width="864" height="52" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+  <text x="68" y="669" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Thompson（1991）：在有可能让双方都更好的任务里，说明或询问利益，判断更准、方案也常对双方更有利</text>
+  <text x="68" y="687" fill="#44403c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">即使只有一方在做，说明的一方也并不必然吃亏。这是该研究条件下的结果，不能直接推论到所有你死我活的砍价。</text>
+</svg>
