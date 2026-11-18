@@ -1,0 +1,64 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="conf-steps-title conf-steps-desc">
+  <title id="conf-steps-title">准备据此行动之前，先写这五步</title>
+  <desc id="conf-steps-desc">看到两个现象一起变，并且准备据此做一个决定时，先用大约 10 分钟写一遍。第一步，把 A 和 B 写下来，一起变或先 A 后 B，先不要下结论。第二步，另起一行，列出可能同时推着 A 和 B 的因素，至少写两条；写不出来，就说明还没开始找共同原因。第三步，问一句：假如这些第三因素差不多，A 和 B 还会一起变吗？第四步，能只改一件事再看的，就不要只靠观察里的一起变，比如枕头，可以先只换枕头，其他习惯先不动，再看睡眠。第五步，做不了这样的对比时，至少别把「一起变」直接当成行动理由；要行动，先写清你还缺哪一条证据。</desc>
+  <defs>
+    <pattern id="conf-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#conf-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">准备据此行动之前，先用大约 10 分钟写这五步</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">看到两个现象一起变，并且你准备据此做一个决定时</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="344" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="640" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="48" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="492" y="340" width="420" height="232" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="76" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="372" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="668" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="76" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="520" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.16"/>
+
+    <text x="76" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">1</text>
+    <text x="372" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">2</text>
+    <text x="668" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">3</text>
+    <text x="76" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="520" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">5</text>
+
+    <text x="104" y="121" fill="#1c1917" font-size="14" font-weight="600">把两件事写下来</text>
+    <text x="68" y="168" fill="#57534e" font-size="13">A 和 B 一起变，</text>
+    <text x="68" y="190" fill="#57534e" font-size="13">或先 A 后 B。</text>
+    <text x="68" y="224" fill="#78716c" font-size="12">先原样记下，</text>
+    <text x="68" y="244" fill="#78716c" font-size="12">先不要下结论。</text>
+
+    <text x="400" y="121" fill="#1c1917" font-size="14" font-weight="600">列出共同原因</text>
+    <text x="364" y="168" fill="#57534e" font-size="13">可能同时推着 A 和 B</text>
+    <text x="364" y="190" fill="#57534e" font-size="13">的因素，另起一行写。</text>
+    <text x="364" y="224" fill="#78716c" font-size="12">至少写两条。</text>
+    <text x="364" y="244" fill="#78716c" font-size="12">写不出来，说明还没开始找。</text>
+
+    <text x="696" y="121" fill="#1c1917" font-size="14" font-weight="600">问一句再往下走</text>
+    <text x="660" y="168" fill="#57534e" font-size="13">假如这些第三因素差不多，</text>
+    <text x="660" y="190" fill="#57534e" font-size="13">A 和 B 还会一起变吗？</text>
+    <text x="660" y="224" fill="#78716c" font-size="12">比如同样的天气、</text>
+    <text x="660" y="244" fill="#78716c" font-size="12">同样的睡眠习惯。</text>
+
+    <text x="104" y="377" fill="#1c1917" font-size="14" font-weight="600">能只改一件事再看，就不要只靠观察</text>
+    <text x="68" y="424" fill="#57534e" font-size="13">比如枕头，可以先只换枕头，</text>
+    <text x="68" y="446" fill="#57534e" font-size="13">其他习惯先不动，再看睡眠。</text>
+    <text x="68" y="480" fill="#78716c" font-size="12">能做这样的对比时，</text>
+    <text x="68" y="500" fill="#78716c" font-size="12">就不要只靠「一起变」下判断。</text>
+
+    <text x="548" y="377" fill="#1c1917" font-size="14" font-weight="600">做不了对比时，先别据此行动</text>
+    <text x="512" y="424" fill="#57534e" font-size="13">至少别把「一起变」</text>
+    <text x="512" y="446" fill="#57534e" font-size="13">直接当成行动理由。</text>
+    <text x="512" y="480" fill="#78716c" font-size="12">要行动，先写清</text>
+    <text x="512" y="500" fill="#78716c" font-size="12">你还缺哪一条证据。</text>
+  </g>
+</svg>

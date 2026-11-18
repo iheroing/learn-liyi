@@ -1,0 +1,77 @@
+<svg viewBox="0 0 960 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="conf-rule-title conf-rule-desc">
+  <title id="conf-rule-title">一起变，不等于是它导致的</title>
+  <desc id="conf-rule-desc">相关只说明一起变。因果要问：如果只改 A，其他条件差不多，B 会不会变。若存在第三因素 C，既会影响 A，也会影响 B，那么就算 A 对 B 没有作用，A 和 B 也会一起变。流行病学和因果推断里，这种情况叫做混杂，这个 C 叫做混杂因素。Hernán 和 Robins 的说法：混杂来自暴露和结果有共同原因。Bickel、Hammel 和 O'Connell 1975 年在 Science 上分析加州大学伯克利分校 1973 年秋季的 12,763 份研究生申请。合计来看，男生录取率约 44%，女生约 35%，像是录取对女生不利。分到各院系再看，出现明显偏离的单位不多，看起来偏向女生和偏向男生的都有；按院系妥当合并后，还有一个幅度很小、但统计上显著的、偏向女生的差异。合计数字之所以看起来对女生不利，主要不是招生委员会按性别卡人，而是女生更常申请那些对男女申请人都更难进的院系。这是该文对当年这批数据的结论，不是对所有学校、所有年份的判断。</desc>
+  <defs>
+    <pattern id="conf-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+    <marker id="conf-rule-arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 10 5 L 0 8.8 Z" fill="#0f6e6b"/>
+    </marker>
+    <marker id="conf-rule-arrow-rust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 10 5 L 0 8.8 Z" fill="#b45309"/>
+    </marker>
+  </defs>
+  <rect width="960" height="760" fill="#f7f3eb"/>
+  <rect width="960" height="760" fill="url(#conf-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">一起变，不等于是它导致的</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先分清相关和因果，再看有没有共同原因在推</text>
+
+  <rect x="48" y="84" width="420" height="126" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="116" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">相关</text>
+  <text x="68" y="138" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">correlation</text>
+  <text x="68" y="168" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">只说明两件事一起变，</text>
+  <text x="68" y="190" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不能单靠它证明或否定因果。</text>
+
+  <rect x="492" y="84" width="420" height="126" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="116" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">因果</text>
+  <text x="512" y="138" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">causation</text>
+  <text x="512" y="168" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">要问的是：如果只改 A，</text>
+  <text x="512" y="190" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">其他条件差不多，B 会不会变。</text>
+
+  <rect x="48" y="226" width="864" height="230" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="258" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">混杂：暴露和结果有共同原因</text>
+  <text x="68" y="280" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Hernán 和 Robins · confounding / confounder</text>
+
+  <rect x="400" y="300" width="160" height="48" rx="6" fill="#0f6e6b" fill-opacity="0.10" stroke="#0f6e6b" stroke-opacity="0.50"/>
+  <text x="480" y="322" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">共同原因 C</text>
+  <text x="480" y="340" fill="#0f6e6b" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">温度</text>
+
+  <line x1="430" y1="348" x2="268" y2="392" stroke="#0f6e6b" stroke-width="1.6" marker-end="url(#conf-rule-arrow-teal)"/>
+  <line x1="530" y1="348" x2="692" y2="392" stroke="#0f6e6b" stroke-width="1.6" marker-end="url(#conf-rule-arrow-teal)"/>
+
+  <rect x="148" y="396" width="200" height="48" rx="6" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.20"/>
+  <text x="248" y="416" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">暴露 A</text>
+  <text x="248" y="434" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">冰淇淋销量</text>
+
+  <rect x="612" y="396" width="200" height="48" rx="6" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.20"/>
+  <text x="712" y="416" fill="#57534e" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">结果 B</text>
+  <text x="712" y="434" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">溺水人数</text>
+
+  <line x1="348" y1="420" x2="612" y2="420" stroke="#b45309" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#conf-rule-arrow-rust)"/>
+  <text x="480" y="410" fill="#b45309" font-size="11" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">看起来像 A 导致了 B</text>
+
+  <rect x="48" y="472" width="864" height="200" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="504" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Bickel、Hammel 和 O'Connell（1975）：伯克利研究生招生</text>
+  <text x="68" y="526" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">1973 年秋季 · 12,763 份申请 · 这是该文对当年这批数据的结论，不是对所有学校、所有年份的判断</text>
+
+  <rect x="68" y="544" width="400" height="112" rx="6" fill="#b45309" fill-opacity="0.07" stroke="#b45309" stroke-opacity="0.36"/>
+  <text x="84" y="568" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">只看全校合计</text>
+  <text x="84" y="592" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">男生录取率约 44%</text>
+  <rect x="250" y="580" width="176" height="10" rx="5" fill="#b45309" fill-opacity="0.55"/>
+  <text x="84" y="620" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">女生录取率约 35%</text>
+  <rect x="250" y="608" width="140" height="10" rx="5" fill="#b45309" fill-opacity="0.35"/>
+  <text x="84" y="642" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">看起来像是录取对女生不利</text>
+
+  <rect x="492" y="544" width="400" height="112" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.40"/>
+  <text x="508" y="568" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">分到各院系再看</text>
+  <text x="508" y="592" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">合计差异主要来自申请院系不同</text>
+  <text x="508" y="614" fill="#44403c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">女生更常申请对男女申请人</text>
+  <text x="508" y="632" fill="#44403c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">都更难进的院系；院系既和性别构成</text>
+  <text x="508" y="650" fill="#44403c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">有关，也和录取难易有关。</text>
+
+  <rect x="48" y="692" width="864" height="52" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+  <text x="68" y="713" fill="#0f6e6b" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">相关是一起变，因果是「只改这一件，另一件会不会变」</text>
+  <text x="68" y="731" fill="#44403c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">观察里看到一起变，可能是因果，也可能只是共同原因在推，两种都不能靠「一起变」单独钉死。</text>
+</svg>
