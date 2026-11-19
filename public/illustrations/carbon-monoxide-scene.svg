@@ -1,0 +1,52 @@
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="co-scene-title co-scene-desc">
+  <title id="co-scene-title">屋里出现没来由的头痛或发困，先别当感冒</title>
+  <desc id="co-scene-desc">假设的情况。左侧：入冬以后，屋里几个人同一天开始头痛、发困、想吐。没有发烧。大家以为是感冒，关紧窗户吃药，接着睡。这样会继续留在可能有问题的环境里。右侧：停电之后，有人把发电机放进车库，门开一条缝，觉得已经通风了；或者天冷，在室内烧炭取暖。这些做法当时看起来很方便，但屋里可能正在积一种你闻不到的气体。</desc>
+  <defs>
+    <pattern id="co-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="560" fill="#f7f3eb"/>
+  <rect width="960" height="560" fill="url(#co-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">屋里出现没来由的头痛或发困，先别当感冒</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">假设的情况 · 入冬关窗，以及发电机、室内烧炭</text>
+
+  <rect x="48" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当成感冒，关窗接着睡</text>
+  <text x="68" y="140" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">入冬以后，屋里几个人同一天开始不舒服</text>
+
+  <rect x="68" y="160" width="380" height="70" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.40"/>
+  <text x="84" y="186" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">出现的症状</text>
+  <text x="84" y="210" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">头痛、发困、想吐 · 没有发烧</text>
+
+  <rect x="68" y="244" width="380" height="70" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.40"/>
+  <text x="84" y="270" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">接着做了什么</text>
+  <text x="84" y="294" fill="#1c1917" font-size="14" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">关紧窗户吃药，接着睡</text>
+
+  <rect x="68" y="328" width="380" height="86" rx="6" fill="#f7f3eb" stroke="#1c1917" stroke-opacity="0.12"/>
+  <text x="84" y="354" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这样会怎样</text>
+  <text x="84" y="378" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">继续留在原处观察，</text>
+  <text x="84" y="398" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">可能正留在有问题的环境里。</text>
+
+  <rect x="492" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当时看起来很方便</text>
+  <text x="512" y="140" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">停电、取暖时容易这样做</text>
+
+  <rect x="512" y="160" width="380" height="86" rx="6" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.20"/>
+  <text x="528" y="186" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">发电机</text>
+  <text x="528" y="210" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">放进车库，门开一条缝，</text>
+  <text x="528" y="230" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">觉得已经通风了</text>
+
+  <rect x="512" y="260" width="380" height="70" rx="6" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.20"/>
+  <text x="528" y="286" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">取暖</text>
+  <text x="528" y="310" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">天冷，在室内烧炭取暖</text>
+
+  <rect x="512" y="344" width="380" height="70" rx="6" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-opacity="0.35"/>
+  <text x="528" y="370" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">问题在于</text>
+  <text x="528" y="394" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">屋里可能正在积一种你闻不到的气体</text>
+
+  <rect x="48" y="460" width="864" height="68" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+  <text x="68" y="491" fill="#0f6e6b" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先开窗离开，再查是不是一氧化碳</text>
+  <text x="68" y="513" fill="#44403c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">能开窗就开，但不要留在原处观察；把屋里的人都带到室外空气流通的地方</text>
+</svg>

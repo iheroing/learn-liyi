@@ -1,0 +1,66 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="co-steps-title co-steps-desc">
+  <title id="co-steps-title">先做这几步</title>
+  <desc id="co-steps-desc">第一步，出现没来由的头痛、头晕、无力、反胃或意识混乱时，先离开。能开窗就开，但不要留在原处观察。把屋里的人都带到室外空气流通的地方，有宠物也带走。到外面再打当地急救或消防电话，在中国通常是 120 或 119，并说明怀疑是一氧化碳。第二步，报警器响了，同样先离开，不要先找哪台设备在漏；未经专业人员确认安全之前，不要回去。第三步，装报警器并确认它还在工作：每层都装，靠近睡觉的区域；每月用测试键试一次；整机按说明书更换，或大约每 5 年换一次。第四步，别在封闭或半封闭的地方烧燃料凑合。发电机不要放进家或车库，即使门窗开着也不行；只在室外使用，并距离门、窗和通风口 20 英尺以上，约 6 米。不要在室内烧炭，不要用燃气烤箱取暖，不要在连着房子的车库里让汽车一直开着。第五步，采暖设备、热水器和其他燃气、燃油或燃煤器具，以及烟囱、烟道，每年请合格技术人员检查、保养。</desc>
+  <defs>
+    <pattern id="co-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#co-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先做这几步</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">出现没来由的症状，或报警器响了，都是先离开再处理</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="272" height="232" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+    <rect x="344" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="640" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="48" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="492" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+
+    <circle cx="76" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.16"/>
+    <circle cx="372" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="668" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="76" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="520" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+
+    <text x="76" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">1</text>
+    <text x="372" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">2</text>
+    <text x="668" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">3</text>
+    <text x="76" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="520" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">5</text>
+
+    <text x="104" y="121" fill="#1c1917" font-size="14" font-weight="600">出现症状，先离开</text>
+    <text x="68" y="160" fill="#57534e" font-size="13">能开窗就开，但不要留在原处观察。</text>
+    <text x="68" y="182" fill="#57534e" font-size="13">把人和宠物带到室外，</text>
+    <text x="68" y="204" fill="#57534e" font-size="13">到外面再打 120 或 119，</text>
+    <text x="68" y="226" fill="#57534e" font-size="13">并说明怀疑是一氧化碳。</text>
+
+    <text x="400" y="121" fill="#1c1917" font-size="14" font-weight="600">报警器响了，同样先离开</text>
+    <text x="364" y="160" fill="#57534e" font-size="13">不要先找哪台设备在漏。</text>
+    <text x="364" y="182" fill="#57534e" font-size="13">到外面再求助。</text>
+    <text x="364" y="216" fill="#78716c" font-size="12">未经专业人员确认安全之前，</text>
+    <text x="364" y="236" fill="#78716c" font-size="12">不要回去。</text>
+
+    <text x="696" y="121" fill="#1c1917" font-size="14" font-weight="600">装报警器，并确认它还在工作</text>
+    <text x="660" y="160" fill="#57534e" font-size="13">每层都装，靠近睡觉的区域。</text>
+    <text x="660" y="182" fill="#57534e" font-size="13">每月用测试键试一次。</text>
+    <text x="660" y="216" fill="#78716c" font-size="12">整机按说明书更换，</text>
+    <text x="660" y="236" fill="#78716c" font-size="12">或大约每 5 年换一次。</text>
+
+    <text x="104" y="377" fill="#1c1917" font-size="14" font-weight="600">别在封闭处烧燃料凑合</text>
+    <text x="68" y="416" fill="#57534e" font-size="13">发电机不要放进家或车库，</text>
+    <text x="68" y="438" fill="#57534e" font-size="13">即使门窗开着也不行。</text>
+    <text x="68" y="460" fill="#57534e" font-size="13">只在室外使用，并离开门窗和通风口</text>
+    <text x="68" y="482" fill="#57534e" font-size="13">20 英尺以上（约 6 米）。</text>
+    <text x="68" y="516" fill="#78716c" font-size="12">不要在室内烧炭，不要用燃气烤箱取暖，</text>
+    <text x="68" y="536" fill="#78716c" font-size="12">不要在连着房子的车库里让汽车一直开着。</text>
+
+    <text x="548" y="377" fill="#1c1917" font-size="14" font-weight="600">每年请合格技术人员检查一次</text>
+    <text x="512" y="416" fill="#57534e" font-size="13">采暖设备、热水器和其他</text>
+    <text x="512" y="438" fill="#57534e" font-size="13">燃气、燃油或燃煤器具，</text>
+    <text x="512" y="460" fill="#57534e" font-size="13">以及烟囱、烟道，</text>
+    <text x="512" y="482" fill="#57534e" font-size="13">按建议每年检查、保养。</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 960 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="co-rule-title co-rule-desc">
+  <title id="co-rule-title">你闻不到，不等于没有</title>
+  <desc id="co-rule-desc">一氧化碳是一种没有颜色、也没有气味的气体。天然气加臭是为了让人发现漏气，一氧化碳本身没有味道，不要用鼻子当检测器。中毒最常见的症状是头痛、头晕、无力、反胃、呕吐、胸痛和意识混乱，常常被说成像感冒，但通常没有发烧。同一屋子里好几个人，甚至宠物，几乎同时出现类似症状，更要往这方面想。要靠两件事：出现没来由的上述症状时，先离开到空气流通的地方；在家里装并维护一氧化碳报警器。报警器响了，不要先去找源头，立即离开，到外面再求助。CDC 给出的美国数据是：每年有 400 多名美国人死于与火灾无关的意外一氧化碳中毒，另有超过 10 万人前往急诊，超过 1.4 万人住院。这是美国的统计，不是中国的数字，但机制是一样的。正在睡觉、喝醉或受其他物质影响的人，可能在出现症状之前就已经有生命危险。</desc>
+  <defs>
+    <pattern id="co-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="760" fill="#f7f3eb"/>
+  <rect width="960" height="760" fill="url(#co-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">你闻不到，不等于没有</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">一氧化碳没有颜色也没有气味，不能靠鼻子判断</text>
+
+  <rect x="48" y="84" width="420" height="168" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="116" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不要用鼻子当检测器</text>
+  <text x="68" y="138" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">carbon monoxide · CO</text>
+  <text x="68" y="170" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">一氧化碳本身没有颜色，也没有气味。</text>
+  <text x="68" y="192" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">天然气加臭是为了让人发现漏气，</text>
+  <text x="68" y="214" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不能把这套办法用到一氧化碳上。</text>
+  <text x="68" y="232" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">闻不到味道，不能说明没有。</text>
+
+  <rect x="492" y="84" width="420" height="168" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="512" y="116" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">早期症状像流感，但通常没有发烧</text>
+  <text x="512" y="138" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">CDC · CPSC</text>
+  <text x="512" y="170" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">头痛、头晕、无力、反胃、呕吐、</text>
+  <text x="512" y="192" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">胸痛、意识混乱，常常被当成感冒。</text>
+  <text x="512" y="214" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">同一屋子里好几个人，甚至宠物，</text>
+  <text x="512" y="232" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">几乎同时出现，更要往这方面想。</text>
+
+  <rect x="48" y="268" width="864" height="200" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="300" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">要靠两件事，不要先去找源头</text>
+  <text x="68" y="322" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">出现症状或报警器响了，都是先离开，到外面再求助</text>
+
+  <rect x="68" y="344" width="400" height="100" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.40"/>
+  <text x="84" y="372" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">第一件</text>
+  <text x="84" y="396" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">出现没来由的上述症状时，</text>
+  <text x="84" y="416" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先离开到空气流通的地方</text>
+
+  <rect x="492" y="344" width="400" height="100" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.40"/>
+  <text x="508" y="372" fill="#0f6e6b" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">第二件</text>
+  <text x="508" y="396" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">在家里装并维护一氧化碳报警器，</text>
+  <text x="508" y="416" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">让它在浓度高到危险之前先响</text>
+
+  <rect x="48" y="484" width="864" height="136" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+  <text x="68" y="516" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">CDC 给出的美国数据</text>
+  <text x="68" y="538" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这是美国的统计，不是中国的数字，但机制是一样的——这种气体你感觉不到，所以不能等「闻出来」再处理</text>
+  <text x="68" y="568" fill="#1c1917" font-size="13" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">每年有 400 多名美国人死于与火灾无关的意外一氧化碳中毒</text>
+  <text x="68" y="590" fill="#44403c" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">另有超过 10 万人前往急诊，超过 1.4 万人住院。</text>
+  <text x="68" y="612" fill="#9a3412" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">正在睡觉、喝醉或受其他物质影响的人，可能在出现症状之前就已经有生命危险。</text>
+
+  <rect x="48" y="640" width="864" height="88" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+  <text x="68" y="676" fill="#0f6e6b" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">不能靠鼻子判断；要靠离开现场，再加上会响的报警器</text>
+  <text x="68" y="700" fill="#44403c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">报警器响了，不要先去找源头，立即离开，到外面再求助</text>
+</svg>
