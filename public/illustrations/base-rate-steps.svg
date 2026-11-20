@@ -1,0 +1,67 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="br-steps-title br-steps-desc">
+  <title id="br-steps-title">准备下判断之前，先写这五步</title>
+  <desc id="br-steps-desc">碰到一条很像的线索、一次阳性或一次报警，并且你准备据此做判断时，先用大约 10 分钟写一遍。第一步，写下你要判断的那件事，例如是不是得了这种病、这封信是不是真的来自银行、这次报警是不是真故障，先不要下结论。第二步，另起一行，写下这类事原来有多常见：在你正在看的这群人、这个场合里，大约多少人里会有一次；不知道就先写一个范围，或去查，不要跳过这一行。第三步，改成人数来算，写成「1000 个类似的情况里，大约有多少是真的」，不要只盯着百分比。第四步，再写入这条新线索：真有这回事时，这条线索会出现多少次；没有这回事时，它又会出现多少次。重点看第二句：假信号会落在多大一群人身上。第五步，看「出现这条线索」的那些情况里，真有这回事的占多少。分母是所有亮灯、呈阳性、看起来很像的情况，不是全部情况，也不是口头上的那个准确率。</desc>
+  <defs>
+    <pattern id="br-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#br-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">准备下判断之前，先用大约 10 分钟写这五步</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">碰到一条很像的线索、一次阳性或一次报警，并且你准备据此做判断时</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="344" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="640" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="48" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="492" y="340" width="420" height="232" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="76" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="372" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="668" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="76" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="520" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.16"/>
+
+    <text x="76" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">1</text>
+    <text x="372" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">2</text>
+    <text x="668" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">3</text>
+    <text x="76" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="520" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">5</text>
+
+    <text x="104" y="121" fill="#1c1917" font-size="14" font-weight="600">写下要判断的事</text>
+    <text x="68" y="168" fill="#57534e" font-size="13">是不是得了这种病，</text>
+    <text x="68" y="190" fill="#57534e" font-size="13">这封信是不是真的来自银行，</text>
+    <text x="68" y="212" fill="#57534e" font-size="13">这次报警是不是真故障。</text>
+    <text x="68" y="244" fill="#78716c" font-size="12">先原样写下，</text>
+    <text x="68" y="264" fill="#78716c" font-size="12">先不要下结论。</text>
+
+    <text x="400" y="121" fill="#1c1917" font-size="14" font-weight="600">写下原来有多常见</text>
+    <text x="364" y="168" fill="#57534e" font-size="13">在你正在看的这群人、</text>
+    <text x="364" y="190" fill="#57534e" font-size="13">这个场合里，大约多少人里</text>
+    <text x="364" y="212" fill="#57534e" font-size="13">会有一次。</text>
+    <text x="364" y="244" fill="#78716c" font-size="12">不知道就先写一个范围，或去查。</text>
+    <text x="364" y="264" fill="#78716c" font-size="12">不要跳过这一行。</text>
+
+    <text x="696" y="121" fill="#1c1917" font-size="14" font-weight="600">改成人数来算</text>
+    <text x="660" y="168" fill="#57534e" font-size="13">写成「1000 个类似的情况里，</text>
+    <text x="660" y="190" fill="#57534e" font-size="13">大约有多少是真的」。</text>
+    <text x="660" y="224" fill="#78716c" font-size="12">不要只盯着百分比。</text>
+    <text x="660" y="244" fill="#78716c" font-size="12">把人数摊开，分母就不容易丢。</text>
+
+    <text x="104" y="377" fill="#1c1917" font-size="14" font-weight="600">再写入这条新线索</text>
+    <text x="68" y="424" fill="#57534e" font-size="13">真有这回事时，这条线索会</text>
+    <text x="68" y="446" fill="#57534e" font-size="13">出现多少次；没有这回事时，</text>
+    <text x="68" y="468" fill="#57534e" font-size="13">它又会出现多少次。</text>
+    <text x="68" y="500" fill="#78716c" font-size="12">重点看第二句：假信号会落在</text>
+    <text x="68" y="520" fill="#78716c" font-size="12">多大一群人身上。</text>
+
+    <text x="548" y="377" fill="#1c1917" font-size="14" font-weight="600">看出现线索时，真有的占多少</text>
+    <text x="512" y="424" fill="#57534e" font-size="13">分母是所有亮灯、呈阳性、</text>
+    <text x="512" y="446" fill="#57534e" font-size="13">看起来很像的情况，</text>
+    <text x="512" y="468" fill="#57534e" font-size="13">不是全部情况。</text>
+    <text x="512" y="500" fill="#78716c" font-size="12">也不是口头上的那个准确率。</text>
+  </g>
+</svg>

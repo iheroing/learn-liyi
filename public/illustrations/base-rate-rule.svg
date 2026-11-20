@@ -1,0 +1,147 @@
+<svg viewBox="0 0 960 680" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="br-rule-title br-rule-desc">
+  <title id="br-rule-title">先问原来有多常见，再看这条线索有多硬</title>
+  <desc id="br-rule-desc">把 1000 人摊开，并假定灵敏度近似 100%。1000 人里，按 1/1000 的出现率，大约 1 人真有这种病，这 1 人会呈阳性。假阳性率 5%，意思是剩下大约 999 个没有病的人里，也会有大约 50 人呈阳性（0.05 × 999 ≈ 50）。呈阳性的一共大约 51 人，其中真有病的只有 1 人，大约是 2%，不是 95%。5% 听起来不大。可这件事一旦很少见，这 5% 就会落在一大群「没有这回事」的人身上，假阳性会比真阳性多得多。</desc>
+  <defs>
+    <pattern id="br-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="680" fill="#f7f3eb"/>
+  <rect width="960" height="680" fill="url(#br-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先问原来有多常见，再看这条线索有多硬</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">把 1000 人摊开（灵敏度近似 100%）</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="864" height="56" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#1c1917" font-size="14">某种病出现率 1/1000　·　假阳性率 5%　·　一人呈阳性</text>
+
+    <rect x="48" y="156" width="280" height="272" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="68" y="186" fill="#57534e" font-size="12">有这种病</text>
+    <text x="68" y="212" fill="#1c1917" font-size="16" font-weight="600">约 1 人</text>
+    <circle cx="188" cy="292" r="36" fill="#0f6e6b"/>
+    <text x="188" y="298" fill="#fffdf8" font-size="16" font-weight="700" text-anchor="middle">1</text>
+    <text x="188" y="396" fill="#0f6e6b" font-size="13" font-weight="600" text-anchor="middle">呈阳性约 1 人</text>
+
+    <rect x="344" y="156" width="568" height="272" rx="8" fill="#fffdf8" stroke="#b45309" stroke-opacity="0.40"/>
+    <text x="364" y="186" fill="#57534e" font-size="12">没有这种病</text>
+    <text x="364" y="212" fill="#1c1917" font-size="16" font-weight="600">约 999 人</text>
+    <text x="364" y="238" fill="#57534e" font-size="12">假阳性率 5%，也会有大约 50 人呈阳性（0.05 × 999 ≈ 50）</text>
+
+    <circle cx="392" cy="262" r="8" fill="#b45309"/>
+    <circle cx="438" cy="262" r="8" fill="#b45309"/>
+    <circle cx="484" cy="262" r="8" fill="#b45309"/>
+    <circle cx="530" cy="262" r="8" fill="#b45309"/>
+    <circle cx="576" cy="262" r="8" fill="#b45309"/>
+    <circle cx="622" cy="262" r="8" fill="#b45309"/>
+    <circle cx="668" cy="262" r="8" fill="#b45309"/>
+    <circle cx="714" cy="262" r="8" fill="#b45309"/>
+    <circle cx="760" cy="262" r="8" fill="#b45309"/>
+    <circle cx="806" cy="262" r="8" fill="#b45309"/>
+    <circle cx="392" cy="288" r="8" fill="#b45309"/>
+    <circle cx="438" cy="288" r="8" fill="#b45309"/>
+    <circle cx="484" cy="288" r="8" fill="#b45309"/>
+    <circle cx="530" cy="288" r="8" fill="#b45309"/>
+    <circle cx="576" cy="288" r="8" fill="#b45309"/>
+    <circle cx="622" cy="288" r="8" fill="#b45309"/>
+    <circle cx="668" cy="288" r="8" fill="#b45309"/>
+    <circle cx="714" cy="288" r="8" fill="#b45309"/>
+    <circle cx="760" cy="288" r="8" fill="#b45309"/>
+    <circle cx="806" cy="288" r="8" fill="#b45309"/>
+    <circle cx="392" cy="314" r="8" fill="#b45309"/>
+    <circle cx="438" cy="314" r="8" fill="#b45309"/>
+    <circle cx="484" cy="314" r="8" fill="#b45309"/>
+    <circle cx="530" cy="314" r="8" fill="#b45309"/>
+    <circle cx="576" cy="314" r="8" fill="#b45309"/>
+    <circle cx="622" cy="314" r="8" fill="#b45309"/>
+    <circle cx="668" cy="314" r="8" fill="#b45309"/>
+    <circle cx="714" cy="314" r="8" fill="#b45309"/>
+    <circle cx="760" cy="314" r="8" fill="#b45309"/>
+    <circle cx="806" cy="314" r="8" fill="#b45309"/>
+    <circle cx="392" cy="340" r="8" fill="#b45309"/>
+    <circle cx="438" cy="340" r="8" fill="#b45309"/>
+    <circle cx="484" cy="340" r="8" fill="#b45309"/>
+    <circle cx="530" cy="340" r="8" fill="#b45309"/>
+    <circle cx="576" cy="340" r="8" fill="#b45309"/>
+    <circle cx="622" cy="340" r="8" fill="#b45309"/>
+    <circle cx="668" cy="340" r="8" fill="#b45309"/>
+    <circle cx="714" cy="340" r="8" fill="#b45309"/>
+    <circle cx="760" cy="340" r="8" fill="#b45309"/>
+    <circle cx="806" cy="340" r="8" fill="#b45309"/>
+    <circle cx="392" cy="366" r="8" fill="#b45309"/>
+    <circle cx="438" cy="366" r="8" fill="#b45309"/>
+    <circle cx="484" cy="366" r="8" fill="#b45309"/>
+    <circle cx="530" cy="366" r="8" fill="#b45309"/>
+    <circle cx="576" cy="366" r="8" fill="#b45309"/>
+    <circle cx="622" cy="366" r="8" fill="#b45309"/>
+    <circle cx="668" cy="366" r="8" fill="#b45309"/>
+    <circle cx="714" cy="366" r="8" fill="#b45309"/>
+    <circle cx="760" cy="366" r="8" fill="#b45309"/>
+    <circle cx="806" cy="366" r="8" fill="#b45309"/>
+    <text x="599" y="414" fill="#b45309" font-size="13" font-weight="600" text-anchor="middle">其中呈阳性约 50 人</text>
+
+    <rect x="48" y="444" width="864" height="132" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="476" fill="#57534e" font-size="12">所有呈阳性的人</text>
+    <text x="68" y="504" fill="#1c1917" font-size="16" font-weight="600">约 51 人里，真有病的只有约 1 人</text>
+    <text x="68" y="534" fill="#0f6e6b" font-size="20" font-weight="700">约 2%，不是 95%</text>
+    <text x="68" y="558" fill="#57534e" font-size="12">分母是所有呈阳性的人，不是口头上的那个「准确率」</text>
+
+    <circle cx="620" cy="506" r="7" fill="#0f6e6b"/>
+    <text x="548" y="556" fill="#0f6e6b" font-size="11">真有病并呈阳性 · 1</text>
+    <circle cx="700" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="714" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="728" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="742" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="756" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="770" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="784" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="798" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="812" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="826" cy="468" r="4.2" fill="#b45309"/>
+    <circle cx="700" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="714" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="728" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="742" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="756" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="770" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="784" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="798" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="812" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="826" cy="482" r="4.2" fill="#b45309"/>
+    <circle cx="700" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="714" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="728" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="742" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="756" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="770" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="784" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="798" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="812" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="826" cy="496" r="4.2" fill="#b45309"/>
+    <circle cx="700" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="714" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="728" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="742" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="756" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="770" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="784" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="798" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="812" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="826" cy="510" r="4.2" fill="#b45309"/>
+    <circle cx="700" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="714" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="728" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="742" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="756" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="770" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="784" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="798" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="812" cy="524" r="4.2" fill="#b45309"/>
+    <circle cx="826" cy="524" r="4.2" fill="#b45309"/>
+    <text x="700" y="556" fill="#b45309" font-size="11">没有病但呈阳性 · 约 50</text>
+
+    <rect x="48" y="588" width="864" height="64" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="616" fill="#1c1917" font-size="13">5% 听起来不大。可这件事一旦很少见，这 5% 就会落在一大群「没有这回事」的人身上。</text>
+    <text x="68" y="638" fill="#1c1917" font-size="13">假阳性会比真阳性多得多。</text>
+  </g>
+</svg>

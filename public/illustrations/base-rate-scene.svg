@@ -1,0 +1,54 @@
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="br-scene-title br-scene-desc">
+  <title id="br-scene-title">听到一条很像的线索时，先别直接当成已经确定了</title>
+  <desc id="br-scene-desc">假设的情况。左侧：你做了一次检测，或收到一个报警，对方还告诉你假阳性只有 5%，结果是阳性。第一反应常常是差不多可以确定了，也就是把假阳性率 5% 听成有病的机会是 95%。右侧：1978 年，Casscells、Schoenberger 和 Graboys 在《新英格兰医学杂志》上，把这道题问了 60 位哈佛医学院附属医院的医生、住院医师和四年级医学生：某种病的出现率是 1/1000，检测方法的假阳性率是 5%。一个人呈阳性，而你对他的症状一无所知。他真正有这种病的机会有多大？60 人里，27 人（45%）回答 95%，算对的只有 11 人（18%）。在把灵敏度近似看成 100% 的前提下，更接近的答案大约是 2%。2014 年，Manrai 等人用同一道题问了 61 位医生和医学生，答对的是 14 人（23%），最常见的答案仍是 95%。</desc>
+  <defs>
+    <pattern id="br-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="560" fill="#f7f3eb"/>
+  <rect width="960" height="560" fill="url(#br-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">听到一条很像的线索时，先别直接当成已经确定了</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">假设的情况 · 一次阳性检测，以及 1978 年那道题</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600">第一反应：差不多可以确定了</text>
+    <text x="68" y="140" fill="#57534e" font-size="12">一次检测或一次报警，结果是阳性</text>
+
+    <rect x="68" y="160" width="380" height="70" rx="6" fill="#f7f3eb"/>
+    <text x="84" y="186" fill="#57534e" font-size="12">听到的数字</text>
+    <text x="84" y="210" fill="#1c1917" font-size="14">假阳性只有 5%</text>
+
+    <rect x="68" y="244" width="380" height="70" rx="6" fill="#f7f3eb"/>
+    <text x="84" y="270" fill="#57534e" font-size="12">第一反应常常是</text>
+    <text x="84" y="294" fill="#1c1917" font-size="14">差不多可以确定了</text>
+
+    <rect x="68" y="328" width="380" height="86" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="84" y="354" fill="#57534e" font-size="12">把 5% 听成了</text>
+    <text x="84" y="378" fill="#1c1917" font-size="14">有病的机会是 95%</text>
+    <text x="84" y="398" fill="#78716c" font-size="12">这两个数的分母，并不是同一群人。</text>
+
+    <rect x="492" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600">同一道题，多数人答成了 95%</text>
+    <text x="512" y="140" fill="#57534e" font-size="12">1978 年问了 60 位哈佛医院的医生和医学生</text>
+
+    <rect x="512" y="160" width="380" height="86" rx="6" fill="#f7f3eb"/>
+    <text x="528" y="186" fill="#57534e" font-size="12">题目</text>
+    <text x="528" y="210" fill="#1c1917" font-size="13">出现率 1/1000，假阳性率 5%，</text>
+    <text x="528" y="230" fill="#1c1917" font-size="13">一人呈阳性，对他的症状一无所知</text>
+
+    <rect x="512" y="260" width="380" height="70" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="528" y="286" fill="#57534e" font-size="12">最常见的答案</text>
+    <text x="528" y="310" fill="#1c1917" font-size="14">27 人（45%）回答 95%</text>
+
+    <rect x="512" y="344" width="380" height="70" rx="6" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-opacity="0.28"/>
+    <text x="528" y="370" fill="#57534e" font-size="12">算对的人</text>
+    <text x="528" y="394" fill="#1c1917" font-size="14">只有 11 人（18%），约 2%</text>
+
+    <rect x="48" y="460" width="864" height="68" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="491" fill="#1c1917" font-size="15" font-weight="600">一条「看起来很准」的阳性，很容易把底数换成「差不多可以确定了」</text>
+    <text x="68" y="513" fill="#57534e" font-size="12">2014 年同一道题，61 人中 14 人（23%）答对，最常见的答案仍是 95%</text>
+  </g>
+</svg>
