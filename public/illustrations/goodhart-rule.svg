@@ -1,0 +1,74 @@
+<svg viewBox="0 0 960 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gh-rule-title gh-rule-desc">
+  <title id="gh-rule-title">指标被当成目标之后，往往就不再那么能代表原来那件事</title>
+  <desc id="gh-rule-desc">古德哈特定律。1975 年，英国经济学家 Charles Goodhart 在讨论英国货币管理时写道：一旦把观察到的统计规律拿来做控制手段，这条规律往往会崩掉。1997 年，人类学家 Marilyn Strathern 把这句话收成更常被引用的表述：一个指标一旦变成目标，它就不再是好指标。一个数字一开始能用，通常是因为它和你真正要的那件事一起变动。可一旦它被拿来排名、发奖金或决定去留，人就会直接去推这个数字。办法里，有一些真的把事做了；也有一些只让数字看起来好——提前挂断、只练会考的题、甚至开出客户不知道的账户。后一种一多，数字和原来那件事的关系就松了。图中用示意曲线表示：被当成考核目标之后，数字还可能继续变好看，原来要的那件事却不一定跟上；这是示意，不是某一次考核的实测数据。1979 年，心理学家 Donald Campbell 写过一条很接近的观察：一个定量社会指标，被拿来做社会决策的程度越高，它就越容易被扭曲，也越容易把本来要监测的过程带歪。不必先假定有人存心作假。就算大家都是好意，力气也会更多堆到被量到的那一块，没被量到的那一块就容易被放下。</desc>
+  <defs>
+    <pattern id="gh-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+    <marker id="gh-rule-arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1.2 L 10 5 L 0 8.8 Z" fill="#0f6e6b"/>
+    </marker>
+    <marker id="gh-rule-arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1.2 L 10 5 L 0 8.8 Z" fill="#1c1917"/>
+    </marker>
+  </defs>
+  <rect width="960" height="720" fill="#f7f3eb"/>
+  <rect width="960" height="720" fill="url(#gh-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">指标被当成目标之后，往往就不再那么能代表原来那件事</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">古德哈特定律 · Goodhart's law</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="126" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="116" fill="#1c1917" font-size="15" font-weight="600">一开始能用</text>
+    <text x="68" y="138" fill="#57534e" font-size="12">Goodhart, 1975</text>
+    <text x="68" y="168" fill="#44403c" font-size="13">一个数字一开始能用，通常是因为它</text>
+    <text x="68" y="190" fill="#44403c" font-size="13">和你真正要的那件事一起变动。</text>
+
+    <rect x="492" y="84" width="420" height="126" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="512" y="116" fill="#1c1917" font-size="15" font-weight="600">一旦变成考核目标</text>
+    <text x="512" y="138" fill="#57534e" font-size="12">Strathern, 1997</text>
+    <text x="512" y="168" fill="#44403c" font-size="13">被拿来排名、发奖金或决定去留时，</text>
+    <text x="512" y="190" fill="#44403c" font-size="13">人就会直接去推这个数字。</text>
+
+    <rect x="48" y="226" width="864" height="250" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="254" fill="#1c1917" font-size="15" font-weight="600">被当成目标之后，数字和原来那件事往往会分开走</text>
+    <text x="68" y="274" fill="#57534e" font-size="12">下面是示意，不是某一次考核的实测曲线</text>
+
+    <rect x="700" y="242" width="14" height="4" rx="2" fill="#0f6e6b"/>
+    <text x="720" y="248" fill="#44403c" font-size="11">那个数字</text>
+    <rect x="800" y="242" width="14" height="4" rx="2" fill="#1c1917"/>
+    <text x="820" y="248" fill="#44403c" font-size="11">原来要的那件事</text>
+
+    <line x1="100" y1="430" x2="780" y2="430" stroke="#1c1917" stroke-opacity="0.22" stroke-width="1"/>
+    <line x1="430" y1="300" x2="430" y2="430" stroke="#b45309" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="5 4"/>
+    <text x="430" y="294" fill="#b45309" font-size="11" font-weight="600" text-anchor="middle">被当成考核目标</text>
+
+    <path d="M 120 400 C 250 388, 350 362, 430 350" fill="none" stroke="#1c1917" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 430 350 C 540 352, 660 372, 760 382" fill="none" stroke="#1c1917" stroke-width="2.2" stroke-linecap="round" marker-end="url(#gh-rule-arrow-ink)"/>
+    <path d="M 120 400 C 250 388, 350 362, 430 350" fill="none" stroke="#0f6e6b" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M 430 350 C 550 332, 660 312, 760 304" fill="none" stroke="#0f6e6b" stroke-width="2.4" stroke-linecap="round" marker-end="url(#gh-rule-arrow-teal)"/>
+
+    <text x="220" y="418" fill="#57534e" font-size="11">一起变动</text>
+    <text x="772" y="300" fill="#0f6e6b" font-size="12" font-weight="600">还在涨</text>
+    <text x="772" y="388" fill="#1c1917" font-size="12" font-weight="600">没跟上</text>
+    <text x="100" y="450" fill="#78716c" font-size="11">示意关系会变松，不是真实数据</text>
+
+    <rect x="48" y="492" width="420" height="136" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="520" fill="#1c1917" font-size="15" font-weight="600">办法并不只有一种</text>
+    <text x="68" y="548" fill="#44403c" font-size="13">有一些真的把事做了；也有一些只让</text>
+    <text x="68" y="568" fill="#44403c" font-size="13">数字看起来好，比如提前挂断、只练会考的题、</text>
+    <text x="68" y="588" fill="#44403c" font-size="13">甚至开出客户不知道的账户。</text>
+    <text x="68" y="610" fill="#9a3412" font-size="12">后一种一多，数字和原来那件事的关系就松了。</text>
+
+    <rect x="492" y="492" width="420" height="136" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="512" y="520" fill="#1c1917" font-size="15" font-weight="600">不必先假定有人存心作假</text>
+    <text x="512" y="542" fill="#57534e" font-size="12">Campbell, 1979</text>
+    <text x="512" y="568" fill="#44403c" font-size="13">指标被拿来做社会决策的程度越高，</text>
+    <text x="512" y="588" fill="#44403c" font-size="13">就越容易被扭曲，也越容易把过程带歪。</text>
+    <text x="512" y="610" fill="#78716c" font-size="12">力气会堆到被量到的那一块，没被量到的就容易放下。</text>
+
+    <rect x="48" y="644" width="864" height="52" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+    <text x="68" y="676" fill="#0f6e6b" font-size="15" font-weight="600">一个指标一旦变成目标，它就不再是好指标</text>
+  </g>
+</svg>

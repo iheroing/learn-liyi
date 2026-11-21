@@ -1,0 +1,69 @@
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gh-steps-title gh-steps-desc">
+  <title id="gh-steps-title">把一个数字当成目标之前，先写这五步</title>
+  <desc id="gh-steps-desc">当你准备用一个数字来考核别人、比较方案，或监督自己时，先用大约 10 分钟写一遍。第一步，先写下你真正要的那件事，写成一句人话，不要先写指标，例如「客户愿意并实际在用对的产品」「把来电的问题处理完」「自己这周真的多走动」。第二步，另起一行，写下你准备盯着的那个数字，例如「新开账户数」「平均通话时长」「每天步数」「测验分数」，并标出它和上一句是不是同一件事。第三步，写出至少两种「数字变好、原来那件事没变好」的办法，越具体越好；谁在什么情况下，可以不改本质，只把数字做漂亮。写不出来，往往不是没有路，是还没往歪处想。第四步，再补一条不容易被同一方式带着走的核对，比如抽查一小部分真实个案、看一个会朝相反方向动的数字，或听当事人怎么说。第五步，决定这个数字还能不能单独当目标。如果第三步里的歪路很容易走通，就不要让这一个数字单独决定赏罚或去留。可以把它留作观察，配上第四步的核对；或者用一组会互相牵制的指标，而不是只换一个新的唯一目标。</desc>
+  <defs>
+    <pattern id="gh-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#gh-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">把一个数字当成目标之前，先用大约 10 分钟写这五步</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当你准备用一个数字来考核别人、比较方案，或监督自己时</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="344" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="640" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="48" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="492" y="340" width="420" height="232" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="76" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="372" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="668" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="76" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="520" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.16"/>
+
+    <text x="76" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">1</text>
+    <text x="372" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">2</text>
+    <text x="668" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">3</text>
+    <text x="76" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="520" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">5</text>
+
+    <text x="104" y="121" fill="#1c1917" font-size="14" font-weight="600">写下真正要的那件事</text>
+    <text x="68" y="168" fill="#57534e" font-size="13">写成一句人话，</text>
+    <text x="68" y="190" fill="#57534e" font-size="13">不要先写指标。</text>
+    <text x="68" y="222" fill="#44403c" font-size="12">「客户愿意并实际在用对的产品」</text>
+    <text x="68" y="242" fill="#44403c" font-size="12">「把来电的问题处理完」</text>
+    <text x="68" y="262" fill="#44403c" font-size="12">「自己这周真的多走动」</text>
+
+    <text x="400" y="121" fill="#1c1917" font-size="14" font-weight="600">写下准备盯着的数字</text>
+    <text x="364" y="168" fill="#57534e" font-size="13">「新开账户数」</text>
+    <text x="364" y="190" fill="#57534e" font-size="13">「平均通话时长」</text>
+    <text x="364" y="212" fill="#57534e" font-size="13">「每天步数」「测验分数」</text>
+    <text x="364" y="244" fill="#78716c" font-size="12">另起一行来写，</text>
+    <text x="364" y="264" fill="#78716c" font-size="12">并标出它和上一句是不是同一件事。</text>
+
+    <text x="696" y="121" fill="#1c1917" font-size="14" font-weight="600">写出至少两种歪路</text>
+    <text x="660" y="168" fill="#57534e" font-size="13">数字变好，原来那件事</text>
+    <text x="660" y="190" fill="#57534e" font-size="13">却没变好的办法。</text>
+    <text x="660" y="222" fill="#78716c" font-size="12">越具体越好：谁在什么情况下，</text>
+    <text x="660" y="242" fill="#78716c" font-size="12">可以不改本质，只把数字做漂亮。</text>
+    <text x="660" y="264" fill="#78716c" font-size="12">写不出来，往往是还没往歪处想。</text>
+
+    <text x="104" y="377" fill="#1c1917" font-size="14" font-weight="600">再补一条不容易被带着走的核对</text>
+    <text x="68" y="424" fill="#57534e" font-size="13">比如抽查一小部分真实个案、</text>
+    <text x="68" y="446" fill="#57534e" font-size="13">看一个会朝相反方向动的数字，</text>
+    <text x="68" y="468" fill="#57534e" font-size="13">或听当事人怎么说。</text>
+    <text x="68" y="500" fill="#78716c" font-size="12">核对要不容易被同一方式带着走，</text>
+    <text x="68" y="520" fill="#78716c" font-size="12">而不是再用一个同样会被推的数字。</text>
+
+    <text x="548" y="377" fill="#1c1917" font-size="14" font-weight="600">决定还能不能单独当目标</text>
+    <text x="512" y="424" fill="#57534e" font-size="13">如果第 3 步里的歪路很容易走通，</text>
+    <text x="512" y="446" fill="#57534e" font-size="13">就不要让这一个数字单独决定赏罚或去留。</text>
+    <text x="512" y="478" fill="#78716c" font-size="12">可以把它留作观察，配上第 4 步的核对；</text>
+    <text x="512" y="498" fill="#78716c" font-size="12">或者用一组会互相牵制的指标，</text>
+    <text x="512" y="518" fill="#78716c" font-size="12">而不是只换一个新的唯一目标。</text>
+  </g>
+</svg>

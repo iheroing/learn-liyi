@@ -1,0 +1,51 @@
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="gh-scene-title gh-scene-desc">
+  <title id="gh-scene-title">数字变好看了，原来要的那件事不一定变好</title>
+  <desc id="gh-scene-desc">假设的情况。左侧：你给自己定了每天走八千步，或要求客服把平均通话时长压下去。过了两周，步数达标了，通话也短了。可一对才发现：步数里有一部分是把手机在包里颠出来的；电话变短，是因为更常被转走或提前结束，问题并没有真正解决。右侧：2016 年 9 月，美国消费者金融保护局（CFPB）公布对富国银行的处罚决定：该行用销售目标和奖励，推动员工向老客户多卖产品。据该行自行分析，2011 年 5 月至 2015 年 7 月间，员工开立了 1,534,280 个可能未经客户授权的存款账户，并提交了 565,443 份可能未经授权的信用卡申请；同期约 5,300 名员工因不当销售行为被解雇。CFPB 将两类账户合计为逾两百万，并处 1 亿美元罚款。被盯着涨上去的，是开户和产品数；它本来想代表的「客户需要并同意使用这些服务」，已经对不上了。</desc>
+  <defs>
+    <pattern id="gh-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="560" fill="#f7f3eb"/>
+  <rect width="960" height="560" fill="url(#gh-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">数字变好看了，原来要的那件事不一定变好</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">日常的步数和通话时长，以及 2016 年对富国银行的处罚</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600">日常场面：数字先变好看了</text>
+    <text x="68" y="140" fill="#57534e" font-size="12">每天走八千步，或把平均通话时长压下去</text>
+
+    <rect x="68" y="160" width="380" height="70" rx="6" fill="#f7f3eb"/>
+    <text x="84" y="186" fill="#57534e" font-size="12">过了两周</text>
+    <text x="84" y="210" fill="#1c1917" font-size="14">步数达标了，通话也短了</text>
+
+    <rect x="68" y="244" width="380" height="170" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="84" y="272" fill="#57534e" font-size="12">一对才发现</text>
+    <text x="84" y="298" fill="#1c1917" font-size="14">步数里有一部分，是把手机在包里颠出来的</text>
+    <text x="84" y="322" fill="#1c1917" font-size="14">电话变短，是因为更常被转走或提前结束</text>
+    <text x="84" y="354" fill="#78716c" font-size="12">问题并没有真正解决。</text>
+    <text x="84" y="376" fill="#78716c" font-size="12">原来要的是多活动、把问题处理完。</text>
+
+    <rect x="492" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600">放到组织里，会被放大</text>
+    <text x="512" y="140" fill="#57534e" font-size="12">2016 年 9 月，CFPB 公布对富国银行的处罚</text>
+
+    <rect x="512" y="160" width="380" height="86" rx="6" fill="#f7f3eb"/>
+    <text x="528" y="186" fill="#57534e" font-size="12">被盯着涨上去的</text>
+    <text x="528" y="210" fill="#1c1917" font-size="14">开户和产品数</text>
+    <text x="528" y="230" fill="#78716c" font-size="12">销售目标和奖励，推动向老客户多卖产品</text>
+
+    <rect x="512" y="260" width="380" height="154" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="528" y="286" fill="#57534e" font-size="12">该行自行分析，2011 年 5 月至 2015 年 7 月</text>
+    <text x="528" y="312" fill="#1c1917" font-size="13">1,534,280 个可能未经授权的存款账户</text>
+    <text x="528" y="334" fill="#1c1917" font-size="13">565,443 份可能未经授权的信用卡申请</text>
+    <text x="528" y="356" fill="#1c1917" font-size="13">约 5,300 名员工因不当销售行为被解雇</text>
+    <text x="528" y="382" fill="#78716c" font-size="12">CFPB 合计逾两百万账户，并处 1 亿美元罚款</text>
+
+    <rect x="48" y="460" width="864" height="68" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="491" fill="#1c1917" font-size="15" font-weight="600">被盯着涨的是开户和产品数，不是「客户需要并同意使用这些服务」</text>
+    <text x="68" y="513" fill="#57534e" font-size="12">数字变好看了，并不自动等于原来要的那件事已经变好</text>
+  </g>
+</svg>
