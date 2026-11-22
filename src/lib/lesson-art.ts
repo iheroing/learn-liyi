@@ -17,6 +17,36 @@ export type LessonArt = {
 };
 
 const bySlug: Record<string, LessonArt> = {
+  "week-review-1122": {
+    figures: [
+      {
+        src: "/illustrations/week-review-1122-map.svg",
+        alt: "三列总图：利益与立场和古德哈特定律都是别把拿来代表的那一项当成原来那件事；混杂和基础比率都是别被「看起来已经对上」推着下结论；如果—那么计划和一氧化碳都容易把启动交给一个可能不会以那种样子出现的信号。三列汇入同一句：表面上对上了，先问它还是不是你要的那件事。",
+        caption:
+          "六课问的是同一类事——条件、线索或数字表面上对上了，它还是不是你要的那件事？还没问清楚，先别按表面上对上的那一项去行动。",
+        afterHeading: "本周六课",
+      },
+      {
+        src: "/illustrations/week-review-1122-pairs.svg",
+        alt: "三对容易混的课：利益与立场和古德哈特定律都是别把代表的那一项当成原来那件事；混杂和基础比率都是别被「看起来已经对上」推着下结论；如果—那么计划和一氧化碳都容易把启动交给一个可能不出现的信号。",
+        caption:
+          "分开再叠用。只在已经说出口的条件或数字上加码，和看见数字涨了就当成事情变好，都是还没回到原来那件事；一起变或线索很像，先问第三因素和原来有多常见；等有空再开始，和等闻到再离开，是同一类等待。",
+        afterHeading: "怎么互相绊脚",
+      },
+      {
+        src: "/illustrations/week-review-1122-steps.svg",
+        alt: "三句自检：盯着的是已经说出口的条件或数字，还是后面那件真要解决的事；是被「一起变了」或「这条很像」推着走，还是先问了第三因素和原来有多常见；是在等一个更明显的信号，还是已经把启动动作写下来、或先做了。底部提示别六课并行，按最痛的那条选一个七天动作。",
+        caption:
+          "对着一件真事只问三句。别六课并行，按你最痛的那条选一个七天动作；条件、线索或数字表面上对上了，先问它还是不是你要的那件事。",
+        afterHeading: "三句自检",
+      },
+    ],
+    diagram: "/illustrations/week-review-1122-map.svg",
+    diagramAlt: "六课收成一件事：表面上对上了，先问它还是不是你要的那件事",
+    diagramCaption: "还没问清楚，先别按表面上对上的那一项去行动。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "goodhart": {
     figures: [
       {

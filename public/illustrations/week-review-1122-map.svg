@@ -1,0 +1,87 @@
+<svg viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wr1122-map-title wr1122-map-desc" id="wr1122-map">
+  <title id="wr1122-map-title">本周六课收成一件事：表面上对上了，先问它还是不是你要的那件事</title>
+  <desc id="wr1122-map-desc">三列总图：利益与立场和古德哈特定律都是别把拿来代表的那一项当成原来那件事；混杂和基础比率都是别被「看起来已经对上」推着下结论；如果—那么计划和一氧化碳都容易把启动交给一个可能不会以那种样子出现的信号。三列汇入同一句：表面上对上了，先问它还是不是你要的那件事。</desc>
+  <defs>
+    <pattern id="wr1122-map-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="540" fill="#f7f3eb"/>
+  <rect width="960" height="540" fill="url(#wr1122-map-dots)" opacity="0.45"/>
+
+  <text x="480" y="42" fill="#1c1917" font-size="15" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">本周六课，收成一件事</text>
+
+  <!-- Column 1: 先问原事 -->
+  <rect x="40" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="56" y="80" width="80" height="22" rx="4" fill="#0f6e6b" fill-opacity="0.12"/>
+  <text x="96" y="96" fill="#0f6e6b" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先问原事</text>
+  <text x="180" y="132" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">利益与立场</text>
+  <text x="180" y="154" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">对方咬住一个条件不放</text>
+  <text x="180" y="174" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先问这个条件是为了什么</text>
+
+  <line x1="68" y1="196" x2="292" y2="196" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="180" y="228" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">古德哈特定律</text>
+  <text x="180" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">把一个数字当成考核目标</text>
+  <text x="180" y="270" fill="#0f6e6b" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先问它还能不能代表那件事</text>
+
+  <text x="180" y="322" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都是别把代表的那一项当成原来那件事</text>
+  <text x="180" y="344" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只在条件或数字上加码，还没回到原事</text>
+
+  <!-- Column 2: 先问再判 -->
+  <rect x="340" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="356" y="80" width="80" height="22" rx="4" fill="#3d4f66" fill-opacity="0.14"/>
+  <text x="396" y="96" fill="#3d4f66" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先问再判</text>
+  <text x="480" y="132" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">混杂</text>
+  <text x="480" y="154" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">两个现象一起变</text>
+  <text x="480" y="174" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先找有没有第三个因素</text>
+
+  <line x1="368" y1="196" x2="592" y2="196" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="480" y="228" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">基础比率</text>
+  <text x="480" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">听到一条很像的线索</text>
+  <text x="480" y="270" fill="#3d4f66" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先问这类事原来有多常见</text>
+
+  <text x="480" y="322" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都是别被「对上了」推着下结论</text>
+  <text x="480" y="344" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">问的问题不同，别混成一种</text>
+
+  <!-- Column 3: 别等信号 -->
+  <rect x="640" y="64" width="280" height="296" rx="8" fill="#f7f3eb" stroke="#1c1917" stroke-width="1" stroke-opacity="0.18"/>
+  <rect x="656" y="80" width="80" height="22" rx="4" fill="#9a3412" fill-opacity="0.12"/>
+  <text x="696" y="96" fill="#9a3412" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">别等信号</text>
+  <text x="780" y="132" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">如果—那么计划</text>
+  <text x="780" y="154" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">只立「我要做」，却等空隙</text>
+  <text x="780" y="174" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">先写清情境和当场第一步</text>
+
+  <line x1="668" y1="196" x2="892" y2="196" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+
+  <text x="780" y="228" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一氧化碳</text>
+  <text x="780" y="250" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">等闻到味道再离开</text>
+  <text x="780" y="270" fill="#9a3412" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">它没有颜色也没有气味</text>
+
+  <text x="780" y="322" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">都容易把启动交给一个可能不出现的信号</text>
+  <text x="780" y="344" fill="#78716c" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">等有空再开始，和等闻到再离开，同类</text>
+
+  <!-- Arrows -->
+  <path d="M180 370 L180 392" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M172 384 L180 396 L188 384" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 370 L480 392" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M472 384 L480 396 L488 384" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M780 370 L780 392" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round"/>
+  <path d="M772 384 L780 396 L788 384" fill="none" stroke="#1c1917" stroke-width="1.6" stroke-opacity="0.35" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Merge -->
+  <rect x="40" y="406" width="880" height="72" rx="8" fill="#0f6e6b" fill-opacity="0.08" stroke="#0f6e6b" stroke-width="1.4"/>
+  <text x="480" y="436" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">表面上对上了，先问它还是不是你要的那件事</text>
+  <text x="480" y="460" fill="#57534e" font-size="13" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">还没问清楚，先别按表面上对上的那一项去行动</text>
+
+  <line x1="40" y1="496" x2="920" y2="496" stroke="#1c1917" stroke-width="0.8" stroke-opacity="0.10"/>
+  <text x="40" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">图例</text>
+  <rect x="96" y="510" width="16" height="12" fill="#0f6e6b" fill-opacity="0.12" stroke="#0f6e6b" stroke-width="1.2"/>
+  <text x="118" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先问原事</text>
+  <rect x="204" y="510" width="16" height="12" fill="#3d4f66" fill-opacity="0.14" stroke="#3d4f66" stroke-width="1.2"/>
+  <text x="226" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先问再判</text>
+  <rect x="312" y="510" width="16" height="12" fill="#9a3412" fill-opacity="0.12" stroke="#9a3412" stroke-width="1.2"/>
+  <text x="334" y="522" fill="#57534e" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">别等信号</text>
+  <text x="920" y="522" fill="#78716c" font-size="11" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="end">机制示意 · 非数据图</text>
+</svg>
