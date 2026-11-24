@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ca-scene-title ca-scene-desc">
+  <title id="ca-scene-title">两样你都更快，并不等于都该自己做</title>
+  <desc id="ca-scene-desc">一个假设的情况。你写一份讲义要 2 小时，同事要 6 小时；改一页练习排版，你要半小时，同事要 1 小时。两样你都更快。直觉是：这些事交给别人更慢，还不如自己做。于是排版、改图、回邮件，凡是你做得动的，都堆到你这里，结果讲义反而写不完。今天要分开的是两问：谁更快，只说明绝对优势；谁做更合适，要看谁做这件事放弃得更少。后者才该决定分工。</desc>
+  <defs>
+    <pattern id="ca-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="560" fill="#f7f3eb"/>
+  <rect width="960" height="560" fill="url(#ca-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">两样你都更快，并不等于都该自己做</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">一个假设的情况：写讲义和改排版，你都比同事快</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600">当时的直觉</text>
+    <text x="68" y="140" fill="#57534e" font-size="12">两样你都更快，于是都自己做</text>
+
+    <rect x="68" y="160" width="380" height="100" rx="6" fill="#f7f3eb"/>
+    <text x="84" y="184" fill="#57534e" font-size="12">写一份讲义</text>
+    <text x="84" y="206" fill="#1c1917" font-size="14">你要 2 小时，同事要 6 小时</text>
+    <text x="84" y="228" fill="#57534e" font-size="12">改一页练习排版</text>
+    <text x="84" y="250" fill="#1c1917" font-size="14">你要半小时，同事要 1 小时</text>
+
+    <rect x="68" y="276" width="380" height="140" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="84" y="304" fill="#57534e" font-size="12">于是凡是你做得动的，都堆过来</text>
+    <text x="84" y="330" fill="#1c1917" font-size="14">排版、改图、回邮件，都留在你这</text>
+    <text x="84" y="354" fill="#1c1917" font-size="14">结果讲义反而写不完</text>
+    <text x="84" y="386" fill="#78716c" font-size="12">交给别人更慢，并不等于该你全包</text>
+
+    <rect x="492" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600">今天要分开的两问</text>
+    <text x="512" y="140" fill="#57534e" font-size="12">谁更快，和谁做更合适，不是同一件事</text>
+
+    <rect x="512" y="160" width="380" height="100" rx="6" fill="#f7f3eb"/>
+    <text x="528" y="186" fill="#57534e" font-size="12">谁更快？</text>
+    <text x="528" y="210" fill="#1c1917" font-size="14">绝对优势：同样一件事，谁更省时间</text>
+    <text x="528" y="236" fill="#78716c" font-size="12">讲义和排版，你都有绝对优势</text>
+
+    <rect x="512" y="276" width="380" height="140" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="528" y="304" fill="#57534e" font-size="12">谁做更合适？</text>
+    <text x="528" y="330" fill="#1c1917" font-size="14">比较优势：谁做这件事，放弃得更少</text>
+    <text x="528" y="354" fill="#1c1917" font-size="14">也就是谁的机会成本更低</text>
+    <text x="528" y="386" fill="#78716c" font-size="12">后者才该决定分工</text>
+
+    <rect x="48" y="460" width="864" height="68" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="491" fill="#1c1917" font-size="15" font-weight="600">别把「我更快」直接当成「该我做」</text>
+    <text x="68" y="513" fill="#57534e" font-size="12">更快只说明绝对优势；该不该由你做，要看你为此少做的那件事，是不是比对方少做的更贵</text>
+  </g>
+</svg>

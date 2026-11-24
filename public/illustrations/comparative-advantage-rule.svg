@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ca-rule-title ca-rule-desc">
+  <title id="ca-rule-title">谁放弃得更少，谁在这件事上有比较优势</title>
+  <desc id="ca-rule-desc">你改一页排版要半小时，这半小时本可以写完 1/4 份讲义，机会成本是 1/4 份讲义。同事改一页要 1 小时，他 1 小时只能写完 1/6 份讲义，机会成本是 1/6 份讲义。1/6 比 1/4 小，排版的比较优势在同事这边；你写一份讲义只放弃 4 页排版，同事要放弃 6 页，讲义的比较优势在你这边。两人都有 12 小时时，若各做各的、时间对半拆，合计 4 份讲义、18 页；若按比较优势分工，合计仍是 4 份讲义，排版变成 20 页。同样的人、同样的时间，只把你机会成本更高的那部分挪出去，两人加在一起能完成的事就多了。</desc>
+  <defs>
+    <pattern id="ca-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="700" fill="#f7f3eb"/>
+  <rect width="960" height="700" fill="url(#ca-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">谁放弃得更少，谁在这件事上有比较优势</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">就算你改排版也更快，排版的比较优势仍可能在同事那边</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="864" height="248" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="114" fill="#1c1917" font-size="15" font-weight="600">先算改一页排版的机会成本</text>
+    <text x="68" y="136" fill="#57534e" font-size="12">做成这件事的成本，是因此放弃的最好那个替代选项</text>
+
+    <rect x="68" y="156" width="400" height="108" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="84" y="184" fill="#57534e" font-size="12">你改一页要半小时</text>
+    <text x="84" y="208" fill="#1c1917" font-size="14" font-weight="600">这半小时本可以写完 1/4 份讲义</text>
+    <text x="84" y="236" fill="#78716c" font-size="12">机会成本：1/4 份讲义</text>
+
+    <rect x="492" y="156" width="400" height="108" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="508" y="184" fill="#57534e" font-size="12">同事改一页要 1 小时</text>
+    <text x="508" y="208" fill="#1c1917" font-size="14" font-weight="600">他 1 小时只能写完 1/6 份讲义</text>
+    <text x="508" y="236" fill="#78716c" font-size="12">机会成本：1/6 份讲义</text>
+
+    <text x="68" y="292" fill="#1c1917" font-size="14">1/6 比 1/4 小：排版交给同事。你写一份只放弃 4 页排版，同事要放弃 6 页，讲义留给你。</text>
+
+    <rect x="48" y="348" width="864" height="240" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="378" fill="#1c1917" font-size="15" font-weight="600">两人都有 12 小时，合计能完成多少</text>
+    <text x="68" y="400" fill="#57534e" font-size="12">同样的人、同样的时间，只是分工不同</text>
+
+    <rect x="68" y="416" width="400" height="152" rx="6" fill="#f7f3eb"/>
+    <text x="84" y="444" fill="#57534e" font-size="12">各做各的，时间对半拆</text>
+    <text x="84" y="470" fill="#1c1917" font-size="14">你：3 份讲义、12 页排版</text>
+    <text x="84" y="494" fill="#1c1917" font-size="14">同事：1 份讲义、6 页排版</text>
+    <text x="84" y="526" fill="#1c1917" font-size="15" font-weight="600">合计：4 份讲义、18 页</text>
+
+    <rect x="492" y="416" width="400" height="152" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="508" y="444" fill="#57534e" font-size="12">按比较优势分工</text>
+    <text x="508" y="470" fill="#1c1917" font-size="14">同事 12 小时全改排版：12 页</text>
+    <text x="508" y="494" fill="#1c1917" font-size="14">你：4 份讲义、再改 8 页</text>
+    <text x="508" y="526" fill="#1c1917" font-size="15" font-weight="600">合计：4 份讲义、20 页</text>
+
+    <rect x="48" y="604" width="864" height="68" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="635" fill="#1c1917" font-size="15" font-weight="600">把你机会成本更高的那部分挪出去，两人加在一起能完成的事就多了</text>
+    <text x="68" y="657" fill="#57534e" font-size="12">讲义还是 4 份，排版从 18 页变成 20 页。你更快，并不自动等于你放弃得更少。</text>
+  </g>
+</svg>
