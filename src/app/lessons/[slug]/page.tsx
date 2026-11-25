@@ -10,6 +10,8 @@ import { Toc } from "@/components/Toc";
 import { Quiz } from "@/components/Quiz";
 import { LessonFigure } from "@/components/LessonFigure";
 import { getLessonArt, type LessonFigureSpec } from "@/lib/lesson-art";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { serializeJsonForHtml } from "@/lib/safe-json";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -21,9 +23,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const lesson = await getLessonBySlug(slug);
   if (!lesson) return { title: "未找到" };
+  const canonical = `/lessons/${lesson.slug}`;
+  // Keep the teaching SVGs in the lesson, but use a raster image for share cards.
+  const image = getLessonArt(lesson.slug).figures.find((figure) =>
+    /\.(?:png|jpe?g|webp|gif)$/i.test(figure.src)
+  );
+  const socialImage = [{
+    url: image?.src ?? "/illustrations/home-masthead.jpg",
+    alt: image?.alt ?? SITE_NAME,
+  }];
   return {
     title: lesson.title,
     description: lesson.summary,
+    alternates: { canonical, types: { "application/rss+xml": "/feed.xml" } },
+    openGraph: {
+      title: lesson.title,
+      description: lesson.summary,
+      url: canonical,
+      type: "article",
+      siteName: SITE_NAME,
+      locale: "zh_CN",
+      images: socialImage,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: lesson.title,
+      description: lesson.summary,
+      images: socialImage.map((item) => item.url),
+    },
   };
 }
 
@@ -96,9 +123,52 @@ export default async function LessonPage({ params }: Props) {
   const older = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
   const art = getLessonArt(slug);
   const bodyChunks = interleaveFigures(lesson.bodyHtml, art.figures);
+  const canonical = `${SITE_URL}/lessons/${lesson.slug}`;
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: lesson.title,
+    description: lesson.summary,
+    datePublished: lesson.date,
+    inLanguage: lesson.lang ?? "zh-Hans",
+    mainEntityOfPage: canonical,
+    url: canonical,
+    ...(art.figures[0]
+      ? { image: `${SITE_URL}${art.figures[0].src}` }
+      : {}),
+    ...(lesson.sourceLinks.length
+      ? { citation: lesson.sourceLinks.map((source) => source.href) }
+      : {}),
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: SITE_NAME,
+        item: SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: lesson.title,
+        item: canonical,
+      },
+    ],
+  };
 
   return (
     <article className="mx-auto max-w-lesson px-4 sm:px-6 py-6 sm:py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonForHtml(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonForHtml(breadcrumbSchema) }}
+      />
       <Link
         href="/"
         className="inline-flex items-center gap-1 text-[0.78rem] text-ink-muted hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40 rounded-sm"
