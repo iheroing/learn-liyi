@@ -17,30 +17,33 @@ export function LessonCard({ lesson }: { lesson: LessonMeta }) {
       href={`/lessons/${lesson.slug}`}
       className="group flex flex-col border border-ink/12 bg-paper-elevated hover:border-accent/40 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/40"
     >
-      {/* Magazine TOC teaser: thin cover strip */}
-      <div
-        className={`relative h-[4.5rem] sm:h-20 bg-gradient-to-br ${art.coverTint} border-b border-ink/10 overflow-hidden`}
-      >
-        {art.diagram ? (
-          // eslint-disable-next-line @next/next/no-img-element
+      {art.diagram ? (
+        <div
+          className={`lesson-card-cover aspect-[12/7] overflow-hidden border-b border-ink/10 bg-gradient-to-br ${art.coverTint}`}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={art.diagram}
+            alt={art.diagramAlt || lesson.title}
+            className="h-full w-full object-contain opacity-90"
+          />
+        </div>
+      ) : null}
+
+      <div className="flex flex-1 flex-col px-3.5 py-3.5 sm:px-4">
+        <div className="lesson-card-domain mb-2 flex items-center gap-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={icon}
             alt=""
             aria-hidden
-            className="absolute inset-0 w-full h-full object-cover object-top opacity-85"
+            className="h-6 w-6 rounded-sm border border-ink/10"
           />
-        ) : null}
-        <div className="absolute inset-0 bg-gradient-to-t from-paper-elevated/95 via-paper-elevated/20 to-transparent" />
-        <div className="absolute bottom-2.5 left-3.5 flex items-center gap-2">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={icon} alt="" className="h-6 w-6 rounded-sm border border-ink/10" />
           <span className="text-[0.65rem] tracking-caption uppercase text-ink-muted">
             {lesson.domain}
           </span>
         </div>
-      </div>
 
-      <div className="flex flex-1 flex-col px-3.5 py-3.5 sm:px-4">
         <div className="meta-strip mb-2">
           {lesson.issue != null && (
             <span className="meta-pill-accent">第 {lesson.issue} 期</span>
