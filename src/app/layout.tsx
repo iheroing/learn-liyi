@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,9 +9,12 @@ export const metadata: Metadata = {
     default: "每日高收益知识课 · learn.liyi.online",
     template: "%s · 每日高收益知识课",
   },
-  description:
-    "每天约一千字：概率与决策、学习方法、科学素养。带自测与来源。",
-  metadataBase: new URL("https://learn.liyi.online"),
+  description: SITE_DESCRIPTION,
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+    types: { "application/rss+xml": "/feed.xml" },
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -21,10 +25,11 @@ export const metadata: Metadata = {
     shortcut: ["/favicon.ico"],
   },
   openGraph: {
-    title: "每日高收益知识课",
-    description: "每日专栏 · learn.liyi.online",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
     locale: "zh_CN",
     type: "website",
+    siteName: SITE_NAME,
   },
 };
 

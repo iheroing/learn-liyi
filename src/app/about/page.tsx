@@ -3,6 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "关于",
+  alternates: {
+    canonical: "/about",
+    types: { "application/rss+xml": "/feed.xml" },
+  },
 };
 
 export default function AboutPage() {
