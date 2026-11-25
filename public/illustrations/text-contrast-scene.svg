@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tc-scene-title tc-scene-desc">
+  <title id="tc-scene-title">电脑前觉得干净，后排却看不清</title>
+  <desc id="tc-scene-desc">假设的情况。你做完一页投影片，标题用了彩色，正文改成浅灰，在电脑前看，觉得比纯黑更干净。到了会议室，灯没关完，后排有人问：「后面几行是什么？」你走近屏幕，才发现正文几乎贴在白底上。这时很容易先去换一种更粗的字体，或给字描边。更该先核对的，是字的颜色和背景之间，明暗到底差了多少。</desc>
+  <defs>
+    <pattern id="tc-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="560" fill="#f7f3eb"/>
+  <rect width="960" height="560" fill="url(#tc-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">电脑前觉得干净，后排却看不清</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">这时很容易先去换字体；更该先核对的，是字和背景的明暗差</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600">在电脑前看</text>
+    <text x="68" y="140" fill="#57534e" font-size="12">标题用了彩色，正文改成浅灰</text>
+
+    <rect x="68" y="160" width="380" height="168" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="88" y="190" fill="#0f6e6b" font-size="18" font-weight="600">本周安排说明</text>
+    <text x="88" y="222" fill="#888888" font-size="14">请先阅读后面几行补充说明，</text>
+    <text x="88" y="244" fill="#888888" font-size="14">再确认时间和场地。</text>
+    <text x="88" y="266" fill="#888888" font-size="14">如有冲突，会后再单独协调。</text>
+    <text x="88" y="304" fill="#78716c" font-size="12">浅灰正文配白底，看起来更「干净」</text>
+
+    <text x="68" y="360" fill="#1c1917" font-size="14">你觉得比纯黑更干净</text>
+    <text x="68" y="384" fill="#57534e" font-size="12">屏幕更亮，人也坐得更近</text>
+    <text x="68" y="406" fill="#78716c" font-size="12">这时还不容易察觉后排会看不清</text>
+
+    <rect x="492" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#b45309" stroke-opacity="0.35"/>
+    <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600">到了会议室</text>
+    <text x="512" y="140" fill="#57534e" font-size="12">灯没关完，后排已经看不清了</text>
+
+    <rect x="512" y="160" width="380" height="168" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="532" y="196" fill="#57534e" font-size="12">后排有人问</text>
+    <text x="532" y="228" fill="#1c1917" font-size="16" font-weight="600">「后面几行是什么？」</text>
+    <text x="532" y="260" fill="#1c1917" font-size="14">走近屏幕才发现，</text>
+    <text x="532" y="282" fill="#1c1917" font-size="14">正文几乎贴在白底上</text>
+    <text x="532" y="308" fill="#78716c" font-size="12">不是后排的人眼力不好</text>
+
+    <text x="512" y="360" fill="#1c1917" font-size="14">这时很容易先去换更粗的字体</text>
+    <text x="512" y="384" fill="#57534e" font-size="12">或给字描边、加阴影</text>
+    <text x="512" y="406" fill="#78716c" font-size="12">细字体看起来会更淡，但根子常常是颜色太接近</text>
+
+    <rect x="48" y="460" width="864" height="68" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="491" fill="#1c1917" font-size="15" font-weight="600">更该先核对的，是字的颜色和背景之间，明暗到底差了多少</text>
+    <text x="68" y="513" fill="#57534e" font-size="12">字看起来发灰或看不清时，先查明暗差够不够，再考虑换字体</text>
+  </g>
+</svg>

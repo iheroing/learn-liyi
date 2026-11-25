@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tc-rule-title tc-rule-desc">
+  <title id="tc-rule-title">看的是明暗差，不是色相鲜不鲜艳</title>
+  <desc id="tc-rule-desc">对比度量的不是红和蓝差得远不远，而是两块颜色的相对亮度差了多少。WCAG 2.2 的成功标准 1.4.3 规定：普通大小的正文和背景，对比度至少要到 4.5:1；大号字——18 点，或者 14 点并且加粗——至少要到 3:1。浅灰 #888888 配白底约 3.5:1，大标题也许刚过 3:1，正文却过不了 4.5:1；#767676 配白底约 4.5:1，刚够正文这条线。白底上写纯红约 4.0:1，看起来很跳，普通正文仍然不够；纯红配纯绿约 2.9:1，大字也不够。颜色再鲜艳，两边一样亮，还是看不清。官方说明里写，不要四舍五入，4.499:1 不能算作达到 4.5:1。</desc>
+  <defs>
+    <pattern id="tc-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="720" fill="#f7f3eb"/>
+  <rect width="960" height="720" fill="url(#tc-rule-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">看的是明暗差，不是色相鲜不鲜艳</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">WCAG 2.2 · 成功标准 1.4.3（最低对比度，AA）</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="88" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#57534e" font-size="12">普通正文</text>
+    <text x="68" y="146" fill="#1c1917" font-size="18" font-weight="600">至少 4.5:1</text>
+
+    <rect x="492" y="84" width="420" height="88" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="512" y="118" fill="#57534e" font-size="12">大号字（18 点，或 14 点加粗）</text>
+    <text x="512" y="146" fill="#1c1917" font-size="18" font-weight="600">至少 3:1</text>
+
+    <rect x="48" y="188" width="420" height="200" rx="8" fill="#fffdf8" stroke="#b45309" stroke-opacity="0.35"/>
+    <text x="68" y="218" fill="#1c1917" font-size="15" font-weight="600">浅灰 #888888 配白底 · 约 3.5:1</text>
+    <rect x="68" y="234" width="380" height="72" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="88" y="264" fill="#888888" font-size="16">后面几行是什么？</text>
+    <text x="88" y="288" fill="#888888" font-size="13">这是常见的浅灰正文</text>
+    <rect x="68" y="320" width="176" height="50" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="156" y="340" fill="#57534e" font-size="11" text-anchor="middle">正文</text>
+    <text x="156" y="358" fill="#b45309" font-size="13" font-weight="600" text-anchor="middle">不到 4.5:1</text>
+    <rect x="256" y="320" width="192" height="50" rx="6" fill="#f7f3eb"/>
+    <text x="352" y="340" fill="#57534e" font-size="11" text-anchor="middle">大字</text>
+    <text x="352" y="358" fill="#1c1917" font-size="13" font-weight="600" text-anchor="middle">也许刚过 3:1</text>
+
+    <rect x="492" y="188" width="420" height="200" rx="8" fill="#fffdf8" stroke="#0f6e6b" stroke-opacity="0.40"/>
+    <text x="512" y="218" fill="#1c1917" font-size="15" font-weight="600">稍深的 #767676 配白底 · 约 4.5:1</text>
+    <rect x="512" y="234" width="380" height="72" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="532" y="264" fill="#767676" font-size="16">后面几行是什么？</text>
+    <text x="532" y="288" fill="#767676" font-size="13">只是把字加深了一档</text>
+    <rect x="512" y="320" width="380" height="50" rx="6" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.28"/>
+    <text x="702" y="350" fill="#0f6e6b" font-size="14" font-weight="600" text-anchor="middle">刚够正文这条线 · 先改深浅就过了</text>
+
+    <rect x="48" y="404" width="420" height="200" rx="8" fill="#fffdf8" stroke="#b45309" stroke-opacity="0.35"/>
+    <text x="68" y="434" fill="#1c1917" font-size="15" font-weight="600">纯红 #FF0000 配白底 · 约 4.0:1</text>
+    <rect x="68" y="450" width="380" height="72" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="88" y="480" fill="#FF0000" font-size="16">这是一行注意事项</text>
+    <text x="88" y="504" fill="#FF0000" font-size="13">看起来很跳，明暗差却不够</text>
+    <rect x="68" y="536" width="380" height="50" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="258" y="566" fill="#b45309" font-size="14" font-weight="600" text-anchor="middle">鲜艳不等于过关，正文仍不到 4.5:1</text>
+
+    <rect x="492" y="404" width="420" height="200" rx="8" fill="#fffdf8" stroke="#b45309" stroke-opacity="0.35"/>
+    <text x="512" y="434" fill="#1c1917" font-size="15" font-weight="600">纯红配纯绿 · 约 2.9:1</text>
+    <rect x="512" y="450" width="380" height="72" rx="6" fill="#00FF00" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="532" y="480" fill="#FF0000" font-size="16">颜色再鲜艳也一样</text>
+    <text x="532" y="504" fill="#FF0000" font-size="13">两边一样亮，还是看不清</text>
+    <rect x="512" y="536" width="380" height="50" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="702" y="566" fill="#b45309" font-size="14" font-weight="600" text-anchor="middle">大字要的 3:1 也过不了</text>
+
+    <rect x="48" y="620" width="864" height="72" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="650" fill="#1c1917" font-size="15" font-weight="600">对比度按相对亮度计算，色相不是关键因素</text>
+    <text x="68" y="672" fill="#57534e" font-size="12">再浅到 #999999 配白底约 2.8:1，大字也不够。不要四舍五入：4.499:1 不能算作达到 4.5:1。</text>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tc-steps-title tc-steps-desc">
+  <title id="tc-steps-title">今天按这五步看，字和背景的明暗差够不够</title>
+  <desc id="tc-steps-desc">第一步，拿出最近要发出去的一页，圈出正文和注释；投影片、通知、网页、打印稿都行，不要只看大标题。第二步，用对比度检查器测每一对「字色 / 底色」；把两个颜色代码贴进 WebAIM Contrast Checker，看普通正文有没有到 4.5:1，大字有没有到 3:1，不必手算。第三步，不够就先改深浅：浅底上把字加深，或深底上把字调亮，先不要换字体。第四步，再看是不是只靠颜色在传意思，比如只用红和绿表示对错；补一个符号、文字标签，或把对错做成明显的深浅差别。第五步，在真实条件下再看一遍：开着灯投影、打印出一页，或拿到窗边用手机看；还费劲，就再加大正文，或再拉开明暗，不要先加特效。</desc>
+  <defs>
+    <pattern id="tc-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="960" height="620" fill="#f7f3eb"/>
+  <rect width="960" height="620" fill="url(#tc-steps-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">今天按这五步看，字和背景的明暗差够不够</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">大约 15 到 20 分钟。不够就先改深浅，先不要换字体</text>
+
+  <g font-family="'Geist', 'Noto Sans SC', 'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="344" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="640" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="48" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="492" y="340" width="420" height="232" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="76" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="372" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="668" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="76" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="520" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.16"/>
+
+    <text x="76" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">1</text>
+    <text x="372" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">2</text>
+    <text x="668" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">3</text>
+    <text x="76" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="520" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">5</text>
+
+    <text x="104" y="121" fill="#1c1917" font-size="14" font-weight="600">圈出正文和注释</text>
+    <text x="68" y="168" fill="#57534e" font-size="13">拿出最近要发出去的一页。</text>
+    <text x="68" y="190" fill="#57534e" font-size="13">投影片、通知、网页、</text>
+    <text x="68" y="212" fill="#57534e" font-size="13">打印稿都行。</text>
+    <text x="68" y="244" fill="#78716c" font-size="12">不要只看大标题。</text>
+
+    <text x="400" y="121" fill="#1c1917" font-size="14" font-weight="600">测每一对字色和底色</text>
+    <text x="364" y="168" fill="#57534e" font-size="13">把两个颜色代码贴进</text>
+    <text x="364" y="190" fill="#57534e" font-size="13">WebAIM Contrast Checker。</text>
+    <text x="364" y="222" fill="#78716c" font-size="12">看正文有没有到 4.5:1，</text>
+    <text x="364" y="244" fill="#78716c" font-size="12">大字有没有到 3:1。</text>
+    <text x="364" y="266" fill="#78716c" font-size="12">不必手算。</text>
+
+    <text x="696" y="121" fill="#1c1917" font-size="14" font-weight="600">不够就先改深浅</text>
+    <text x="660" y="168" fill="#57534e" font-size="13">浅底上把字加深，</text>
+    <text x="660" y="190" fill="#57534e" font-size="13">或深底上把字调亮。</text>
+    <text x="660" y="222" fill="#78716c" font-size="12">先不要换字体。</text>
+    <text x="660" y="244" fill="#78716c" font-size="12">细字体看起来会更淡，</text>
+    <text x="660" y="266" fill="#78716c" font-size="12">根子常常是颜色太接近。</text>
+
+    <text x="104" y="377" fill="#1c1917" font-size="14" font-weight="600">再看是不是只靠颜色传意思</text>
+    <text x="68" y="424" fill="#57534e" font-size="13">比如只用红和绿表示对错。</text>
+    <text x="68" y="446" fill="#57534e" font-size="13">补一个符号、文字标签，</text>
+    <text x="68" y="468" fill="#57534e" font-size="13">或把对错做成明显的深浅差别。</text>
+    <text x="68" y="500" fill="#78716c" font-size="12">不要只靠色相去区分对错。</text>
+
+    <text x="548" y="377" fill="#1c1917" font-size="14" font-weight="600">在真实条件下再看一遍</text>
+    <text x="512" y="424" fill="#57534e" font-size="13">开着灯投影、打印出一页，</text>
+    <text x="512" y="446" fill="#57534e" font-size="13">或拿到窗边用手机看。</text>
+    <text x="512" y="468" fill="#57534e" font-size="13">还费劲，就再加大正文，</text>
+    <text x="512" y="490" fill="#57534e" font-size="13">或再拉开明暗。</text>
+    <text x="512" y="522" fill="#78716c" font-size="12">不要先加描边、阴影这些特效。</text>
+  </g>
+</svg>
