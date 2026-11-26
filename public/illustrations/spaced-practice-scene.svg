@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sp-scene-title sp-scene-desc">
+  <title id="sp-scene-title">当晚觉得挺稳，两周后却接不上</title>
+  <desc id="sp-scene-desc">假设的情况。你上完一个周末课，讲义很厚。周五晚上把重点从头到尾看了两遍，感觉都眼熟了；周六下午又连着过了一遍，当晚觉得挺稳。两周后要做一个小测验，你翻开第一页，只剩下「当时好像会」的印象，关键步骤接不上。三遍都看了，总时间也不少。问题是：第二遍、第三遍都挤在前后大约一天里。到真正要用的那天，中间没有一次隔开的提取。</desc>
+  <defs>
+    <pattern id="sp-scene-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#f7f3eb"/>
+  <rect width="100%" height="100%" fill="url(#sp-scene-dots)" opacity="0.42"/>
+
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当晚觉得挺稳，两周后却接不上</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">三遍都看了，总时间也不少；问题是第二遍、第三遍都挤在前后大约一天里</text>
+
+  <g font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="118" fill="#1c1917" font-size="15" font-weight="600">周五到周六，连着看了三遍</text>
+    <text x="68" y="140" fill="#57534e" font-size="12">集中练习：两次学习之间几乎没有间隔</text>
+
+    <rect x="68" y="160" width="380" height="54" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="88" y="182" fill="#1c1917" font-size="13" font-weight="600">周五晚上</text>
+    <text x="88" y="202" fill="#57534e" font-size="12">把重点从头到尾看了两遍，感觉都眼熟了</text>
+
+    <rect x="68" y="224" width="380" height="54" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.10"/>
+    <text x="88" y="246" fill="#1c1917" font-size="13" font-weight="600">周六下午</text>
+    <text x="88" y="266" fill="#57534e" font-size="12">又连着过了一遍，当晚觉得挺稳</text>
+
+    <text x="68" y="324" fill="#1c1917" font-size="14">当时的流畅感会骗人</text>
+    <text x="68" y="348" fill="#57534e" font-size="12">当天连看会觉得更踏实，就以为两周后也一样稳</text>
+    <text x="68" y="372" fill="#78716c" font-size="12">第二次太容易，当时很熟，过几天掉得快</text>
+    <text x="68" y="408" fill="#78716c" font-size="12">三遍的总时间并不少，改的不该是遍数，而是间隔</text>
+
+    <rect x="492" y="84" width="420" height="356" rx="8" fill="#fffdf8" stroke="#b45309" stroke-opacity="0.35"/>
+    <text x="512" y="118" fill="#1c1917" font-size="15" font-weight="600">两周后的小测验</text>
+    <text x="512" y="140" fill="#57534e" font-size="12">到真正要用的那天</text>
+
+    <rect x="512" y="160" width="380" height="148" rx="6" fill="#b45309" fill-opacity="0.08" stroke="#b45309" stroke-opacity="0.28"/>
+    <text x="532" y="196" fill="#57534e" font-size="12">翻开第一页</text>
+    <text x="532" y="228" fill="#1c1917" font-size="16" font-weight="600">只剩下「当时好像会」</text>
+    <text x="532" y="256" fill="#1c1917" font-size="14">关键步骤接不上</text>
+    <text x="532" y="284" fill="#57534e" font-size="13">中间没有一次隔开的提取</text>
+
+    <text x="512" y="348" fill="#1c1917" font-size="14">问题不是看得少</text>
+    <text x="512" y="372" fill="#57534e" font-size="12">第二遍、第三遍都挤在前后大约一天里</text>
+    <text x="512" y="408" fill="#78716c" font-size="12">到要用的那天，没有一次是隔开再自己先提的</text>
+
+    <rect x="48" y="460" width="864" height="68" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="491" fill="#1c1917" font-size="15" font-weight="600">同一份材料要看第二遍时，别当天连着再看完</text>
+    <text x="68" y="513" fill="#57534e" font-size="12">按你需要撑到哪一天来留间隔，到点先自己提再核对</text>
+  </g>
+</svg>

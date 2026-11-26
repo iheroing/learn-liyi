@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 780" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sp-rule-title sp-rule-desc">
+  <title id="sp-rule-title">间隔从 0 天加长时，成绩先升后降</title>
+  <desc id="sp-rule-desc">Cepeda 等人 2008 年在《Psychological Science》里，1354 人先学会 32 条冷门知识，学到能正确回忆出来，隔开最多三个半月再复习一次，最后再隔最多大约一年做测验。在该研究条件下，对同一个测验时间，间隔从 0 天往上加，回忆成绩先升后降，不是越隔越久越好。他们实际用过的间隔里，回忆最好的是：测验在 7、35、70、350 天后，分别对应 1、11、21、21 天；插值大约是 3、8、12、27 天，约占等待时间的 43%、23%、17%、8%。和间隔为 0 天相比，较合适的间隔让最后的回忆成绩提高了 64%（d = 1.1）。这里只改间隔，学习次数相同。本图重绘自原文图 3a（回忆），曲线位置按原图读点，不是作者公开的原始数据表。这只描述该实验：冷门知识、学到能背出、总共复习一次，不是所有科目的精确课表。</desc>
+  <defs>
+    <pattern id="sp-rule-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#f7f3eb"/>
+  <rect width="100%" height="100%" fill="url(#sp-rule-dots)" opacity="0.42"/>
+  <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600" font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">间隔从 0 天加长时，成绩先升后降</text>
+  <text x="48" y="62" fill="#57534e" font-size="12" font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">Cepeda 等人 2008 · 冷门知识、学到能背出、总共复习一次；只改间隔，学习次数相同</text>
+  <g font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="80" width="864" height="72" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="68" y="96" width="150" height="40" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="143" y="121" fill="#1c1917" font-size="13" font-weight="600" text-anchor="middle">第一次学习</text>
+    <line x1="218" y1="116" x2="286" y2="116" stroke="#0f6e6b" stroke-width="1.6"/>
+    <polygon points="286,116 276,111 276,121" fill="#0f6e6b"/>
+    <text x="252" y="108" fill="#0f6e6b" font-size="11" font-weight="600" text-anchor="middle">间隔</text>
+    <rect x="290" y="96" width="150" height="40" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="365" y="121" fill="#1c1917" font-size="13" font-weight="600" text-anchor="middle">第二次学习</text>
+    <line x1="440" y1="116" x2="628" y2="116" stroke="#57534e" stroke-width="1.6"/>
+    <polygon points="628,116 618,111 618,121" fill="#57534e"/>
+    <text x="534" y="108" fill="#57534e" font-size="11" font-weight="600" text-anchor="middle">保持间隔（到要用的那天）</text>
+    <rect x="632" y="96" width="256" height="40" rx="6" fill="#ffffff" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="760" y="121" fill="#1c1917" font-size="13" font-weight="600" text-anchor="middle">最后测验</text>
+    <rect x="48" y="168" width="560" height="392" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="192" fill="#1c1917" font-size="13" font-weight="600">最后测验的回忆正确比例</text>
+    <line x1="96" y1="494.0" x2="580" y2="494.0" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="88" y="498.0" fill="#78716c" font-size="11" text-anchor="end">0</text>
+    <line x1="96" y1="440.0" x2="580" y2="440.0" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="88" y="444.0" fill="#78716c" font-size="11" text-anchor="end">0.2</text>
+    <line x1="96" y1="386.0" x2="580" y2="386.0" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="88" y="390.0" fill="#78716c" font-size="11" text-anchor="end">0.4</text>
+    <line x1="96" y1="332.0" x2="580" y2="332.0" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="88" y="336.0" fill="#78716c" font-size="11" text-anchor="end">0.6</text>
+    <line x1="96" y1="278.0" x2="580" y2="278.0" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="88" y="282.0" fill="#78716c" font-size="11" text-anchor="end">0.8</text>
+    <line x1="96" y1="224.0" x2="580" y2="224.0" stroke="#1c1917" stroke-opacity="0.08"/>
+    <text x="88" y="228.0" fill="#78716c" font-size="11" text-anchor="end">1.0</text>
+    <line x1="96.0" y1="224" x2="96.0" y2="494" stroke="#1c1917" stroke-opacity="0.06"/>
+    <text x="96.0" y="512.0" fill="#78716c" font-size="11" text-anchor="middle">0</text>
+    <line x1="188.4" y1="224" x2="188.4" y2="494" stroke="#1c1917" stroke-opacity="0.06"/>
+    <text x="188.4" y="512.0" fill="#78716c" font-size="11" text-anchor="middle">21</text>
+    <line x1="250.0" y1="224" x2="250.0" y2="494" stroke="#1c1917" stroke-opacity="0.06"/>
+    <text x="250.0" y="512.0" fill="#78716c" font-size="11" text-anchor="middle">35</text>
+    <line x1="404.0" y1="224" x2="404.0" y2="494" stroke="#1c1917" stroke-opacity="0.06"/>
+    <text x="404.0" y="512.0" fill="#78716c" font-size="11" text-anchor="middle">70</text>
+    <line x1="558.0" y1="224" x2="558.0" y2="494" stroke="#1c1917" stroke-opacity="0.06"/>
+    <text x="558.0" y="512.0" fill="#78716c" font-size="11" text-anchor="middle">105</text>
+    <line x1="96" y1="224" x2="96" y2="494" stroke="#1c1917" stroke-opacity="0.35"/>
+    <line x1="96" y1="494" x2="580" y2="494" stroke="#1c1917" stroke-opacity="0.35"/>
+    <text x="580.0" y="530.0" fill="#57534e" font-size="12" text-anchor="end">间隔（天）</text>
+    <text x="68" y="530.0" fill="#78716c" font-size="11">重绘自 Cepeda 等人 2008，图 3a；按原图读点</text>
+    <path d="M 96.00 240.20 C 96.73 238.62, 98.93 231.65, 100.40 230.75 C 101.87 229.85, 100.40 232.78, 104.80 234.80 C 109.20 236.83, 112.87 239.30, 126.80 242.90 C 140.73 246.50, 116.53 251.45, 188.40 256.40 C 260.27 261.35, 496.40 269.90, 558.00 272.60" fill="none" stroke="#1c1917" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="96.00" cy="240.20" r="3.1" fill="#fffdf8" stroke="#1c1917" stroke-width="1.5"/>
+    <circle cx="100.40" cy="230.75" r="3.1" fill="#fffdf8" stroke="#1c1917" stroke-width="1.5"/>
+    <circle cx="104.80" cy="234.80" r="3.1" fill="#fffdf8" stroke="#1c1917" stroke-width="1.5"/>
+    <circle cx="126.80" cy="242.90" r="3.1" fill="#fffdf8" stroke="#1c1917" stroke-width="1.5"/>
+    <circle cx="188.40" cy="256.40" r="3.1" fill="#fffdf8" stroke="#1c1917" stroke-width="1.5"/>
+    <circle cx="558.00" cy="272.60" r="3.1" fill="#fffdf8" stroke="#1c1917" stroke-width="1.5"/>
+    <path d="M 96.00 359.00 C 96.73 350.00, 97.47 318.95, 100.40 305.00 C 103.33 291.05, 109.20 281.15, 113.60 275.30 C 118.00 269.45, 121.67 271.47, 126.80 269.90 C 131.93 268.32, 134.13 264.50, 144.40 265.85 C 154.67 267.20, 119.47 266.98, 188.40 278.00 C 257.33 289.02, 496.40 323.00, 558.00 332.00" fill="none" stroke="#0f6e6b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+    <circle cx="96.00" cy="359.00" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <circle cx="100.40" cy="305.00" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <circle cx="113.60" cy="275.30" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <circle cx="126.80" cy="269.90" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <circle cx="144.40" cy="265.85" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <circle cx="188.40" cy="278.00" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <circle cx="558.00" cy="332.00" r="3.1" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.5"/>
+    <path d="M 96.00 413.00 C 96.73 404.90, 95.27 377.67, 100.40 364.40 C 105.53 351.12, 117.27 339.20, 126.80 333.35 C 136.33 327.50, 147.33 330.65, 157.60 329.30 C 167.87 327.95, 121.67 316.93, 188.40 325.25 C 255.13 333.57, 496.40 370.25, 558.00 379.25" fill="none" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 4"/>
+    <circle cx="96.00" cy="413.00" r="3.1" fill="#fffdf8" stroke="#57534e" stroke-width="1.5"/>
+    <circle cx="100.40" cy="364.40" r="3.1" fill="#fffdf8" stroke="#57534e" stroke-width="1.5"/>
+    <circle cx="126.80" cy="333.35" r="3.1" fill="#fffdf8" stroke="#57534e" stroke-width="1.5"/>
+    <circle cx="157.60" cy="329.30" r="3.1" fill="#fffdf8" stroke="#57534e" stroke-width="1.5"/>
+    <circle cx="188.40" cy="325.25" r="3.1" fill="#fffdf8" stroke="#57534e" stroke-width="1.5"/>
+    <circle cx="558.00" cy="379.25" r="3.1" fill="#fffdf8" stroke="#57534e" stroke-width="1.5"/>
+    <path d="M 96.00 467.00 C 96.73 465.20, 95.27 459.80, 100.40 456.20 C 105.53 452.60, 112.13 448.10, 126.80 445.40 C 141.47 442.70, 167.87 440.45, 188.40 440.00 C 208.93 439.55, 214.07 441.35, 250.00 442.70 C 285.93 444.05, 352.67 446.30, 404.00 448.10 C 455.33 449.90, 532.33 452.60, 558.00 453.50" fill="none" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 5 2 5"/>
+    <circle cx="96.00" cy="467.00" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="100.40" cy="456.20" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="126.80" cy="445.40" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="188.40" cy="440.00" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="250.00" cy="442.70" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="404.00" cy="448.10" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <circle cx="558.00" cy="453.50" r="3.1" fill="#fffdf8" stroke="#b45309" stroke-width="1.5"/>
+    <rect x="624" y="168" width="288" height="392" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="644" y="196" fill="#1c1917" font-size="13" font-weight="600">较合适的间隔随测验推迟而变长</text>
+    <text x="644" y="216" fill="#57534e" font-size="11">但占等待时间的比例会下降</text>
+    <line x1="644" y1="244" x2="676" y2="244" stroke="#1c1917" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="660" cy="244" r="2.6" fill="#fffdf8" stroke="#1c1917" stroke-width="1.3"/>
+    <text x="686" y="248" fill="#1c1917" font-size="12">测验在 7 天后</text>
+    <line x1="644" y1="268" x2="676" y2="268" stroke="#0f6e6b" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 5"/>
+    <circle cx="660" cy="268" r="2.6" fill="#fffdf8" stroke="#0f6e6b" stroke-width="1.3"/>
+    <text x="686" y="272" fill="#1c1917" font-size="12">测验在 35 天后</text>
+    <line x1="644" y1="292" x2="676" y2="292" stroke="#57534e" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="2 4"/>
+    <circle cx="660" cy="292" r="2.6" fill="#fffdf8" stroke="#57534e" stroke-width="1.3"/>
+    <text x="686" y="296" fill="#1c1917" font-size="12">测验在 70 天后</text>
+    <line x1="644" y1="316" x2="676" y2="316" stroke="#b45309" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="12 5 2 5"/>
+    <circle cx="660" cy="316" r="2.6" fill="#fffdf8" stroke="#b45309" stroke-width="1.3"/>
+    <text x="686" y="320" fill="#1c1917" font-size="12">测验在 350 天后</text>
+    <text x="644" y="356" fill="#78716c" font-size="11">测验时间</text>
+    <text x="742" y="356" fill="#78716c" font-size="11">用过的里最好</text>
+    <text x="840" y="356" fill="#78716c" font-size="11">插值大约</text>
+    <line x1="644" y1="364" x2="892" y2="364" stroke="#1c1917" stroke-opacity="0.12"/>
+    <text x="644" y="386" fill="#1c1917" font-size="12">7 天</text>
+    <text x="742" y="386" fill="#1c1917" font-size="12">1 天</text>
+    <text x="840" y="386" fill="#0f6e6b" font-size="12" font-weight="600">3 天 · 约 43%</text>
+    <text x="644" y="414" fill="#1c1917" font-size="12">35 天</text>
+    <text x="742" y="414" fill="#1c1917" font-size="12">11 天</text>
+    <text x="840" y="414" fill="#0f6e6b" font-size="12" font-weight="600">8 天 · 约 23%</text>
+    <text x="644" y="442" fill="#1c1917" font-size="12">70 天</text>
+    <text x="742" y="442" fill="#1c1917" font-size="12">21 天</text>
+    <text x="840" y="442" fill="#0f6e6b" font-size="12" font-weight="600">12 天 · 约 17%</text>
+    <text x="644" y="470" fill="#1c1917" font-size="12">350 天</text>
+    <text x="742" y="470" fill="#1c1917" font-size="12">21 天</text>
+    <text x="840" y="470" fill="#0f6e6b" font-size="12" font-weight="600">27 天 · 约 8%</text>
+    <text x="644" y="516" fill="#1c1917" font-size="12" font-weight="600">相对间隔 0 天，回忆提高 64%</text>
+    <text x="644" y="536" fill="#57534e" font-size="11">效应量 d = 1.1。各测验时间的提高</text>
+    <text x="644" y="552" fill="#57534e" font-size="11">分别约为 10%、59%、111%、77%。</text>
+    <rect x="48" y="576" width="864" height="176" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <text x="68" y="604" fill="#1c1917" font-size="14" font-weight="600">可先对照，不必当成所有科目的精确课表</text>
+    <text x="68" y="630" fill="#57534e" font-size="13">约一周后要用，间隔大约一两天到三天；约五周后，大约一周到十天；</text>
+    <text x="68" y="652" fill="#57534e" font-size="13">约十周后，大约两周；约一年后，大约三四周。先取一个你能执行的数。</text>
+    <text x="68" y="682" fill="#1c1917" font-size="13">间隔过长，成绩会从峰顶再掉下来。不是越隔越久越好。</text>
+    <text x="68" y="708" fill="#78716c" font-size="12">运动技能、需要理解的推导，间隔仍然常有帮助，但最优天数不必相同。到点已经完全忘光，说明间隔对你偏长，下次提前。</text>
+    <text x="68" y="730" fill="#78716c" font-size="12">来源：Cepeda, Vul, Rohrer, Wixted, Pashler（2008），Psychological Science。</text>
+  </g>
+</svg>
