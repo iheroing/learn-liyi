@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cc-steps-title cc-steps-desc">
+  <title id="cc-steps-title">今天按这五步核对本稿里的出处</title>
+  <desc id="cc-steps-desc">第一步，列出所有准备采用的出处、引语和精确数字；论文、案例、调查数据、接口名称都算。只当作思路、不准备写进稿子的，可以先放一边。第二步，用你自己打开的渠道查它是否存在；期刊官网、DOI、法院公开意见、官方统计页、手册原文都可以。不要把「再问同一套模型」算作查过。第三步，打开原文，定位到那句话或那张表；支持你要写的主张，才留下；找不到对应段落，或原文说的是另一件事，就删掉或改写，不要硬留这条引用。第四步，查不到就按不存在处理；链接打不开、官方库里没有、卷宗号对上的是另一个案子：不要猜想「也许未公开」。第五步，留下你核对过的位置；页码、段落号或表格编号即可，方便自己或别人复查。</desc>
+  <defs>
+    <pattern id="cc-steps-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#1c1917" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#f7f3eb"/>
+  <rect width="100%" height="100%" fill="url(#cc-steps-dots)" opacity="0.42"/>
+
+  <g font-family="'Geist', 'Noto Sans CJK SC', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <text x="48" y="40" fill="#1c1917" font-size="16" font-weight="600">今天按这五步核对本稿里的出处</text>
+    <text x="48" y="62" fill="#57534e" font-size="12">大约 15 分钟，针对你准备发出去的那一页或那一段。再问同一套模型，不算核对</text>
+
+    <rect x="48" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="344" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="640" y="84" width="272" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="48" y="340" width="420" height="232" rx="8" fill="#fffdf8" stroke="#1c1917" stroke-opacity="0.16"/>
+    <rect x="492" y="340" width="420" height="232" rx="8" fill="#0f6e6b" fill-opacity="0.07" stroke="#0f6e6b" stroke-opacity="0.46"/>
+
+    <circle cx="76" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="372" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="668" cy="116" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="76" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.12"/>
+    <circle cx="520" cy="372" r="16" fill="#0f6e6b" fill-opacity="0.16"/>
+
+    <text x="76" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">1</text>
+    <text x="372" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">2</text>
+    <text x="668" y="121" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">3</text>
+    <text x="76" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">4</text>
+    <text x="520" y="377" fill="#0f6e6b" font-size="14" font-weight="700" text-anchor="middle">5</text>
+
+    <text x="104" y="121" fill="#1c1917" font-size="14" font-weight="600">列出准备采用的出处</text>
+    <text x="68" y="168" fill="#57534e" font-size="13">论文、案例、调查数据、</text>
+    <text x="68" y="190" fill="#57534e" font-size="13">接口名称都算。</text>
+    <text x="68" y="222" fill="#78716c" font-size="12">只当作思路、不准备写进稿子的，</text>
+    <text x="68" y="244" fill="#78716c" font-size="12">可以先放一边。</text>
+
+    <text x="400" y="121" fill="#1c1917" font-size="14" font-weight="600">自己打开渠道查是否存在</text>
+    <text x="364" y="168" fill="#57534e" font-size="13">期刊官网、DOI、法院公开意见、</text>
+    <text x="364" y="190" fill="#57534e" font-size="13">官方统计页、手册原文都可以。</text>
+    <text x="364" y="222" fill="#78716c" font-size="12">不要把「再问同一套模型」</text>
+    <text x="364" y="244" fill="#78716c" font-size="12">算作查过。</text>
+
+    <text x="696" y="121" fill="#1c1917" font-size="14" font-weight="600">打开原文，定位到原句</text>
+    <text x="660" y="168" fill="#57534e" font-size="13">支持你要写的主张，才留下。</text>
+    <text x="660" y="190" fill="#57534e" font-size="13">找不到对应段落，或原文说的</text>
+    <text x="660" y="212" fill="#57534e" font-size="13">是另一件事，就删掉或改写。</text>
+    <text x="660" y="244" fill="#78716c" font-size="12">不要硬留这条引用。</text>
+
+    <text x="104" y="377" fill="#1c1917" font-size="14" font-weight="600">查不到就按不存在处理</text>
+    <text x="68" y="424" fill="#57534e" font-size="13">链接打不开、官方库里没有、</text>
+    <text x="68" y="446" fill="#57534e" font-size="13">卷宗号对上的是另一个案子：</text>
+    <text x="68" y="478" fill="#78716c" font-size="12">不要猜想「也许未公开」。</text>
+
+    <text x="548" y="377" fill="#1c1917" font-size="14" font-weight="600">留下你核对过的位置</text>
+    <text x="512" y="424" fill="#57534e" font-size="13">页码、段落号或表格编号即可，</text>
+    <text x="512" y="446" fill="#57534e" font-size="13">方便自己或别人复查。</text>
+    <text x="512" y="478" fill="#78716c" font-size="12">发出去之前，要能打开原文。</text>
+  </g>
+</svg>

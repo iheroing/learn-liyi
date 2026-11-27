@@ -18,6 +18,36 @@ export type LessonArt = {
 
 const bySlug: Record<string, LessonArt> = {
 
+  "citation-check": {
+    figures: [
+      {
+        src: "/illustrations/citation-check-scene.jpg",
+        alt: "一份排得完整的材料放在桌上，打开旁边的原始卷宗，里面却是空白页。模型给出的论文、案例或数字可以看起来像正式引用，却不一定能对上真实文献。Mata 诉 Avianca 一案里，律师把 ChatGPT 生成的判例写进提交给法院的材料，后又问同一套模型「这是真案例吗」，模型仍说可以查到；法院和对方都查不到该案。",
+        caption:
+          "材料看起来完整，打开原始出处却可能是空白的。再问同一套模型「这是真的吗」，不算核对。",
+        afterHeading: "场景",
+      },
+      {
+        src: "/illustrations/citation-check-rule.svg",
+        alt: "Walters 和 Wilder 2023 年在《Scientific Reports》里，让当时的 ChatGPT-3.5 和 ChatGPT-4 各写 42 篇短文献综述，一共 84 篇、636 条引用，再到多个数据库和网页里查这些文献是否存在。在该研究条件下，GPT-3.5 的 222 条引用里有 55% 是编造的；GPT-4 的 414 条里有 18% 是编造的。就算是查得到的真文献（GPT-3.5 有 101 条，GPT-4 有 340 条），仍分别有 43% 和 24% 存在实质性著录错误，比如作者、题名、年份或页码不对。这些比例只描述 2023 年那批模型和那组题目，不能当成今天所有工具的精确出错率。本图重绘自原文表 3、表 4，不是原表格的截图。",
+        caption:
+          "在该研究条件下，GPT-3.5 有 55%、GPT-4 有 18% 的引用是编造的；就算是查得到的真文献，仍分别有 43% 和 24% 存在实质性著录错误。这些比例只描述 2023 年那批模型和题目。重绘自 Walters 和 Wilder 2023，表 3、表 4。",
+        afterHeading: "模型写出来的出处，看起来完整，也不等于已经核对过",
+      },
+      {
+        src: "/illustrations/citation-check-steps.svg",
+        alt: "第一步，列出所有准备采用的出处、引语和精确数字；论文、案例、调查数据、接口名称都算。只当作思路、不准备写进稿子的，可以先放一边。第二步，用你自己打开的渠道查它是否存在；期刊官网、DOI、法院公开意见、官方统计页、手册原文都可以。不要把「再问同一套模型」算作查过。第三步，打开原文，定位到那句话或那张表；支持你要写的主张，才留下；找不到对应段落，或原文说的是另一件事，就删掉或改写，不要硬留这条引用。第四步，查不到就按不存在处理；链接打不开、官方库里没有、卷宗号对上的是另一个案子：不要猜想「也许未公开」。第五步，留下你核对过的位置；页码、段落号或表格编号即可，方便自己或别人复查。",
+        caption:
+          "先列出准备采用的出处，用你自己打开的渠道查它是否存在，再打开原文定位到那句话；查不到就按不存在处理，并留下核对过的位置。",
+        afterHeading: "今天按这五步核对本稿里的出处",
+      },
+    ],
+    diagram: "/illustrations/citation-check-scene.jpg",
+    diagramAlt: "一份看起来完整的材料放在桌上，打开旁边的原始卷宗，里面却是空白页。",
+    diagramCaption: "模型给出论文、案例或数字时，先打开原始出处核对。",
+    icon: "/icons/domain-default.svg",
+    coverTint: "from-accent/15 via-paper-elevated to-paper-elevated",
+  },
   "spaced-practice": {
     figures: [
       {
